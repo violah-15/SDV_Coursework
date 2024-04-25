@@ -1,66 +1,141 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Adjust these dimensions as needed
-    const overallWidth = 900;
-    const overallHeight = 600;
+    const mapWidth = 900, mapHeight = 600;
+    let currentYear = "1997"; // Default year to start with
+    let currentMetric = 'AffordabilityRatio'; // Default metric
 
-    // Append the SVG to the map container
+    const colorScale = d3.scaleQuantize()
+        .domain([0, 10]) // Adjust based on actual data range
+        .range(["#EAEDB3", "#A9D992", "#00A7BB", "#004DA7", "#000452"]);
+
     const svg = d3.select("#map-container").append("svg")
-        .attr("width", overallWidth)
-        .attr("height", overallHeight)
-        .style("border", "1px solid #333");
+        .attr("width", mapWidth)
+        .attr("height", mapHeight);
 
-    // Define the projection and path generator for the map
-    const projection = d3.geoMercator()
-        .center([-0.09, 51.50]) // Approximate center of London
-        .scale(35000) // Scale for zooming to the London area
-        .translate([overallWidth / 2, overallHeight / 2]);
+    const tooltip = d3.select("#tooltip");
 
-    const path = d3.geoPath()
-        .projection(projection);
+    // Create the map title within the SVG
+    const mapTitle = svg.append("text")
+        .attr("id", "map-title")
+        .attr("x", mapWidth / 2)
+        .attr("y", 30) // Position at the top of the SVG
+        .attr("text-anchor", "middle")
+        .attr("style", "font-size: 18px; font-weight: bold;")
+        .text("Graph showing Housing Affordability Ratio in London"); // Default title
 
-    // Load the GeoJSON data
-    d3.json("london-boroughs_1179.geojson").then(function(geojson) {
-        // Draw the boroughs
-        const boroughs = svg.selectAll(".borough")
-            .data(geojson.features)
-            .enter().append("path")
-            .attr("class", "borough")
-            .attr("d", path)
-            .style("fill", "none")
-            .style("stroke", "#333") // Use a darker stroke color that differs from the background
-            .style("stroke-width", 1);
+    const boroughNameDisplay = svg.append("text")
+        .attr("id", "chosen-borough")
+        .attr("x", mapWidth - 10)
+        .attr("y", mapHeight - 10)
+        .attr("text-anchor", "end")
+        .attr("style", "font-size: 14px;")
+        .text("Borough chosen: None");
 
-        // Mouseover event handler
-        let mouseOver = function(event, d) {
-            d3.select(this)
-                .style("fill", "grey"); // Change fill to grey on mouseover
+    const tooltipGroup = svg.append("g")
+        .attr("id", "tooltip-group")
+        .style("visibility", "hidden");
 
-            svg.append("text")
-                .attr("class", "hover-text")
-                .attr("x", event.pageX - svg.node().getBoundingClientRect().left + 10)
-                .attr("y", event.pageY - svg.node().getBoundingClientRect().top + 10)
-                .text(d.properties.name)
-                .style("pointer-events", "none") // Make sure the text does not interfere with mouse events
-                .style("font-size", "12px")
-                .style("font-weight", "bold");
-        }
+    // Add a rectangle background for the tooltip
+    tooltipGroup.append("rect")
+        .attr("id", "tooltip-bg")
+        .attr("width", 200)
+        .attr("height", 60)
+        .attr("fill", "white")
+        .attr("stroke", "#333");
 
-        // Mouseleave event handler
-        let mouseLeave = function(event, d) {
-            d3.select(this)
-                .style("fill", "none"); // Remove fill color
+    // Add text for the tooltip
+    const tooltipText = tooltipGroup.append("text")
+        .attr("id", "tooltip-text")
+        .attr("x", 10)
+        .attr("y", 20)
+        .attr("style", "font-size: 12px;");
 
-            d3.select(".hover-text").remove(); // Remove the hover text
-        }
+    const projection = d3.geoMercator().center([-0.09, 51.50]).scale(35000)
+        .translate([mapWidth / 2, mapHeight / 2]);
 
-        boroughs.on("mouseover", mouseOver)
-            .on("mouseleave", mouseLeave)
-            .on("click", function(event, d) {
-                // Handle click event for the borough
-                document.getElementById("borough-name").textContent = d.properties.name;
-                // Implement the update to line graphs if needed
-            });
+    const path = d3.geoPath().projection(projection);
+
+    d3.json('https://vega.github.io/vega-datasets/data/londonBoroughs.json').then(function (topology) {
+        const geojson = topojson.feature(topology, topology.objects.boroughs);
+
+        d3.json('processed_data.json').then(function (data) {
+            const boroughs = svg.selectAll(".borough")
+                .data(geojson.features)
+                .enter().append("path")
+                .attr("class", "borough")
+                .attr("d", path)
+                .style("fill", d => {
+                    const boroughData = data[d.id] ? data[d.id][currentYear] : null;
+                    return boroughData ? colorScale(boroughData[currentMetric]) : "#ccc";
+                })
+                .style("stroke", "#333")
+                .on("click", function (event, d) {
+                    // Update the line graphs for the selected borough
+                    updateLineGraphs(d.id, data[d.id]);
+                    // Update the borough name display
+                    boroughNameDisplay.text(`Borough chosen: ${d.id}`);
+                })
+                .on("mouseover", function (event, d) {
+                    // Get the data for the hovered borough
+                    const boroughData = data[d.id] ? data[d.id][currentYear] : null;
+                    // Position the tooltip
+                    const [x, y] = d3.pointer(event);
+                    tooltipGroup.attr("transform", `translate(${x}, ${y - 60})`);
+                    // Set the tooltip text
+                    tooltipText.html(`Borough: ${d.id}<br>${currentMetric}: ${boroughData ? boroughData[currentMetric] : 'N/A'}`);
+                    tooltipGroup.style("visibility", "visible");
+                })
+                .on("mouseout", function () {
+                    tooltipGroup.style("visibility", "hidden");
+                });
+
+            setupButtons(boroughs, data); // Setup buttons and interactions
+        });
     });
 
-    // Add additional visualization elements (color scale, slider, etc.) here as needed
+    function setupButtons(boroughs, data) {
+        document.querySelectorAll('.button').forEach(button => {
+            button.addEventListener('click', function () {
+                // Map the button ID to the data key
+                const metricMapping = {
+                    'affordability': 'AffordabilityRatio',
+                    'earnings': 'MedianWorkplaceEarnings',
+                    'house-prices': 'MedianHousePrice'
+                };
+
+                currentMetric = metricMapping[this.id];
+                updateMap(boroughs, data, currentMetric);
+                updateActiveButton(this);
+
+                // Update the SVG title based on the current metric
+                const metricText = {
+                    'AffordabilityRatio': 'Housing Affordability Ratio',
+                    'MedianWorkplaceEarnings': 'Workplace Earnings',
+                    'MedianHousePrice': 'House Price'
+                };
+                mapTitle.text(`Graph showing ${metricText[currentMetric]} in London`);
+            });
+        });
+
+        updateActiveButton(document.querySelector('.button')); // Set initial active button
+    }
+
+    function updateMap(boroughs, data, metric) {
+        boroughs.style("fill", d => {
+            const boroughData = data[d.id] ? data[d.id][currentYear] : null;
+            return boroughData ? colorScale(boroughData[metric]) : "#ccc"; // Use '#ccc' as fallback color
+        });
+    }
+
+    function updateActiveButton(activeButton) {
+        document.querySelectorAll('.button').forEach(button => {
+            button.classList.remove('active');
+        });
+        activeButton.classList.add('active');
+    }
+
+    function updateLineGraphs(boroughName, boroughData) {
+        console.log("Update line graphs for:", boroughName, boroughData);
+        // This function would handle updating or creating line graphs based on the selected borough and its data.
+        // Populate the data into line charts here.
+    }
 });
