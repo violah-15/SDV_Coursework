@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>London Boroughs Data Visualization</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+<div id="controls">
+    <button class="button" id="affordability">Affordability Ratio</button>
+    <button class="button" id="earnings">Median Workplace Earnings</button>
+    <button class="button" id="house-price">Median House Price</button>
+</div>
+<div id="map-container">
+    <!-- The SVG will be appended here by D3 -->
+</div>
+<div id="selected-borough">Chosen Borough: <span id="borough-name">None</span></div>
+<div id="line-graphs">
+    <svg id="line-graph-1"></svg>
+    <svg id="line-graph-2"></svg>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

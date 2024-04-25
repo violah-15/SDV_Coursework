@@ -1,0 +1,5216 @@
+{
+    "City of London": {
+        "1997": {
+            "Sales": 341,
+            "MedianHousePrice": 130000.0,
+            "MedianWorkplaceEarnings": 28181,
+            "AffordabilityRatio": 4.61
+        },
+        "1998": {
+            "Sales": 398,
+            "MedianHousePrice": 161000.0,
+            "MedianWorkplaceEarnings": 29297,
+            "AffordabilityRatio": 5.5
+        },
+        "1999": {
+            "Sales": 503,
+            "MedianHousePrice": 180000.0,
+            "MedianWorkplaceEarnings": 33020,
+            "AffordabilityRatio": 5.45
+        },
+        "2000": {
+            "Sales": 525,
+            "MedianHousePrice": 191995.0,
+            "MedianWorkplaceEarnings": 34903,
+            "AffordabilityRatio": 5.5
+        },
+        "2001": {
+            "Sales": 387,
+            "MedianHousePrice": 235000.0,
+            "MedianWorkplaceEarnings": 39104,
+            "AffordabilityRatio": 6.01
+        },
+        "2002": {
+            "Sales": 360,
+            "MedianHousePrice": 240000.0,
+            "MedianWorkplaceEarnings": 39750,
+            "AffordabilityRatio": 6.04
+        },
+        "2003": {
+            "Sales": 456,
+            "MedianHousePrice": 290000.0,
+            "MedianWorkplaceEarnings": 42128,
+            "AffordabilityRatio": 6.88
+        },
+        "2004": {
+            "Sales": 437,
+            "MedianHousePrice": 280000.0,
+            "MedianWorkplaceEarnings": 43347,
+            "AffordabilityRatio": 6.46
+        },
+        "2005": {
+            "Sales": 283,
+            "MedianHousePrice": 305000.0,
+            "MedianWorkplaceEarnings": 45000,
+            "AffordabilityRatio": 6.78
+        },
+        "2006": {
+            "Sales": 295,
+            "MedianHousePrice": 323000.0,
+            "MedianWorkplaceEarnings": 46292,
+            "AffordabilityRatio": 6.98
+        },
+        "2007": {
+            "Sales": 295,
+            "MedianHousePrice": 395000.0,
+            "MedianWorkplaceEarnings": 49955,
+            "AffordabilityRatio": 7.91
+        },
+        "2008": {
+            "Sales": 176,
+            "MedianHousePrice": 377500.0,
+            "MedianWorkplaceEarnings": 50503,
+            "AffordabilityRatio": 7.47
+        },
+        "2009": {
+            "Sales": 132,
+            "MedianHousePrice": 381250.0,
+            "MedianWorkplaceEarnings": 52092,
+            "AffordabilityRatio": 7.32
+        },
+        "2010": {
+            "Sales": 228,
+            "MedianHousePrice": 452500.0,
+            "MedianWorkplaceEarnings": 52271,
+            "AffordabilityRatio": 8.66
+        },
+        "2011": {
+            "Sales": 246,
+            "MedianHousePrice": 455000.0,
+            "MedianWorkplaceEarnings": 54381,
+            "AffordabilityRatio": 8.37
+        },
+        "2012": {
+            "Sales": 196,
+            "MedianHousePrice": 474000.0,
+            "MedianWorkplaceEarnings": 54000,
+            "AffordabilityRatio": 8.78
+        },
+        "2013": {
+            "Sales": 398,
+            "MedianHousePrice": 575000.0,
+            "MedianWorkplaceEarnings": 54202,
+            "AffordabilityRatio": 10.61
+        },
+        "2014": {
+            "Sales": 292,
+            "MedianHousePrice": 700000.0,
+            "MedianWorkplaceEarnings": 54710,
+            "AffordabilityRatio": 12.79
+        },
+        "2015": {
+            "Sales": 360,
+            "MedianHousePrice": 823750.0,
+            "MedianWorkplaceEarnings": 54034,
+            "AffordabilityRatio": 15.25
+        },
+        "2016": {
+            "Sales": 141,
+            "MedianHousePrice": 800000.0,
+            "MedianWorkplaceEarnings": 55487,
+            "AffordabilityRatio": 14.42
+        },
+        "2017": {
+            "Sales": 202,
+            "MedianHousePrice": 849975.0,
+            "MedianWorkplaceEarnings": 56295,
+            "AffordabilityRatio": 15.1
+        },
+        "2018": {
+            "Sales": 338,
+            "MedianHousePrice": 888099.0,
+            "MedianWorkplaceEarnings": 61203,
+            "AffordabilityRatio": 14.51
+        },
+        "2019": {
+            "Sales": 186,
+            "MedianHousePrice": 919325.0,
+            "MedianWorkplaceEarnings": 61527,
+            "AffordabilityRatio": 14.94
+        },
+        "2020": {
+            "Sales": 136,
+            "MedianHousePrice": 895000.0,
+            "MedianWorkplaceEarnings": 60407,
+            "AffordabilityRatio": 14.82
+        },
+        "2021": {
+            "Sales": 172,
+            "MedianHousePrice": 797500.0,
+            "MedianWorkplaceEarnings": 63000,
+            "AffordabilityRatio": 12.66
+        },
+        "2022": {
+            "Sales": 157,
+            "MedianHousePrice": 850000.0,
+            "MedianWorkplaceEarnings": 61911,
+            "AffordabilityRatio": 13.73
+        }
+    },
+    "Barking and Dagenham": {
+        "1997": {
+            "Sales": 2396,
+            "MedianHousePrice": 52000.0,
+            "MedianWorkplaceEarnings": 17218,
+            "AffordabilityRatio": 3.02
+        },
+        "1998": {
+            "Sales": 2502,
+            "MedianHousePrice": 58000.0,
+            "MedianWorkplaceEarnings": 22504,
+            "AffordabilityRatio": 2.58
+        },
+        "1999": {
+            "Sales": 2569,
+            "MedianHousePrice": 63000.0,
+            "MedianWorkplaceEarnings": 21480,
+            "AffordabilityRatio": 2.93
+        },
+        "2000": {
+            "Sales": 2879,
+            "MedianHousePrice": 74995.0,
+            "MedianWorkplaceEarnings": 22618,
+            "AffordabilityRatio": 3.32
+        },
+        "2001": {
+            "Sales": 3141,
+            "MedianHousePrice": 86000.0,
+            "MedianWorkplaceEarnings": 22323,
+            "AffordabilityRatio": 3.85
+        },
+        "2002": {
+            "Sales": 3389,
+            "MedianHousePrice": 107000.0,
+            "MedianWorkplaceEarnings": 24813,
+            "AffordabilityRatio": 4.31
+        },
+        "2003": {
+            "Sales": 3421,
+            "MedianHousePrice": 137000.0,
+            "MedianWorkplaceEarnings": 25337,
+            "AffordabilityRatio": 5.41
+        },
+        "2004": {
+            "Sales": 3759,
+            "MedianHousePrice": 155750.0,
+            "MedianWorkplaceEarnings": 26089,
+            "AffordabilityRatio": 5.97
+        },
+        "2005": {
+            "Sales": 2803,
+            "MedianHousePrice": 163000.0,
+            "MedianWorkplaceEarnings": 26680,
+            "AffordabilityRatio": 6.11
+        },
+        "2006": {
+            "Sales": 3434,
+            "MedianHousePrice": 165000.0,
+            "MedianWorkplaceEarnings": 26549,
+            "AffordabilityRatio": 6.21
+        },
+        "2007": {
+            "Sales": 4043,
+            "MedianHousePrice": 180000.0,
+            "MedianWorkplaceEarnings": 30200,
+            "AffordabilityRatio": 5.96
+        },
+        "2008": {
+            "Sales": 2454,
+            "MedianHousePrice": 191000.0,
+            "MedianWorkplaceEarnings": 29396,
+            "AffordabilityRatio": 6.5
+        },
+        "2009": {
+            "Sales": 1032,
+            "MedianHousePrice": 163500.0,
+            "MedianWorkplaceEarnings": 30973,
+            "AffordabilityRatio": 5.28
+        },
+        "2010": {
+            "Sales": 1593,
+            "MedianHousePrice": 167000.0,
+            "MedianWorkplaceEarnings": 28527,
+            "AffordabilityRatio": 5.85
+        },
+        "2011": {
+            "Sales": 1441,
+            "MedianHousePrice": 170000.0,
+            "MedianWorkplaceEarnings": 28201,
+            "AffordabilityRatio": 6.03
+        },
+        "2012": {
+            "Sales": 1385,
+            "MedianHousePrice": 172000.0,
+            "MedianWorkplaceEarnings": 33131,
+            "AffordabilityRatio": 5.19
+        },
+        "2013": {
+            "Sales": 1516,
+            "MedianHousePrice": 178500.0,
+            "MedianWorkplaceEarnings": 32248,
+            "AffordabilityRatio": 5.54
+        },
+        "2014": {
+            "Sales": 1994,
+            "MedianHousePrice": 205000.0,
+            "MedianWorkplaceEarnings": 32698,
+            "AffordabilityRatio": 6.27
+        },
+        "2015": {
+            "Sales": 2276,
+            "MedianHousePrice": 235000.0,
+            "MedianWorkplaceEarnings": 33018,
+            "AffordabilityRatio": 7.12
+        },
+        "2016": {
+            "Sales": 2261,
+            "MedianHousePrice": 277000.0,
+            "MedianWorkplaceEarnings": 30994,
+            "AffordabilityRatio": 8.94
+        },
+        "2017": {
+            "Sales": 1864,
+            "MedianHousePrice": 302000.0,
+            "MedianWorkplaceEarnings": 28553,
+            "AffordabilityRatio": 10.58
+        },
+        "2018": {
+            "Sales": 1907,
+            "MedianHousePrice": 305000.0,
+            "MedianWorkplaceEarnings": 29995,
+            "AffordabilityRatio": 10.17
+        },
+        "2019": {
+            "Sales": 1615,
+            "MedianHousePrice": 315250.0,
+            "MedianWorkplaceEarnings": 28739,
+            "AffordabilityRatio": 10.97
+        },
+        "2020": {
+            "Sales": 1209,
+            "MedianHousePrice": 320000.0,
+            "MedianWorkplaceEarnings": 32444,
+            "AffordabilityRatio": 9.86
+        },
+        "2021": {
+            "Sales": 1766,
+            "MedianHousePrice": 335000.0,
+            "MedianWorkplaceEarnings": 32482,
+            "AffordabilityRatio": 10.31
+        },
+        "2022": {
+            "Sales": 1289,
+            "MedianHousePrice": 360000.0,
+            "MedianWorkplaceEarnings": 31559,
+            "AffordabilityRatio": 11.41
+        }
+    },
+    "Barnet": {
+        "1997": {
+            "Sales": 6875,
+            "MedianHousePrice": 95000.0,
+            "MedianWorkplaceEarnings": 17427,
+            "AffordabilityRatio": 5.45
+        },
+        "1998": {
+            "Sales": 6652,
+            "MedianHousePrice": 113500.0,
+            "MedianWorkplaceEarnings": 18606,
+            "AffordabilityRatio": 6.1
+        },
+        "1999": {
+            "Sales": 7174,
+            "MedianHousePrice": 129000.0,
+            "MedianWorkplaceEarnings": 19568,
+            "AffordabilityRatio": 6.59
+        },
+        "2000": {
+            "Sales": 7081,
+            "MedianHousePrice": 152000.0,
+            "MedianWorkplaceEarnings": 21761,
+            "AffordabilityRatio": 6.98
+        },
+        "2001": {
+            "Sales": 6844,
+            "MedianHousePrice": 170000.0,
+            "MedianWorkplaceEarnings": 20916,
+            "AffordabilityRatio": 8.13
+        },
+        "2002": {
+            "Sales": 7233,
+            "MedianHousePrice": 196000.0,
+            "MedianWorkplaceEarnings": 23112,
+            "AffordabilityRatio": 8.48
+        },
+        "2003": {
+            "Sales": 6236,
+            "MedianHousePrice": 225000.0,
+            "MedianWorkplaceEarnings": 23843,
+            "AffordabilityRatio": 9.44
+        },
+        "2004": {
+            "Sales": 6925,
+            "MedianHousePrice": 248820.0,
+            "MedianWorkplaceEarnings": 25389,
+            "AffordabilityRatio": 9.8
+        },
+        "2005": {
+            "Sales": 5328,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 27033,
+            "AffordabilityRatio": 9.25
+        },
+        "2006": {
+            "Sales": 6504,
+            "MedianHousePrice": 265000.0,
+            "MedianWorkplaceEarnings": 26071,
+            "AffordabilityRatio": 10.16
+        },
+        "2007": {
+            "Sales": 7228,
+            "MedianHousePrice": 289997.5,
+            "MedianWorkplaceEarnings": 27436,
+            "AffordabilityRatio": 10.57
+        },
+        "2008": {
+            "Sales": 4422,
+            "MedianHousePrice": 288000.0,
+            "MedianWorkplaceEarnings": 27978,
+            "AffordabilityRatio": 10.29
+        },
+        "2009": {
+            "Sales": 2686,
+            "MedianHousePrice": 280000.0,
+            "MedianWorkplaceEarnings": 30496,
+            "AffordabilityRatio": 9.18
+        },
+        "2010": {
+            "Sales": 4282,
+            "MedianHousePrice": 317500.0,
+            "MedianWorkplaceEarnings": 30000,
+            "AffordabilityRatio": 10.58
+        },
+        "2011": {
+            "Sales": 3873,
+            "MedianHousePrice": 327000.0,
+            "MedianWorkplaceEarnings": 30237,
+            "AffordabilityRatio": 10.81
+        },
+        "2012": {
+            "Sales": 4226,
+            "MedianHousePrice": 325000.0,
+            "MedianWorkplaceEarnings": 29594,
+            "AffordabilityRatio": 10.98
+        },
+        "2013": {
+            "Sales": 4518,
+            "MedianHousePrice": 335000.0,
+            "MedianWorkplaceEarnings": 29353,
+            "AffordabilityRatio": 11.41
+        },
+        "2014": {
+            "Sales": 4955,
+            "MedianHousePrice": 390000.0,
+            "MedianWorkplaceEarnings": 31162,
+            "AffordabilityRatio": 12.52
+        },
+        "2015": {
+            "Sales": 4653,
+            "MedianHousePrice": 440000.0,
+            "MedianWorkplaceEarnings": 30900,
+            "AffordabilityRatio": 14.24
+        },
+        "2016": {
+            "Sales": 5339,
+            "MedianHousePrice": 470000.0,
+            "MedianWorkplaceEarnings": 32623,
+            "AffordabilityRatio": 14.41
+        },
+        "2017": {
+            "Sales": 4051,
+            "MedianHousePrice": 511500.0,
+            "MedianWorkplaceEarnings": 32143,
+            "AffordabilityRatio": 15.91
+        },
+        "2018": {
+            "Sales": 3751,
+            "MedianHousePrice": 515000.0,
+            "MedianWorkplaceEarnings": 29927,
+            "AffordabilityRatio": 17.21
+        },
+        "2019": {
+            "Sales": 3776,
+            "MedianHousePrice": 515000.0,
+            "MedianWorkplaceEarnings": 31637,
+            "AffordabilityRatio": 16.28
+        },
+        "2020": {
+            "Sales": 2918,
+            "MedianHousePrice": 551075.0,
+            "MedianWorkplaceEarnings": 34022,
+            "AffordabilityRatio": 16.2
+        },
+        "2021": {
+            "Sales": 5216,
+            "MedianHousePrice": 570000.0,
+            "MedianWorkplaceEarnings": 34800,
+            "AffordabilityRatio": 16.38
+        },
+        "2022": {
+            "Sales": 3552,
+            "MedianHousePrice": 590000.0,
+            "MedianWorkplaceEarnings": 34021,
+            "AffordabilityRatio": 17.34
+        }
+    },
+    "Bexley": {
+        "1997": {
+            "Sales": 4782,
+            "MedianHousePrice": 70000.0,
+            "MedianWorkplaceEarnings": 18043,
+            "AffordabilityRatio": 3.88
+        },
+        "1998": {
+            "Sales": 4315,
+            "MedianHousePrice": 77000.0,
+            "MedianWorkplaceEarnings": 18737,
+            "AffordabilityRatio": 4.11
+        },
+        "1999": {
+            "Sales": 4830,
+            "MedianHousePrice": 83500.0,
+            "MedianWorkplaceEarnings": 18621,
+            "AffordabilityRatio": 4.48
+        },
+        "2000": {
+            "Sales": 4756,
+            "MedianHousePrice": 95500.0,
+            "MedianWorkplaceEarnings": 19363,
+            "AffordabilityRatio": 4.93
+        },
+        "2001": {
+            "Sales": 4813,
+            "MedianHousePrice": 112000.0,
+            "MedianWorkplaceEarnings": 20217,
+            "AffordabilityRatio": 5.54
+        },
+        "2002": {
+            "Sales": 5904,
+            "MedianHousePrice": 132000.0,
+            "MedianWorkplaceEarnings": 21101,
+            "AffordabilityRatio": 6.26
+        },
+        "2003": {
+            "Sales": 5036,
+            "MedianHousePrice": 159000.0,
+            "MedianWorkplaceEarnings": 22232,
+            "AffordabilityRatio": 7.15
+        },
+        "2004": {
+            "Sales": 5428,
+            "MedianHousePrice": 173000.0,
+            "MedianWorkplaceEarnings": 20946,
+            "AffordabilityRatio": 8.26
+        },
+        "2005": {
+            "Sales": 3892,
+            "MedianHousePrice": 182000.0,
+            "MedianWorkplaceEarnings": 23936,
+            "AffordabilityRatio": 7.6
+        },
+        "2006": {
+            "Sales": 4735,
+            "MedianHousePrice": 190000.0,
+            "MedianWorkplaceEarnings": 24719,
+            "AffordabilityRatio": 7.69
+        },
+        "2007": {
+            "Sales": 5318,
+            "MedianHousePrice": 208000.0,
+            "MedianWorkplaceEarnings": 26457,
+            "AffordabilityRatio": 7.86
+        },
+        "2008": {
+            "Sales": 3207,
+            "MedianHousePrice": 215000.0,
+            "MedianWorkplaceEarnings": 28326,
+            "AffordabilityRatio": 7.59
+        },
+        "2009": {
+            "Sales": 1923,
+            "MedianHousePrice": 195000.0,
+            "MedianWorkplaceEarnings": 28222,
+            "AffordabilityRatio": 6.91
+        },
+        "2010": {
+            "Sales": 2591,
+            "MedianHousePrice": 210000.0,
+            "MedianWorkplaceEarnings": 27738,
+            "AffordabilityRatio": 7.57
+        },
+        "2011": {
+            "Sales": 2435,
+            "MedianHousePrice": 217000.0,
+            "MedianWorkplaceEarnings": 28638,
+            "AffordabilityRatio": 7.58
+        },
+        "2012": {
+            "Sales": 2804,
+            "MedianHousePrice": 211000.0,
+            "MedianWorkplaceEarnings": 27440,
+            "AffordabilityRatio": 7.69
+        },
+        "2013": {
+            "Sales": 3159,
+            "MedianHousePrice": 220000.0,
+            "MedianWorkplaceEarnings": 28512,
+            "AffordabilityRatio": 7.72
+        },
+        "2014": {
+            "Sales": 3843,
+            "MedianHousePrice": 249000.0,
+            "MedianWorkplaceEarnings": 28505,
+            "AffordabilityRatio": 8.74
+        },
+        "2015": {
+            "Sales": 3825,
+            "MedianHousePrice": 271000.0,
+            "MedianWorkplaceEarnings": 29664,
+            "AffordabilityRatio": 9.14
+        },
+        "2016": {
+            "Sales": 3582,
+            "MedianHousePrice": 321997.5,
+            "MedianWorkplaceEarnings": 29177,
+            "AffordabilityRatio": 11.04
+        },
+        "2017": {
+            "Sales": 3174,
+            "MedianHousePrice": 335000.0,
+            "MedianWorkplaceEarnings": 30733,
+            "AffordabilityRatio": 10.9
+        },
+        "2018": {
+            "Sales": 3014,
+            "MedianHousePrice": 350000.0,
+            "MedianWorkplaceEarnings": 30858,
+            "AffordabilityRatio": 11.34
+        },
+        "2019": {
+            "Sales": 2985,
+            "MedianHousePrice": 355000.0,
+            "MedianWorkplaceEarnings": 31656,
+            "AffordabilityRatio": 11.21
+        },
+        "2020": {
+            "Sales": 2563,
+            "MedianHousePrice": 366000.0,
+            "MedianWorkplaceEarnings": 31742,
+            "AffordabilityRatio": 11.53
+        },
+        "2021": {
+            "Sales": 4176,
+            "MedianHousePrice": 390000.0,
+            "MedianWorkplaceEarnings": 29194,
+            "AffordabilityRatio": 13.36
+        },
+        "2022": {
+            "Sales": 2766,
+            "MedianHousePrice": 415000.0,
+            "MedianWorkplaceEarnings": 34976,
+            "AffordabilityRatio": 11.87
+        }
+    },
+    "Brent": {
+        "1997": {
+            "Sales": 4339,
+            "MedianHousePrice": 80000.0,
+            "MedianWorkplaceEarnings": 17427,
+            "AffordabilityRatio": 4.59
+        },
+        "1998": {
+            "Sales": 4419,
+            "MedianHousePrice": 93000.0,
+            "MedianWorkplaceEarnings": 18914,
+            "AffordabilityRatio": 4.92
+        },
+        "1999": {
+            "Sales": 4528,
+            "MedianHousePrice": 106000.0,
+            "MedianWorkplaceEarnings": 18532,
+            "AffordabilityRatio": 5.72
+        },
+        "2000": {
+            "Sales": 4778,
+            "MedianHousePrice": 132950.0,
+            "MedianWorkplaceEarnings": 22348,
+            "AffordabilityRatio": 5.95
+        },
+        "2001": {
+            "Sales": 4610,
+            "MedianHousePrice": 154000.0,
+            "MedianWorkplaceEarnings": 21878,
+            "AffordabilityRatio": 7.04
+        },
+        "2002": {
+            "Sales": 5010,
+            "MedianHousePrice": 179000.0,
+            "MedianWorkplaceEarnings": 21350,
+            "AffordabilityRatio": 8.38
+        },
+        "2003": {
+            "Sales": 4251,
+            "MedianHousePrice": 207000.0,
+            "MedianWorkplaceEarnings": 23024,
+            "AffordabilityRatio": 8.99
+        },
+        "2004": {
+            "Sales": 4293,
+            "MedianHousePrice": 223000.0,
+            "MedianWorkplaceEarnings": 23323,
+            "AffordabilityRatio": 9.56
+        },
+        "2005": {
+            "Sales": 3269,
+            "MedianHousePrice": 235000.0,
+            "MedianWorkplaceEarnings": 24209,
+            "AffordabilityRatio": 9.71
+        },
+        "2006": {
+            "Sales": 3872,
+            "MedianHousePrice": 248500.0,
+            "MedianWorkplaceEarnings": 25279,
+            "AffordabilityRatio": 9.83
+        },
+        "2007": {
+            "Sales": 4416,
+            "MedianHousePrice": 274000.0,
+            "MedianWorkplaceEarnings": 25763,
+            "AffordabilityRatio": 10.64
+        },
+        "2008": {
+            "Sales": 2727,
+            "MedianHousePrice": 283000.0,
+            "MedianWorkplaceEarnings": 27326,
+            "AffordabilityRatio": 10.36
+        },
+        "2009": {
+            "Sales": 1318,
+            "MedianHousePrice": 270000.0,
+            "MedianWorkplaceEarnings": 27503,
+            "AffordabilityRatio": 9.82
+        },
+        "2010": {
+            "Sales": 2457,
+            "MedianHousePrice": 280000.0,
+            "MedianWorkplaceEarnings": 25997,
+            "AffordabilityRatio": 10.77
+        },
+        "2011": {
+            "Sales": 2212,
+            "MedianHousePrice": 300000.0,
+            "MedianWorkplaceEarnings": 26772,
+            "AffordabilityRatio": 11.21
+        },
+        "2012": {
+            "Sales": 2128,
+            "MedianHousePrice": 317250.5,
+            "MedianWorkplaceEarnings": 27577,
+            "AffordabilityRatio": 11.5
+        },
+        "2013": {
+            "Sales": 2250,
+            "MedianHousePrice": 340000.0,
+            "MedianWorkplaceEarnings": 28034,
+            "AffordabilityRatio": 12.13
+        },
+        "2014": {
+            "Sales": 2900,
+            "MedianHousePrice": 374225.0,
+            "MedianWorkplaceEarnings": 29514,
+            "AffordabilityRatio": 12.68
+        },
+        "2015": {
+            "Sales": 2981,
+            "MedianHousePrice": 400000.0,
+            "MedianWorkplaceEarnings": 29987,
+            "AffordabilityRatio": 13.34
+        },
+        "2016": {
+            "Sales": 2874,
+            "MedianHousePrice": 450000.0,
+            "MedianWorkplaceEarnings": 30699,
+            "AffordabilityRatio": 14.66
+        },
+        "2017": {
+            "Sales": 2284,
+            "MedianHousePrice": 475000.0,
+            "MedianWorkplaceEarnings": 30134,
+            "AffordabilityRatio": 15.76
+        },
+        "2018": {
+            "Sales": 1831,
+            "MedianHousePrice": 495000.0,
+            "MedianWorkplaceEarnings": 30366,
+            "AffordabilityRatio": 16.3
+        },
+        "2019": {
+            "Sales": 1583,
+            "MedianHousePrice": 495000.0,
+            "MedianWorkplaceEarnings": 31706,
+            "AffordabilityRatio": 15.61
+        },
+        "2020": {
+            "Sales": 1603,
+            "MedianHousePrice": 490000.0,
+            "MedianWorkplaceEarnings": 34046,
+            "AffordabilityRatio": 14.39
+        },
+        "2021": {
+            "Sales": 2582,
+            "MedianHousePrice": 521750.0,
+            "MedianWorkplaceEarnings": 33633,
+            "AffordabilityRatio": 15.51
+        },
+        "2022": {
+            "Sales": 1698,
+            "MedianHousePrice": 538650.0,
+            "MedianWorkplaceEarnings": 42766,
+            "AffordabilityRatio": 12.6
+        }
+    },
+    "Bromley": {
+        "1997": {
+            "Sales": 7443,
+            "MedianHousePrice": 84500.0,
+            "MedianWorkplaceEarnings": 14693,
+            "AffordabilityRatio": 5.75
+        },
+        "1998": {
+            "Sales": 6608,
+            "MedianHousePrice": 96000.0,
+            "MedianWorkplaceEarnings": 16175,
+            "AffordabilityRatio": 5.94
+        },
+        "1999": {
+            "Sales": 6617,
+            "MedianHousePrice": 111500.0,
+            "MedianWorkplaceEarnings": 16720,
+            "AffordabilityRatio": 6.67
+        },
+        "2000": {
+            "Sales": 7230,
+            "MedianHousePrice": 130000.0,
+            "MedianWorkplaceEarnings": 16401,
+            "AffordabilityRatio": 7.93
+        },
+        "2001": {
+            "Sales": 7095,
+            "MedianHousePrice": 147950.0,
+            "MedianWorkplaceEarnings": 15684,
+            "AffordabilityRatio": 9.43
+        },
+        "2002": {
+            "Sales": 8219,
+            "MedianHousePrice": 170000.0,
+            "MedianWorkplaceEarnings": 16635,
+            "AffordabilityRatio": 10.22
+        },
+        "2003": {
+            "Sales": 6716,
+            "MedianHousePrice": 199000.0,
+            "MedianWorkplaceEarnings": 19042,
+            "AffordabilityRatio": 10.45
+        },
+        "2004": {
+            "Sales": 7766,
+            "MedianHousePrice": 220000.0,
+            "MedianWorkplaceEarnings": 21192,
+            "AffordabilityRatio": 10.38
+        },
+        "2005": {
+            "Sales": 6138,
+            "MedianHousePrice": 230000.0,
+            "MedianWorkplaceEarnings": 24241,
+            "AffordabilityRatio": 9.49
+        },
+        "2006": {
+            "Sales": 8058,
+            "MedianHousePrice": 240000.0,
+            "MedianWorkplaceEarnings": 25715,
+            "AffordabilityRatio": 9.33
+        },
+        "2007": {
+            "Sales": 8512,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 25666,
+            "AffordabilityRatio": 9.74
+        },
+        "2008": {
+            "Sales": 4848,
+            "MedianHousePrice": 260000.0,
+            "MedianWorkplaceEarnings": 27236,
+            "AffordabilityRatio": 9.55
+        },
+        "2009": {
+            "Sales": 3286,
+            "MedianHousePrice": 247000.0,
+            "MedianWorkplaceEarnings": 26951,
+            "AffordabilityRatio": 9.16
+        },
+        "2010": {
+            "Sales": 4716,
+            "MedianHousePrice": 270000.0,
+            "MedianWorkplaceEarnings": 27712,
+            "AffordabilityRatio": 9.74
+        },
+        "2011": {
+            "Sales": 4185,
+            "MedianHousePrice": 275000.0,
+            "MedianWorkplaceEarnings": 28163,
+            "AffordabilityRatio": 9.76
+        },
+        "2012": {
+            "Sales": 4798,
+            "MedianHousePrice": 275000.0,
+            "MedianWorkplaceEarnings": 28082,
+            "AffordabilityRatio": 9.79
+        },
+        "2013": {
+            "Sales": 5086,
+            "MedianHousePrice": 287500.0,
+            "MedianWorkplaceEarnings": 28126,
+            "AffordabilityRatio": 10.22
+        },
+        "2014": {
+            "Sales": 6268,
+            "MedianHousePrice": 325000.0,
+            "MedianWorkplaceEarnings": 27926,
+            "AffordabilityRatio": 11.64
+        },
+        "2015": {
+            "Sales": 5811,
+            "MedianHousePrice": 365000.0,
+            "MedianWorkplaceEarnings": 30444,
+            "AffordabilityRatio": 11.99
+        },
+        "2016": {
+            "Sales": 5611,
+            "MedianHousePrice": 408995.0,
+            "MedianWorkplaceEarnings": 30861,
+            "AffordabilityRatio": 13.25
+        },
+        "2017": {
+            "Sales": 4827,
+            "MedianHousePrice": 435000.0,
+            "MedianWorkplaceEarnings": 29819,
+            "AffordabilityRatio": 14.59
+        },
+        "2018": {
+            "Sales": 4592,
+            "MedianHousePrice": 440000.0,
+            "MedianWorkplaceEarnings": 30762,
+            "AffordabilityRatio": 14.3
+        },
+        "2019": {
+            "Sales": 4582,
+            "MedianHousePrice": 440000.0,
+            "MedianWorkplaceEarnings": 31765,
+            "AffordabilityRatio": 13.85
+        },
+        "2020": {
+            "Sales": 4065,
+            "MedianHousePrice": 450000.0,
+            "MedianWorkplaceEarnings": 34975,
+            "AffordabilityRatio": 12.87
+        },
+        "2021": {
+            "Sales": 6570,
+            "MedianHousePrice": 495000.0,
+            "MedianWorkplaceEarnings": 34432,
+            "AffordabilityRatio": 14.38
+        },
+        "2022": {
+            "Sales": 4305,
+            "MedianHousePrice": 505000.0,
+            "MedianWorkplaceEarnings": 36640,
+            "AffordabilityRatio": 13.78
+        }
+    },
+    "Camden": {
+        "1997": {
+            "Sales": 4171,
+            "MedianHousePrice": 140000.0,
+            "MedianWorkplaceEarnings": 21507,
+            "AffordabilityRatio": 6.51
+        },
+        "1998": {
+            "Sales": 3890,
+            "MedianHousePrice": 158000.0,
+            "MedianWorkplaceEarnings": 23036,
+            "AffordabilityRatio": 6.86
+        },
+        "1999": {
+            "Sales": 3739,
+            "MedianHousePrice": 182500.0,
+            "MedianWorkplaceEarnings": 23677,
+            "AffordabilityRatio": 7.71
+        },
+        "2000": {
+            "Sales": 3905,
+            "MedianHousePrice": 226500.0,
+            "MedianWorkplaceEarnings": 25484,
+            "AffordabilityRatio": 8.89
+        },
+        "2001": {
+            "Sales": 3674,
+            "MedianHousePrice": 249000.0,
+            "MedianWorkplaceEarnings": 27386,
+            "AffordabilityRatio": 9.09
+        },
+        "2002": {
+            "Sales": 3891,
+            "MedianHousePrice": 271175.0,
+            "MedianWorkplaceEarnings": 27432,
+            "AffordabilityRatio": 9.89
+        },
+        "2003": {
+            "Sales": 3229,
+            "MedianHousePrice": 280000.0,
+            "MedianWorkplaceEarnings": 30007,
+            "AffordabilityRatio": 9.33
+        },
+        "2004": {
+            "Sales": 3852,
+            "MedianHousePrice": 295000.0,
+            "MedianWorkplaceEarnings": 30510,
+            "AffordabilityRatio": 9.67
+        },
+        "2005": {
+            "Sales": 3226,
+            "MedianHousePrice": 320000.0,
+            "MedianWorkplaceEarnings": 31314,
+            "AffordabilityRatio": 10.22
+        },
+        "2006": {
+            "Sales": 4091,
+            "MedianHousePrice": 345000.0,
+            "MedianWorkplaceEarnings": 32418,
+            "AffordabilityRatio": 10.64
+        },
+        "2007": {
+            "Sales": 3893,
+            "MedianHousePrice": 399950.0,
+            "MedianWorkplaceEarnings": 33059,
+            "AffordabilityRatio": 12.1
+        },
+        "2008": {
+            "Sales": 2542,
+            "MedianHousePrice": 440000.0,
+            "MedianWorkplaceEarnings": 35314,
+            "AffordabilityRatio": 12.46
+        },
+        "2009": {
+            "Sales": 1851,
+            "MedianHousePrice": 410000.0,
+            "MedianWorkplaceEarnings": 36375,
+            "AffordabilityRatio": 11.27
+        },
+        "2010": {
+            "Sales": 2806,
+            "MedianHousePrice": 460000.0,
+            "MedianWorkplaceEarnings": 36527,
+            "AffordabilityRatio": 12.59
+        },
+        "2011": {
+            "Sales": 2701,
+            "MedianHousePrice": 490000.0,
+            "MedianWorkplaceEarnings": 35967,
+            "AffordabilityRatio": 13.62
+        },
+        "2012": {
+            "Sales": 2498,
+            "MedianHousePrice": 495000.0,
+            "MedianWorkplaceEarnings": 36962,
+            "AffordabilityRatio": 13.39
+        },
+        "2013": {
+            "Sales": 2730,
+            "MedianHousePrice": 570000.0,
+            "MedianWorkplaceEarnings": 36336,
+            "AffordabilityRatio": 15.69
+        },
+        "2014": {
+            "Sales": 2941,
+            "MedianHousePrice": 650000.0,
+            "MedianWorkplaceEarnings": 36748,
+            "AffordabilityRatio": 17.69
+        },
+        "2015": {
+            "Sales": 2379,
+            "MedianHousePrice": 681000.0,
+            "MedianWorkplaceEarnings": 36970,
+            "AffordabilityRatio": 18.42
+        },
+        "2016": {
+            "Sales": 2283,
+            "MedianHousePrice": 737000.0,
+            "MedianWorkplaceEarnings": 37817,
+            "AffordabilityRatio": 19.49
+        },
+        "2017": {
+            "Sales": 2132,
+            "MedianHousePrice": 766875.0,
+            "MedianWorkplaceEarnings": 38147,
+            "AffordabilityRatio": 20.1
+        },
+        "2018": {
+            "Sales": 1872,
+            "MedianHousePrice": 760000.0,
+            "MedianWorkplaceEarnings": 39198,
+            "AffordabilityRatio": 19.39
+        },
+        "2019": {
+            "Sales": 1645,
+            "MedianHousePrice": 775000.0,
+            "MedianWorkplaceEarnings": 40238,
+            "AffordabilityRatio": 19.26
+        },
+        "2020": {
+            "Sales": 1612,
+            "MedianHousePrice": 800000.0,
+            "MedianWorkplaceEarnings": 40422,
+            "AffordabilityRatio": 19.79
+        },
+        "2021": {
+            "Sales": 2563,
+            "MedianHousePrice": 776000.0,
+            "MedianWorkplaceEarnings": 41262,
+            "AffordabilityRatio": 18.81
+        },
+        "2022": {
+            "Sales": 1767,
+            "MedianHousePrice": 820000.0,
+            "MedianWorkplaceEarnings": 44583,
+            "AffordabilityRatio": 18.39
+        }
+    },
+    "Croydon": {
+        "1997": {
+            "Sales": 7629,
+            "MedianHousePrice": 69000.0,
+            "MedianWorkplaceEarnings": 18168,
+            "AffordabilityRatio": 3.8
+        },
+        "1998": {
+            "Sales": 7325,
+            "MedianHousePrice": 77000.0,
+            "MedianWorkplaceEarnings": 18846,
+            "AffordabilityRatio": 4.09
+        },
+        "1999": {
+            "Sales": 7571,
+            "MedianHousePrice": 85000.0,
+            "MedianWorkplaceEarnings": 19563,
+            "AffordabilityRatio": 4.34
+        },
+        "2000": {
+            "Sales": 7006,
+            "MedianHousePrice": 102550.0,
+            "MedianWorkplaceEarnings": 21339,
+            "AffordabilityRatio": 4.81
+        },
+        "2001": {
+            "Sales": 6460,
+            "MedianHousePrice": 123500.0,
+            "MedianWorkplaceEarnings": 20889,
+            "AffordabilityRatio": 5.91
+        },
+        "2002": {
+            "Sales": 8256,
+            "MedianHousePrice": 143000.0,
+            "MedianWorkplaceEarnings": 22675,
+            "AffordabilityRatio": 6.31
+        },
+        "2003": {
+            "Sales": 7647,
+            "MedianHousePrice": 168000.0,
+            "MedianWorkplaceEarnings": 22810,
+            "AffordabilityRatio": 7.37
+        },
+        "2004": {
+            "Sales": 7830,
+            "MedianHousePrice": 183000.0,
+            "MedianWorkplaceEarnings": 24371,
+            "AffordabilityRatio": 7.51
+        },
+        "2005": {
+            "Sales": 6237,
+            "MedianHousePrice": 194000.0,
+            "MedianWorkplaceEarnings": 24652,
+            "AffordabilityRatio": 7.87
+        },
+        "2006": {
+            "Sales": 7615,
+            "MedianHousePrice": 199950.0,
+            "MedianWorkplaceEarnings": 26049,
+            "AffordabilityRatio": 7.68
+        },
+        "2007": {
+            "Sales": 8570,
+            "MedianHousePrice": 219950.0,
+            "MedianWorkplaceEarnings": 25965,
+            "AffordabilityRatio": 8.47
+        },
+        "2008": {
+            "Sales": 5175,
+            "MedianHousePrice": 230000.0,
+            "MedianWorkplaceEarnings": 27482,
+            "AffordabilityRatio": 8.37
+        },
+        "2009": {
+            "Sales": 2939,
+            "MedianHousePrice": 205000.0,
+            "MedianWorkplaceEarnings": 28225,
+            "AffordabilityRatio": 7.26
+        },
+        "2010": {
+            "Sales": 3877,
+            "MedianHousePrice": 215000.0,
+            "MedianWorkplaceEarnings": 28586,
+            "AffordabilityRatio": 7.52
+        },
+        "2011": {
+            "Sales": 3406,
+            "MedianHousePrice": 219997.5,
+            "MedianWorkplaceEarnings": 28979,
+            "AffordabilityRatio": 7.59
+        },
+        "2012": {
+            "Sales": 3652,
+            "MedianHousePrice": 226000.0,
+            "MedianWorkplaceEarnings": 28974,
+            "AffordabilityRatio": 7.8
+        },
+        "2013": {
+            "Sales": 4295,
+            "MedianHousePrice": 235000.0,
+            "MedianWorkplaceEarnings": 30939,
+            "AffordabilityRatio": 7.6
+        },
+        "2014": {
+            "Sales": 5967,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 31154,
+            "AffordabilityRatio": 8.02
+        },
+        "2015": {
+            "Sales": 5501,
+            "MedianHousePrice": 295000.0,
+            "MedianWorkplaceEarnings": 30628,
+            "AffordabilityRatio": 9.63
+        },
+        "2016": {
+            "Sales": 5560,
+            "MedianHousePrice": 331000.0,
+            "MedianWorkplaceEarnings": 31479,
+            "AffordabilityRatio": 10.51
+        },
+        "2017": {
+            "Sales": 4859,
+            "MedianHousePrice": 360050.0,
+            "MedianWorkplaceEarnings": 32109,
+            "AffordabilityRatio": 11.21
+        },
+        "2018": {
+            "Sales": 4150,
+            "MedianHousePrice": 375000.0,
+            "MedianWorkplaceEarnings": 33804,
+            "AffordabilityRatio": 11.09
+        },
+        "2019": {
+            "Sales": 4056,
+            "MedianHousePrice": 385000.0,
+            "MedianWorkplaceEarnings": 35654,
+            "AffordabilityRatio": 10.8
+        },
+        "2020": {
+            "Sales": 3507,
+            "MedianHousePrice": 387400.0,
+            "MedianWorkplaceEarnings": 34107,
+            "AffordabilityRatio": 11.36
+        },
+        "2021": {
+            "Sales": 5931,
+            "MedianHousePrice": 413000.0,
+            "MedianWorkplaceEarnings": 34911,
+            "AffordabilityRatio": 11.83
+        },
+        "2022": {
+            "Sales": 3939,
+            "MedianHousePrice": 416050.0,
+            "MedianWorkplaceEarnings": 38726,
+            "AffordabilityRatio": 10.74
+        }
+    },
+    "Ealing": {
+        "1997": {
+            "Sales": 6033,
+            "MedianHousePrice": 87000.0,
+            "MedianWorkplaceEarnings": 19191,
+            "AffordabilityRatio": 4.53
+        },
+        "1998": {
+            "Sales": 5786,
+            "MedianHousePrice": 100000.0,
+            "MedianWorkplaceEarnings": 20005,
+            "AffordabilityRatio": 5
+        },
+        "1999": {
+            "Sales": 6057,
+            "MedianHousePrice": 117000.0,
+            "MedianWorkplaceEarnings": 20580,
+            "AffordabilityRatio": 5.69
+        },
+        "2000": {
+            "Sales": 5802,
+            "MedianHousePrice": 142000.0,
+            "MedianWorkplaceEarnings": 22512,
+            "AffordabilityRatio": 6.31
+        },
+        "2001": {
+            "Sales": 5888,
+            "MedianHousePrice": 159950.0,
+            "MedianWorkplaceEarnings": 23862,
+            "AffordabilityRatio": 6.7
+        },
+        "2002": {
+            "Sales": 6290,
+            "MedianHousePrice": 181500.0,
+            "MedianWorkplaceEarnings": 24542,
+            "AffordabilityRatio": 7.4
+        },
+        "2003": {
+            "Sales": 5557,
+            "MedianHousePrice": 209950.0,
+            "MedianWorkplaceEarnings": 24353,
+            "AffordabilityRatio": 8.62
+        },
+        "2004": {
+            "Sales": 6273,
+            "MedianHousePrice": 227725.0,
+            "MedianWorkplaceEarnings": 26722,
+            "AffordabilityRatio": 8.52
+        },
+        "2005": {
+            "Sales": 4746,
+            "MedianHousePrice": 237000.0,
+            "MedianWorkplaceEarnings": 27235,
+            "AffordabilityRatio": 8.7
+        },
+        "2006": {
+            "Sales": 6085,
+            "MedianHousePrice": 243000.0,
+            "MedianWorkplaceEarnings": 26354,
+            "AffordabilityRatio": 9.22
+        },
+        "2007": {
+            "Sales": 6787,
+            "MedianHousePrice": 260000.0,
+            "MedianWorkplaceEarnings": 27490,
+            "AffordabilityRatio": 9.46
+        },
+        "2008": {
+            "Sales": 3630,
+            "MedianHousePrice": 280000.0,
+            "MedianWorkplaceEarnings": 29439,
+            "AffordabilityRatio": 9.51
+        },
+        "2009": {
+            "Sales": 2051,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 28234,
+            "AffordabilityRatio": 8.85
+        },
+        "2010": {
+            "Sales": 3205,
+            "MedianHousePrice": 274950.0,
+            "MedianWorkplaceEarnings": 28732,
+            "AffordabilityRatio": 9.57
+        },
+        "2011": {
+            "Sales": 3027,
+            "MedianHousePrice": 286000.0,
+            "MedianWorkplaceEarnings": 28646,
+            "AffordabilityRatio": 9.98
+        },
+        "2012": {
+            "Sales": 3180,
+            "MedianHousePrice": 303000.0,
+            "MedianWorkplaceEarnings": 31104,
+            "AffordabilityRatio": 9.74
+        },
+        "2013": {
+            "Sales": 3728,
+            "MedianHousePrice": 325000.0,
+            "MedianWorkplaceEarnings": 29733,
+            "AffordabilityRatio": 10.93
+        },
+        "2014": {
+            "Sales": 3544,
+            "MedianHousePrice": 370000.0,
+            "MedianWorkplaceEarnings": 28825,
+            "AffordabilityRatio": 12.84
+        },
+        "2015": {
+            "Sales": 3441,
+            "MedianHousePrice": 415000.0,
+            "MedianWorkplaceEarnings": 28657,
+            "AffordabilityRatio": 14.48
+        },
+        "2016": {
+            "Sales": 3248,
+            "MedianHousePrice": 460000.0,
+            "MedianWorkplaceEarnings": 29241,
+            "AffordabilityRatio": 15.73
+        },
+        "2017": {
+            "Sales": 2681,
+            "MedianHousePrice": 489950.0,
+            "MedianWorkplaceEarnings": 30259,
+            "AffordabilityRatio": 16.19
+        },
+        "2018": {
+            "Sales": 2687,
+            "MedianHousePrice": 467500.0,
+            "MedianWorkplaceEarnings": 29928,
+            "AffordabilityRatio": 15.62
+        },
+        "2019": {
+            "Sales": 2661,
+            "MedianHousePrice": 470000.0,
+            "MedianWorkplaceEarnings": 31032,
+            "AffordabilityRatio": 15.15
+        },
+        "2020": {
+            "Sales": 2231,
+            "MedianHousePrice": 485000.0,
+            "MedianWorkplaceEarnings": 32685,
+            "AffordabilityRatio": 14.84
+        },
+        "2021": {
+            "Sales": 3899,
+            "MedianHousePrice": 515000.0,
+            "MedianWorkplaceEarnings": 32213,
+            "AffordabilityRatio": 15.99
+        },
+        "2022": {
+            "Sales": 2796,
+            "MedianHousePrice": 535000.0,
+            "MedianWorkplaceEarnings": 34810,
+            "AffordabilityRatio": 15.37
+        }
+    },
+    "Enfield": {
+        "1997": {
+            "Sales": 6208,
+            "MedianHousePrice": 76000.0,
+            "MedianWorkplaceEarnings": 17881,
+            "AffordabilityRatio": 4.25
+        },
+        "1998": {
+            "Sales": 6147,
+            "MedianHousePrice": 83000.0,
+            "MedianWorkplaceEarnings": 19248,
+            "AffordabilityRatio": 4.31
+        },
+        "1999": {
+            "Sales": 6449,
+            "MedianHousePrice": 90000.0,
+            "MedianWorkplaceEarnings": 19289,
+            "AffordabilityRatio": 4.67
+        },
+        "2000": {
+            "Sales": 6195,
+            "MedianHousePrice": 109000.0,
+            "MedianWorkplaceEarnings": 22467,
+            "AffordabilityRatio": 4.85
+        },
+        "2001": {
+            "Sales": 6707,
+            "MedianHousePrice": 125000.0,
+            "MedianWorkplaceEarnings": 24136,
+            "AffordabilityRatio": 5.18
+        },
+        "2002": {
+            "Sales": 7405,
+            "MedianHousePrice": 145000.0,
+            "MedianWorkplaceEarnings": 24654,
+            "AffordabilityRatio": 5.88
+        },
+        "2003": {
+            "Sales": 6229,
+            "MedianHousePrice": 175000.0,
+            "MedianWorkplaceEarnings": 22463,
+            "AffordabilityRatio": 7.79
+        },
+        "2004": {
+            "Sales": 6483,
+            "MedianHousePrice": 189000.0,
+            "MedianWorkplaceEarnings": 27414,
+            "AffordabilityRatio": 6.89
+        },
+        "2005": {
+            "Sales": 4913,
+            "MedianHousePrice": 200000.0,
+            "MedianWorkplaceEarnings": 24594,
+            "AffordabilityRatio": 8.13
+        },
+        "2006": {
+            "Sales": 6191,
+            "MedianHousePrice": 207000.0,
+            "MedianWorkplaceEarnings": 25088,
+            "AffordabilityRatio": 8.25
+        },
+        "2007": {
+            "Sales": 6622,
+            "MedianHousePrice": 227000.0,
+            "MedianWorkplaceEarnings": 26325,
+            "AffordabilityRatio": 8.62
+        },
+        "2008": {
+            "Sales": 4140,
+            "MedianHousePrice": 236000.0,
+            "MedianWorkplaceEarnings": 25550,
+            "AffordabilityRatio": 9.24
+        },
+        "2009": {
+            "Sales": 2182,
+            "MedianHousePrice": 225000.0,
+            "MedianWorkplaceEarnings": 27828,
+            "AffordabilityRatio": 8.09
+        },
+        "2010": {
+            "Sales": 3118,
+            "MedianHousePrice": 235000.0,
+            "MedianWorkplaceEarnings": 26967,
+            "AffordabilityRatio": 8.71
+        },
+        "2011": {
+            "Sales": 2630,
+            "MedianHousePrice": 240000.0,
+            "MedianWorkplaceEarnings": 26412,
+            "AffordabilityRatio": 9.09
+        },
+        "2012": {
+            "Sales": 2945,
+            "MedianHousePrice": 245000.0,
+            "MedianWorkplaceEarnings": 27123,
+            "AffordabilityRatio": 9.03
+        },
+        "2013": {
+            "Sales": 2989,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 25805,
+            "AffordabilityRatio": 9.69
+        },
+        "2014": {
+            "Sales": 3845,
+            "MedianHousePrice": 280000.0,
+            "MedianWorkplaceEarnings": 25805,
+            "AffordabilityRatio": 10.85
+        },
+        "2015": {
+            "Sales": 3487,
+            "MedianHousePrice": 320000.0,
+            "MedianWorkplaceEarnings": 26230,
+            "AffordabilityRatio": 12.2
+        },
+        "2016": {
+            "Sales": 3329,
+            "MedianHousePrice": 375000.0,
+            "MedianWorkplaceEarnings": 28918,
+            "AffordabilityRatio": 12.97
+        },
+        "2017": {
+            "Sales": 2647,
+            "MedianHousePrice": 402000.0,
+            "MedianWorkplaceEarnings": 29134,
+            "AffordabilityRatio": 13.8
+        },
+        "2018": {
+            "Sales": 2463,
+            "MedianHousePrice": 400000.0,
+            "MedianWorkplaceEarnings": 29238,
+            "AffordabilityRatio": 13.68
+        },
+        "2019": {
+            "Sales": 2309,
+            "MedianHousePrice": 407500.0,
+            "MedianWorkplaceEarnings": 28170,
+            "AffordabilityRatio": 14.47
+        },
+        "2020": {
+            "Sales": 1984,
+            "MedianHousePrice": 420000.0,
+            "MedianWorkplaceEarnings": 31143,
+            "AffordabilityRatio": 13.49
+        },
+        "2021": {
+            "Sales": 3636,
+            "MedianHousePrice": 460000.0,
+            "MedianWorkplaceEarnings": 30808,
+            "AffordabilityRatio": 14.93
+        },
+        "2022": {
+            "Sales": 2468,
+            "MedianHousePrice": 460000.0,
+            "MedianWorkplaceEarnings": 36278,
+            "AffordabilityRatio": 12.68
+        }
+    },
+    "Greenwich": {
+        "1997": {
+            "Sales": 3395,
+            "MedianHousePrice": 64995.0,
+            "MedianWorkplaceEarnings": 19060,
+            "AffordabilityRatio": 3.41
+        },
+        "1998": {
+            "Sales": 3482,
+            "MedianHousePrice": 73500.0,
+            "MedianWorkplaceEarnings": 20229,
+            "AffordabilityRatio": 3.63
+        },
+        "1999": {
+            "Sales": 4004,
+            "MedianHousePrice": 84000.0,
+            "MedianWorkplaceEarnings": 21236,
+            "AffordabilityRatio": 3.96
+        },
+        "2000": {
+            "Sales": 4173,
+            "MedianHousePrice": 104025.0,
+            "MedianWorkplaceEarnings": 22121,
+            "AffordabilityRatio": 4.7
+        },
+        "2001": {
+            "Sales": 4531,
+            "MedianHousePrice": 119000.0,
+            "MedianWorkplaceEarnings": 20761,
+            "AffordabilityRatio": 5.73
+        },
+        "2002": {
+            "Sales": 5318,
+            "MedianHousePrice": 142500.0,
+            "MedianWorkplaceEarnings": 21846,
+            "AffordabilityRatio": 6.52
+        },
+        "2003": {
+            "Sales": 4956,
+            "MedianHousePrice": 165000.0,
+            "MedianWorkplaceEarnings": 23582,
+            "AffordabilityRatio": 7
+        },
+        "2004": {
+            "Sales": 5551,
+            "MedianHousePrice": 177500.0,
+            "MedianWorkplaceEarnings": 25387,
+            "AffordabilityRatio": 6.99
+        },
+        "2005": {
+            "Sales": 4536,
+            "MedianHousePrice": 195250.0,
+            "MedianWorkplaceEarnings": 26330,
+            "AffordabilityRatio": 7.42
+        },
+        "2006": {
+            "Sales": 5153,
+            "MedianHousePrice": 207500.0,
+            "MedianWorkplaceEarnings": 27363,
+            "AffordabilityRatio": 7.58
+        },
+        "2007": {
+            "Sales": 5467,
+            "MedianHousePrice": 218995.0,
+            "MedianWorkplaceEarnings": 29319,
+            "AffordabilityRatio": 7.47
+        },
+        "2008": {
+            "Sales": 3229,
+            "MedianHousePrice": 234000.0,
+            "MedianWorkplaceEarnings": 30766,
+            "AffordabilityRatio": 7.61
+        },
+        "2009": {
+            "Sales": 1706,
+            "MedianHousePrice": 218000.0,
+            "MedianWorkplaceEarnings": 29871,
+            "AffordabilityRatio": 7.3
+        },
+        "2010": {
+            "Sales": 2297,
+            "MedianHousePrice": 240000.0,
+            "MedianWorkplaceEarnings": 31821,
+            "AffordabilityRatio": 7.54
+        },
+        "2011": {
+            "Sales": 2521,
+            "MedianHousePrice": 249999.0,
+            "MedianWorkplaceEarnings": 29932,
+            "AffordabilityRatio": 8.35
+        },
+        "2012": {
+            "Sales": 2780,
+            "MedianHousePrice": 245000.0,
+            "MedianWorkplaceEarnings": 30097,
+            "AffordabilityRatio": 8.14
+        },
+        "2013": {
+            "Sales": 3089,
+            "MedianHousePrice": 255000.0,
+            "MedianWorkplaceEarnings": 29251,
+            "AffordabilityRatio": 8.72
+        },
+        "2014": {
+            "Sales": 4559,
+            "MedianHousePrice": 310000.0,
+            "MedianWorkplaceEarnings": 28954,
+            "AffordabilityRatio": 10.71
+        },
+        "2015": {
+            "Sales": 3874,
+            "MedianHousePrice": 331800.0,
+            "MedianWorkplaceEarnings": 30497,
+            "AffordabilityRatio": 10.88
+        },
+        "2016": {
+            "Sales": 4040,
+            "MedianHousePrice": 385000.0,
+            "MedianWorkplaceEarnings": 30180,
+            "AffordabilityRatio": 12.76
+        },
+        "2017": {
+            "Sales": 3414,
+            "MedianHousePrice": 420000.0,
+            "MedianWorkplaceEarnings": 32635,
+            "AffordabilityRatio": 12.87
+        },
+        "2018": {
+            "Sales": 3511,
+            "MedianHousePrice": 430000.0,
+            "MedianWorkplaceEarnings": 33163,
+            "AffordabilityRatio": 12.97
+        },
+        "2019": {
+            "Sales": 3207,
+            "MedianHousePrice": 457800.0,
+            "MedianWorkplaceEarnings": 33214,
+            "AffordabilityRatio": 13.78
+        },
+        "2020": {
+            "Sales": 2546,
+            "MedianHousePrice": 445450.0,
+            "MedianWorkplaceEarnings": 34257,
+            "AffordabilityRatio": 13
+        },
+        "2021": {
+            "Sales": 4166,
+            "MedianHousePrice": 460000.0,
+            "MedianWorkplaceEarnings": 34429,
+            "AffordabilityRatio": 13.36
+        },
+        "2022": {
+            "Sales": 2740,
+            "MedianHousePrice": 468000.0,
+            "MedianWorkplaceEarnings": 33719,
+            "AffordabilityRatio": 13.88
+        }
+    },
+    "Hackney": {
+        "1997": {
+            "Sales": 2737,
+            "MedianHousePrice": 72995.0,
+            "MedianWorkplaceEarnings": 21528,
+            "AffordabilityRatio": 3.39
+        },
+        "1998": {
+            "Sales": 3050,
+            "MedianHousePrice": 84700.0,
+            "MedianWorkplaceEarnings": 24878,
+            "AffordabilityRatio": 3.4
+        },
+        "1999": {
+            "Sales": 3037,
+            "MedianHousePrice": 103200.0,
+            "MedianWorkplaceEarnings": 23249,
+            "AffordabilityRatio": 4.44
+        },
+        "2000": {
+            "Sales": 3120,
+            "MedianHousePrice": 129000.0,
+            "MedianWorkplaceEarnings": 24083,
+            "AffordabilityRatio": 5.36
+        },
+        "2001": {
+            "Sales": 3174,
+            "MedianHousePrice": 153500.0,
+            "MedianWorkplaceEarnings": 24095,
+            "AffordabilityRatio": 6.37
+        },
+        "2002": {
+            "Sales": 3710,
+            "MedianHousePrice": 175000.0,
+            "MedianWorkplaceEarnings": 24582,
+            "AffordabilityRatio": 7.12
+        },
+        "2003": {
+            "Sales": 2905,
+            "MedianHousePrice": 195000.0,
+            "MedianWorkplaceEarnings": 25300,
+            "AffordabilityRatio": 7.71
+        },
+        "2004": {
+            "Sales": 3413,
+            "MedianHousePrice": 210000.0,
+            "MedianWorkplaceEarnings": 26687,
+            "AffordabilityRatio": 7.87
+        },
+        "2005": {
+            "Sales": 2555,
+            "MedianHousePrice": 220000.0,
+            "MedianWorkplaceEarnings": 28923,
+            "AffordabilityRatio": 7.61
+        },
+        "2006": {
+            "Sales": 3323,
+            "MedianHousePrice": 240000.0,
+            "MedianWorkplaceEarnings": 30105,
+            "AffordabilityRatio": 7.97
+        },
+        "2007": {
+            "Sales": 3643,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 28996,
+            "AffordabilityRatio": 8.62
+        },
+        "2008": {
+            "Sales": 2242,
+            "MedianHousePrice": 272500.0,
+            "MedianWorkplaceEarnings": 31589,
+            "AffordabilityRatio": 8.63
+        },
+        "2009": {
+            "Sales": 1618,
+            "MedianHousePrice": 267397.5,
+            "MedianWorkplaceEarnings": 33107,
+            "AffordabilityRatio": 8.08
+        },
+        "2010": {
+            "Sales": 2213,
+            "MedianHousePrice": 293150.0,
+            "MedianWorkplaceEarnings": 35149,
+            "AffordabilityRatio": 8.34
+        },
+        "2011": {
+            "Sales": 2311,
+            "MedianHousePrice": 295000.0,
+            "MedianWorkplaceEarnings": 33512,
+            "AffordabilityRatio": 8.8
+        },
+        "2012": {
+            "Sales": 2500,
+            "MedianHousePrice": 320000.0,
+            "MedianWorkplaceEarnings": 34803,
+            "AffordabilityRatio": 9.19
+        },
+        "2013": {
+            "Sales": 2758,
+            "MedianHousePrice": 368000.0,
+            "MedianWorkplaceEarnings": 33097,
+            "AffordabilityRatio": 11.12
+        },
+        "2014": {
+            "Sales": 2828,
+            "MedianHousePrice": 420000.0,
+            "MedianWorkplaceEarnings": 33116,
+            "AffordabilityRatio": 12.68
+        },
+        "2015": {
+            "Sales": 2843,
+            "MedianHousePrice": 461500.0,
+            "MedianWorkplaceEarnings": 31566,
+            "AffordabilityRatio": 14.62
+        },
+        "2016": {
+            "Sales": 2478,
+            "MedianHousePrice": 537000.0,
+            "MedianWorkplaceEarnings": 32404,
+            "AffordabilityRatio": 16.57
+        },
+        "2017": {
+            "Sales": 2326,
+            "MedianHousePrice": 530000.0,
+            "MedianWorkplaceEarnings": 33618,
+            "AffordabilityRatio": 15.77
+        },
+        "2018": {
+            "Sales": 2182,
+            "MedianHousePrice": 550000.0,
+            "MedianWorkplaceEarnings": 35286,
+            "AffordabilityRatio": 15.59
+        },
+        "2019": {
+            "Sales": 2108,
+            "MedianHousePrice": 577000.0,
+            "MedianWorkplaceEarnings": 35082,
+            "AffordabilityRatio": 16.45
+        },
+        "2020": {
+            "Sales": 2024,
+            "MedianHousePrice": 645000.0,
+            "MedianWorkplaceEarnings": 36756,
+            "AffordabilityRatio": 17.55
+        },
+        "2021": {
+            "Sales": 3077,
+            "MedianHousePrice": 600000.0,
+            "MedianWorkplaceEarnings": 39181,
+            "AffordabilityRatio": 15.31
+        },
+        "2022": {
+            "Sales": 2057,
+            "MedianHousePrice": 600000.0,
+            "MedianWorkplaceEarnings": 43182,
+            "AffordabilityRatio": 13.89
+        }
+    },
+    "Hammersmith and Fulham": {
+        "1997": {
+            "Sales": 4453,
+            "MedianHousePrice": 132000.0,
+            "MedianWorkplaceEarnings": 22196,
+            "AffordabilityRatio": 5.95
+        },
+        "1998": {
+            "Sales": 3860,
+            "MedianHousePrice": 155000.0,
+            "MedianWorkplaceEarnings": 21930,
+            "AffordabilityRatio": 7.07
+        },
+        "1999": {
+            "Sales": 3923,
+            "MedianHousePrice": 179950.0,
+            "MedianWorkplaceEarnings": 25000,
+            "AffordabilityRatio": 7.2
+        },
+        "2000": {
+            "Sales": 4125,
+            "MedianHousePrice": 218000.0,
+            "MedianWorkplaceEarnings": 25264,
+            "AffordabilityRatio": 8.63
+        },
+        "2001": {
+            "Sales": 3609,
+            "MedianHousePrice": 240000.0,
+            "MedianWorkplaceEarnings": 26319,
+            "AffordabilityRatio": 9.12
+        },
+        "2002": {
+            "Sales": 3980,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 28012,
+            "AffordabilityRatio": 8.92
+        },
+        "2003": {
+            "Sales": 3395,
+            "MedianHousePrice": 276000.0,
+            "MedianWorkplaceEarnings": 29808,
+            "AffordabilityRatio": 9.26
+        },
+        "2004": {
+            "Sales": 3887,
+            "MedianHousePrice": 302000.0,
+            "MedianWorkplaceEarnings": 29830,
+            "AffordabilityRatio": 10.12
+        },
+        "2005": {
+            "Sales": 3125,
+            "MedianHousePrice": 317500.0,
+            "MedianWorkplaceEarnings": 30787,
+            "AffordabilityRatio": 10.31
+        },
+        "2006": {
+            "Sales": 3979,
+            "MedianHousePrice": 345000.0,
+            "MedianWorkplaceEarnings": 30464,
+            "AffordabilityRatio": 11.32
+        },
+        "2007": {
+            "Sales": 4204,
+            "MedianHousePrice": 395000.0,
+            "MedianWorkplaceEarnings": 33535,
+            "AffordabilityRatio": 11.78
+        },
+        "2008": {
+            "Sales": 2114,
+            "MedianHousePrice": 425000.0,
+            "MedianWorkplaceEarnings": 33779,
+            "AffordabilityRatio": 12.58
+        },
+        "2009": {
+            "Sales": 1595,
+            "MedianHousePrice": 410000.0,
+            "MedianWorkplaceEarnings": 36525,
+            "AffordabilityRatio": 11.23
+        },
+        "2010": {
+            "Sales": 2588,
+            "MedianHousePrice": 460000.0,
+            "MedianWorkplaceEarnings": 35033,
+            "AffordabilityRatio": 13.13
+        },
+        "2011": {
+            "Sales": 2586,
+            "MedianHousePrice": 460000.0,
+            "MedianWorkplaceEarnings": 36143,
+            "AffordabilityRatio": 12.73
+        },
+        "2012": {
+            "Sales": 2714,
+            "MedianHousePrice": 475000.0,
+            "MedianWorkplaceEarnings": 35136,
+            "AffordabilityRatio": 13.52
+        },
+        "2013": {
+            "Sales": 2876,
+            "MedianHousePrice": 550000.0,
+            "MedianWorkplaceEarnings": 34554,
+            "AffordabilityRatio": 15.92
+        },
+        "2014": {
+            "Sales": 2990,
+            "MedianHousePrice": 625000.0,
+            "MedianWorkplaceEarnings": 33688,
+            "AffordabilityRatio": 18.55
+        },
+        "2015": {
+            "Sales": 2424,
+            "MedianHousePrice": 729700.0,
+            "MedianWorkplaceEarnings": 34652,
+            "AffordabilityRatio": 21.06
+        },
+        "2016": {
+            "Sales": 2306,
+            "MedianHousePrice": 730000.0,
+            "MedianWorkplaceEarnings": 35000,
+            "AffordabilityRatio": 20.86
+        },
+        "2017": {
+            "Sales": 2001,
+            "MedianHousePrice": 765000.0,
+            "MedianWorkplaceEarnings": 36972,
+            "AffordabilityRatio": 20.69
+        },
+        "2018": {
+            "Sales": 2244,
+            "MedianHousePrice": 790000.0,
+            "MedianWorkplaceEarnings": 40972,
+            "AffordabilityRatio": 19.28
+        },
+        "2019": {
+            "Sales": 1809,
+            "MedianHousePrice": 727500.0,
+            "MedianWorkplaceEarnings": 38177,
+            "AffordabilityRatio": 19.06
+        },
+        "2020": {
+            "Sales": 2011,
+            "MedianHousePrice": 775500.0,
+            "MedianWorkplaceEarnings": 41807,
+            "AffordabilityRatio": 18.55
+        },
+        "2021": {
+            "Sales": 2868,
+            "MedianHousePrice": 770000.0,
+            "MedianWorkplaceEarnings": 39419,
+            "AffordabilityRatio": 19.53
+        },
+        "2022": {
+            "Sales": 1971,
+            "MedianHousePrice": 770000.0,
+            "MedianWorkplaceEarnings": 40739,
+            "AffordabilityRatio": 18.9
+        }
+    },
+    "Haringey": {
+        "1997": {
+            "Sales": 4571,
+            "MedianHousePrice": 78000.0,
+            "MedianWorkplaceEarnings": 18038,
+            "AffordabilityRatio": 4.32
+        },
+        "1998": {
+            "Sales": 4246,
+            "MedianHousePrice": 90000.0,
+            "MedianWorkplaceEarnings": 18079,
+            "AffordabilityRatio": 4.98
+        },
+        "1999": {
+            "Sales": 4448,
+            "MedianHousePrice": 102000.0,
+            "MedianWorkplaceEarnings": 18783,
+            "AffordabilityRatio": 5.43
+        },
+        "2000": {
+            "Sales": 4630,
+            "MedianHousePrice": 127600.0,
+            "MedianWorkplaceEarnings": 19772,
+            "AffordabilityRatio": 6.45
+        },
+        "2001": {
+            "Sales": 4332,
+            "MedianHousePrice": 145000.0,
+            "MedianWorkplaceEarnings": 20349,
+            "AffordabilityRatio": 7.13
+        },
+        "2002": {
+            "Sales": 4663,
+            "MedianHousePrice": 170000.0,
+            "MedianWorkplaceEarnings": 21972,
+            "AffordabilityRatio": 7.74
+        },
+        "2003": {
+            "Sales": 3852,
+            "MedianHousePrice": 190000.0,
+            "MedianWorkplaceEarnings": 22412,
+            "AffordabilityRatio": 8.48
+        },
+        "2004": {
+            "Sales": 4502,
+            "MedianHousePrice": 207500.0,
+            "MedianWorkplaceEarnings": 23481,
+            "AffordabilityRatio": 8.84
+        },
+        "2005": {
+            "Sales": 3503,
+            "MedianHousePrice": 223500.0,
+            "MedianWorkplaceEarnings": 24626,
+            "AffordabilityRatio": 9.08
+        },
+        "2006": {
+            "Sales": 4399,
+            "MedianHousePrice": 231000.0,
+            "MedianWorkplaceEarnings": 27020,
+            "AffordabilityRatio": 8.55
+        },
+        "2007": {
+            "Sales": 4676,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 26281,
+            "AffordabilityRatio": 9.51
+        },
+        "2008": {
+            "Sales": 2588,
+            "MedianHousePrice": 270000.0,
+            "MedianWorkplaceEarnings": 29859,
+            "AffordabilityRatio": 9.04
+        },
+        "2009": {
+            "Sales": 1562,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 28515,
+            "AffordabilityRatio": 8.77
+        },
+        "2010": {
+            "Sales": 2424,
+            "MedianHousePrice": 280000.0,
+            "MedianWorkplaceEarnings": 29597,
+            "AffordabilityRatio": 9.46
+        },
+        "2011": {
+            "Sales": 2281,
+            "MedianHousePrice": 303000.0,
+            "MedianWorkplaceEarnings": 28032,
+            "AffordabilityRatio": 10.81
+        },
+        "2012": {
+            "Sales": 2433,
+            "MedianHousePrice": 310000.0,
+            "MedianWorkplaceEarnings": 29116,
+            "AffordabilityRatio": 10.65
+        },
+        "2013": {
+            "Sales": 2552,
+            "MedianHousePrice": 330000.0,
+            "MedianWorkplaceEarnings": 29609,
+            "AffordabilityRatio": 11.15
+        },
+        "2014": {
+            "Sales": 2876,
+            "MedianHousePrice": 385000.0,
+            "MedianWorkplaceEarnings": 30325,
+            "AffordabilityRatio": 12.7
+        },
+        "2015": {
+            "Sales": 2758,
+            "MedianHousePrice": 421400.0,
+            "MedianWorkplaceEarnings": 30072,
+            "AffordabilityRatio": 14.01
+        },
+        "2016": {
+            "Sales": 2523,
+            "MedianHousePrice": 460000.0,
+            "MedianWorkplaceEarnings": 29753,
+            "AffordabilityRatio": 15.46
+        },
+        "2017": {
+            "Sales": 1867,
+            "MedianHousePrice": 530000.0,
+            "MedianWorkplaceEarnings": 31442,
+            "AffordabilityRatio": 16.86
+        },
+        "2018": {
+            "Sales": 1961,
+            "MedianHousePrice": 521000.0,
+            "MedianWorkplaceEarnings": 29801,
+            "AffordabilityRatio": 17.48
+        },
+        "2019": {
+            "Sales": 1893,
+            "MedianHousePrice": 515000.0,
+            "MedianWorkplaceEarnings": 30515,
+            "AffordabilityRatio": 16.88
+        },
+        "2020": {
+            "Sales": 1702,
+            "MedianHousePrice": 510000.0,
+            "MedianWorkplaceEarnings": 33613,
+            "AffordabilityRatio": 15.17
+        },
+        "2021": {
+            "Sales": 3229,
+            "MedianHousePrice": 540000.0,
+            "MedianWorkplaceEarnings": 32485,
+            "AffordabilityRatio": 16.62
+        },
+        "2022": {
+            "Sales": 1952,
+            "MedianHousePrice": 571380.0,
+            "MedianWorkplaceEarnings": 32825,
+            "AffordabilityRatio": 17.41
+        }
+    },
+    "Harrow": {
+        "1997": {
+            "Sales": 4032,
+            "MedianHousePrice": 90000.0,
+            "MedianWorkplaceEarnings": 18533,
+            "AffordabilityRatio": 4.86
+        },
+        "1998": {
+            "Sales": 3938,
+            "MedianHousePrice": 105000.0,
+            "MedianWorkplaceEarnings": 20939,
+            "AffordabilityRatio": 5.01
+        },
+        "1999": {
+            "Sales": 4258,
+            "MedianHousePrice": 117000.0,
+            "MedianWorkplaceEarnings": 20596,
+            "AffordabilityRatio": 5.68
+        },
+        "2000": {
+            "Sales": 4289,
+            "MedianHousePrice": 142825.0,
+            "MedianWorkplaceEarnings": 22238,
+            "AffordabilityRatio": 6.42
+        },
+        "2001": {
+            "Sales": 4089,
+            "MedianHousePrice": 160000.0,
+            "MedianWorkplaceEarnings": 22960,
+            "AffordabilityRatio": 6.97
+        },
+        "2002": {
+            "Sales": 4442,
+            "MedianHousePrice": 186725.0,
+            "MedianWorkplaceEarnings": 23176,
+            "AffordabilityRatio": 8.06
+        },
+        "2003": {
+            "Sales": 4261,
+            "MedianHousePrice": 225000.0,
+            "MedianWorkplaceEarnings": 22796,
+            "AffordabilityRatio": 9.87
+        },
+        "2004": {
+            "Sales": 4221,
+            "MedianHousePrice": 240000.0,
+            "MedianWorkplaceEarnings": 24750,
+            "AffordabilityRatio": 9.7
+        },
+        "2005": {
+            "Sales": 3173,
+            "MedianHousePrice": 249000.0,
+            "MedianWorkplaceEarnings": 26162,
+            "AffordabilityRatio": 9.52
+        },
+        "2006": {
+            "Sales": 4153,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 25575,
+            "AffordabilityRatio": 9.78
+        },
+        "2007": {
+            "Sales": 4280,
+            "MedianHousePrice": 275000.0,
+            "MedianWorkplaceEarnings": 26107,
+            "AffordabilityRatio": 10.53
+        },
+        "2008": {
+            "Sales": 2694,
+            "MedianHousePrice": 284000.0,
+            "MedianWorkplaceEarnings": 27627,
+            "AffordabilityRatio": 10.28
+        },
+        "2009": {
+            "Sales": 1683,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 27532,
+            "AffordabilityRatio": 9.08
+        },
+        "2010": {
+            "Sales": 2281,
+            "MedianHousePrice": 283000.0,
+            "MedianWorkplaceEarnings": 27921,
+            "AffordabilityRatio": 10.14
+        },
+        "2011": {
+            "Sales": 2221,
+            "MedianHousePrice": 295000.0,
+            "MedianWorkplaceEarnings": 27540,
+            "AffordabilityRatio": 10.71
+        },
+        "2012": {
+            "Sales": 2225,
+            "MedianHousePrice": 300000.0,
+            "MedianWorkplaceEarnings": 26738,
+            "AffordabilityRatio": 11.22
+        },
+        "2013": {
+            "Sales": 2446,
+            "MedianHousePrice": 315000.0,
+            "MedianWorkplaceEarnings": 25784,
+            "AffordabilityRatio": 12.22
+        },
+        "2014": {
+            "Sales": 2758,
+            "MedianHousePrice": 355000.0,
+            "MedianWorkplaceEarnings": 26037,
+            "AffordabilityRatio": 13.63
+        },
+        "2015": {
+            "Sales": 2894,
+            "MedianHousePrice": 387000.0,
+            "MedianWorkplaceEarnings": 26770,
+            "AffordabilityRatio": 14.46
+        },
+        "2016": {
+            "Sales": 2474,
+            "MedianHousePrice": 443750.0,
+            "MedianWorkplaceEarnings": 30134,
+            "AffordabilityRatio": 14.73
+        },
+        "2017": {
+            "Sales": 1989,
+            "MedianHousePrice": 500000.0,
+            "MedianWorkplaceEarnings": 31255,
+            "AffordabilityRatio": 16
+        },
+        "2018": {
+            "Sales": 2081,
+            "MedianHousePrice": 475000.0,
+            "MedianWorkplaceEarnings": 30553,
+            "AffordabilityRatio": 15.55
+        },
+        "2019": {
+            "Sales": 2283,
+            "MedianHousePrice": 458000.0,
+            "MedianWorkplaceEarnings": 32812,
+            "AffordabilityRatio": 13.96
+        },
+        "2020": {
+            "Sales": 1755,
+            "MedianHousePrice": 466000.0,
+            "MedianWorkplaceEarnings": 29644,
+            "AffordabilityRatio": 15.72
+        },
+        "2021": {
+            "Sales": 2635,
+            "MedianHousePrice": 523000.0,
+            "MedianWorkplaceEarnings": 33811,
+            "AffordabilityRatio": 15.47
+        },
+        "2022": {
+            "Sales": 1763,
+            "MedianHousePrice": 535000.0,
+            "MedianWorkplaceEarnings": 33466,
+            "AffordabilityRatio": 15.99
+        }
+    },
+    "Havering": {
+        "1997": {
+            "Sales": 4328,
+            "MedianHousePrice": 72500.0,
+            "MedianWorkplaceEarnings": 15904,
+            "AffordabilityRatio": 4.56
+        },
+        "1998": {
+            "Sales": 3812,
+            "MedianHousePrice": 80000.0,
+            "MedianWorkplaceEarnings": 16071,
+            "AffordabilityRatio": 4.98
+        },
+        "1999": {
+            "Sales": 4120,
+            "MedianHousePrice": 87500.0,
+            "MedianWorkplaceEarnings": 17165,
+            "AffordabilityRatio": 5.1
+        },
+        "2000": {
+            "Sales": 4063,
+            "MedianHousePrice": 102500.0,
+            "MedianWorkplaceEarnings": 17418,
+            "AffordabilityRatio": 5.88
+        },
+        "2001": {
+            "Sales": 4406,
+            "MedianHousePrice": 119000.0,
+            "MedianWorkplaceEarnings": 17940,
+            "AffordabilityRatio": 6.63
+        },
+        "2002": {
+            "Sales": 5005,
+            "MedianHousePrice": 138000.0,
+            "MedianWorkplaceEarnings": 16123,
+            "AffordabilityRatio": 8.56
+        },
+        "2003": {
+            "Sales": 4249,
+            "MedianHousePrice": 168250.0,
+            "MedianWorkplaceEarnings": 18250,
+            "AffordabilityRatio": 9.22
+        },
+        "2004": {
+            "Sales": 4991,
+            "MedianHousePrice": 185000.0,
+            "MedianWorkplaceEarnings": 18240,
+            "AffordabilityRatio": 10.14
+        },
+        "2005": {
+            "Sales": 3825,
+            "MedianHousePrice": 195000.0,
+            "MedianWorkplaceEarnings": 24296,
+            "AffordabilityRatio": 8.03
+        },
+        "2006": {
+            "Sales": 4749,
+            "MedianHousePrice": 200000.0,
+            "MedianWorkplaceEarnings": 26394,
+            "AffordabilityRatio": 7.58
+        },
+        "2007": {
+            "Sales": 5658,
+            "MedianHousePrice": 218000.0,
+            "MedianWorkplaceEarnings": 26079,
+            "AffordabilityRatio": 8.36
+        },
+        "2008": {
+            "Sales": 3405,
+            "MedianHousePrice": 226000.0,
+            "MedianWorkplaceEarnings": 28800,
+            "AffordabilityRatio": 7.85
+        },
+        "2009": {
+            "Sales": 2068,
+            "MedianHousePrice": 200000.0,
+            "MedianWorkplaceEarnings": 28317,
+            "AffordabilityRatio": 7.06
+        },
+        "2010": {
+            "Sales": 2881,
+            "MedianHousePrice": 218500.0,
+            "MedianWorkplaceEarnings": 28235,
+            "AffordabilityRatio": 7.74
+        },
+        "2011": {
+            "Sales": 2545,
+            "MedianHousePrice": 219995.0,
+            "MedianWorkplaceEarnings": 28415,
+            "AffordabilityRatio": 7.74
+        },
+        "2012": {
+            "Sales": 2870,
+            "MedianHousePrice": 220250.0,
+            "MedianWorkplaceEarnings": 28326,
+            "AffordabilityRatio": 7.78
+        },
+        "2013": {
+            "Sales": 3120,
+            "MedianHousePrice": 230000.0,
+            "MedianWorkplaceEarnings": 29858,
+            "AffordabilityRatio": 7.7
+        },
+        "2014": {
+            "Sales": 4243,
+            "MedianHousePrice": 249995.0,
+            "MedianWorkplaceEarnings": 30003,
+            "AffordabilityRatio": 8.33
+        },
+        "2015": {
+            "Sales": 3990,
+            "MedianHousePrice": 279995.0,
+            "MedianWorkplaceEarnings": 30591,
+            "AffordabilityRatio": 9.15
+        },
+        "2016": {
+            "Sales": 4064,
+            "MedianHousePrice": 325000.0,
+            "MedianWorkplaceEarnings": 28906,
+            "AffordabilityRatio": 11.24
+        },
+        "2017": {
+            "Sales": 3524,
+            "MedianHousePrice": 350000.0,
+            "MedianWorkplaceEarnings": 29134,
+            "AffordabilityRatio": 12.01
+        },
+        "2018": {
+            "Sales": 3343,
+            "MedianHousePrice": 360000.0,
+            "MedianWorkplaceEarnings": 30181,
+            "AffordabilityRatio": 11.93
+        },
+        "2019": {
+            "Sales": 3138,
+            "MedianHousePrice": 365000.0,
+            "MedianWorkplaceEarnings": 32227,
+            "AffordabilityRatio": 11.33
+        },
+        "2020": {
+            "Sales": 2879,
+            "MedianHousePrice": 377000.0,
+            "MedianWorkplaceEarnings": 33946,
+            "AffordabilityRatio": 11.11
+        },
+        "2021": {
+            "Sales": 5033,
+            "MedianHousePrice": 400000.0,
+            "MedianWorkplaceEarnings": 31985,
+            "AffordabilityRatio": 12.51
+        },
+        "2022": {
+            "Sales": 3043,
+            "MedianHousePrice": 430000.0,
+            "MedianWorkplaceEarnings": 33366,
+            "AffordabilityRatio": 12.89
+        }
+    },
+    "Hillingdon": {
+        "1997": {
+            "Sales": 5275,
+            "MedianHousePrice": 77500.0,
+            "MedianWorkplaceEarnings": 21779,
+            "AffordabilityRatio": 3.56
+        },
+        "1998": {
+            "Sales": 4877,
+            "MedianHousePrice": 86500.0,
+            "MedianWorkplaceEarnings": 23208,
+            "AffordabilityRatio": 3.73
+        },
+        "1999": {
+            "Sales": 5644,
+            "MedianHousePrice": 98000.0,
+            "MedianWorkplaceEarnings": 24002,
+            "AffordabilityRatio": 4.08
+        },
+        "2000": {
+            "Sales": 5573,
+            "MedianHousePrice": 120000.0,
+            "MedianWorkplaceEarnings": 25038,
+            "AffordabilityRatio": 4.79
+        },
+        "2001": {
+            "Sales": 4611,
+            "MedianHousePrice": 136000.0,
+            "MedianWorkplaceEarnings": 26051,
+            "AffordabilityRatio": 5.22
+        },
+        "2002": {
+            "Sales": 5599,
+            "MedianHousePrice": 159000.0,
+            "MedianWorkplaceEarnings": 26159,
+            "AffordabilityRatio": 6.08
+        },
+        "2003": {
+            "Sales": 5356,
+            "MedianHousePrice": 187000.0,
+            "MedianWorkplaceEarnings": 26551,
+            "AffordabilityRatio": 7.04
+        },
+        "2004": {
+            "Sales": 5648,
+            "MedianHousePrice": 205000.0,
+            "MedianWorkplaceEarnings": 28003,
+            "AffordabilityRatio": 7.32
+        },
+        "2005": {
+            "Sales": 4333,
+            "MedianHousePrice": 216000.0,
+            "MedianWorkplaceEarnings": 29351,
+            "AffordabilityRatio": 7.36
+        },
+        "2006": {
+            "Sales": 5299,
+            "MedianHousePrice": 226000.0,
+            "MedianWorkplaceEarnings": 28771,
+            "AffordabilityRatio": 7.86
+        },
+        "2007": {
+            "Sales": 5646,
+            "MedianHousePrice": 240000.0,
+            "MedianWorkplaceEarnings": 30290,
+            "AffordabilityRatio": 7.92
+        },
+        "2008": {
+            "Sales": 3805,
+            "MedianHousePrice": 248000.0,
+            "MedianWorkplaceEarnings": 31291,
+            "AffordabilityRatio": 7.93
+        },
+        "2009": {
+            "Sales": 2270,
+            "MedianHousePrice": 230000.0,
+            "MedianWorkplaceEarnings": 31584,
+            "AffordabilityRatio": 7.28
+        },
+        "2010": {
+            "Sales": 3120,
+            "MedianHousePrice": 246500.0,
+            "MedianWorkplaceEarnings": 31586,
+            "AffordabilityRatio": 7.8
+        },
+        "2011": {
+            "Sales": 3281,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 33589,
+            "AffordabilityRatio": 7.44
+        },
+        "2012": {
+            "Sales": 3346,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 33822,
+            "AffordabilityRatio": 7.39
+        },
+        "2013": {
+            "Sales": 3247,
+            "MedianHousePrice": 260000.0,
+            "MedianWorkplaceEarnings": 35738,
+            "AffordabilityRatio": 7.28
+        },
+        "2014": {
+            "Sales": 3672,
+            "MedianHousePrice": 295000.0,
+            "MedianWorkplaceEarnings": 33984,
+            "AffordabilityRatio": 8.68
+        },
+        "2015": {
+            "Sales": 3712,
+            "MedianHousePrice": 339150.0,
+            "MedianWorkplaceEarnings": 32681,
+            "AffordabilityRatio": 10.38
+        },
+        "2016": {
+            "Sales": 3566,
+            "MedianHousePrice": 390000.0,
+            "MedianWorkplaceEarnings": 33093,
+            "AffordabilityRatio": 11.78
+        },
+        "2017": {
+            "Sales": 3156,
+            "MedianHousePrice": 415000.0,
+            "MedianWorkplaceEarnings": 33596,
+            "AffordabilityRatio": 12.35
+        },
+        "2018": {
+            "Sales": 2934,
+            "MedianHousePrice": 415000.0,
+            "MedianWorkplaceEarnings": 31886,
+            "AffordabilityRatio": 13.02
+        },
+        "2019": {
+            "Sales": 2775,
+            "MedianHousePrice": 411500.0,
+            "MedianWorkplaceEarnings": 35359,
+            "AffordabilityRatio": 11.64
+        },
+        "2020": {
+            "Sales": 2324,
+            "MedianHousePrice": 425000.0,
+            "MedianWorkplaceEarnings": 38024,
+            "AffordabilityRatio": 11.18
+        },
+        "2021": {
+            "Sales": 4030,
+            "MedianHousePrice": 455000.0,
+            "MedianWorkplaceEarnings": 34530,
+            "AffordabilityRatio": 13.18
+        },
+        "2022": {
+            "Sales": 2572,
+            "MedianHousePrice": 460000.0,
+            "MedianWorkplaceEarnings": 34259,
+            "AffordabilityRatio": 13.43
+        }
+    },
+    "Hounslow": {
+        "1997": {
+            "Sales": 4375,
+            "MedianHousePrice": 77425.0,
+            "MedianWorkplaceEarnings": 19989,
+            "AffordabilityRatio": 3.87
+        },
+        "1998": {
+            "Sales": 3840,
+            "MedianHousePrice": 91000.0,
+            "MedianWorkplaceEarnings": 20146,
+            "AffordabilityRatio": 4.52
+        },
+        "1999": {
+            "Sales": 4041,
+            "MedianHousePrice": 106769.0,
+            "MedianWorkplaceEarnings": 20155,
+            "AffordabilityRatio": 5.3
+        },
+        "2000": {
+            "Sales": 4298,
+            "MedianHousePrice": 128000.0,
+            "MedianWorkplaceEarnings": 23230,
+            "AffordabilityRatio": 5.51
+        },
+        "2001": {
+            "Sales": 4412,
+            "MedianHousePrice": 143000.0,
+            "MedianWorkplaceEarnings": 22853,
+            "AffordabilityRatio": 6.26
+        },
+        "2002": {
+            "Sales": 4691,
+            "MedianHousePrice": 167995.0,
+            "MedianWorkplaceEarnings": 24399,
+            "AffordabilityRatio": 6.89
+        },
+        "2003": {
+            "Sales": 4425,
+            "MedianHousePrice": 193000.0,
+            "MedianWorkplaceEarnings": 26033,
+            "AffordabilityRatio": 7.41
+        },
+        "2004": {
+            "Sales": 4852,
+            "MedianHousePrice": 210000.0,
+            "MedianWorkplaceEarnings": 27457,
+            "AffordabilityRatio": 7.65
+        },
+        "2005": {
+            "Sales": 3575,
+            "MedianHousePrice": 219997.5,
+            "MedianWorkplaceEarnings": 29584,
+            "AffordabilityRatio": 7.44
+        },
+        "2006": {
+            "Sales": 4502,
+            "MedianHousePrice": 231250.0,
+            "MedianWorkplaceEarnings": 26853,
+            "AffordabilityRatio": 8.61
+        },
+        "2007": {
+            "Sales": 5056,
+            "MedianHousePrice": 247000.0,
+            "MedianWorkplaceEarnings": 27547,
+            "AffordabilityRatio": 8.97
+        },
+        "2008": {
+            "Sales": 3000,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 29475,
+            "AffordabilityRatio": 8.48
+        },
+        "2009": {
+            "Sales": 1643,
+            "MedianHousePrice": 238995.0,
+            "MedianWorkplaceEarnings": 31672,
+            "AffordabilityRatio": 7.55
+        },
+        "2010": {
+            "Sales": 2461,
+            "MedianHousePrice": 248000.0,
+            "MedianWorkplaceEarnings": 31307,
+            "AffordabilityRatio": 7.92
+        },
+        "2011": {
+            "Sales": 2360,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 32759,
+            "AffordabilityRatio": 7.63
+        },
+        "2012": {
+            "Sales": 2351,
+            "MedianHousePrice": 260000.0,
+            "MedianWorkplaceEarnings": 31821,
+            "AffordabilityRatio": 8.17
+        },
+        "2013": {
+            "Sales": 2608,
+            "MedianHousePrice": 276750.0,
+            "MedianWorkplaceEarnings": 31173,
+            "AffordabilityRatio": 8.88
+        },
+        "2014": {
+            "Sales": 3250,
+            "MedianHousePrice": 310000.0,
+            "MedianWorkplaceEarnings": 33038,
+            "AffordabilityRatio": 9.38
+        },
+        "2015": {
+            "Sales": 3103,
+            "MedianHousePrice": 340000.0,
+            "MedianWorkplaceEarnings": 33717,
+            "AffordabilityRatio": 10.08
+        },
+        "2016": {
+            "Sales": 3078,
+            "MedianHousePrice": 390000.0,
+            "MedianWorkplaceEarnings": 36235,
+            "AffordabilityRatio": 10.76
+        },
+        "2017": {
+            "Sales": 2531,
+            "MedianHousePrice": 380000.0,
+            "MedianWorkplaceEarnings": 34119,
+            "AffordabilityRatio": 11.14
+        },
+        "2018": {
+            "Sales": 2407,
+            "MedianHousePrice": 410000.0,
+            "MedianWorkplaceEarnings": 35935,
+            "AffordabilityRatio": 11.41
+        },
+        "2019": {
+            "Sales": 1879,
+            "MedianHousePrice": 410000.0,
+            "MedianWorkplaceEarnings": 36672,
+            "AffordabilityRatio": 11.18
+        },
+        "2020": {
+            "Sales": 1794,
+            "MedianHousePrice": 423500.0,
+            "MedianWorkplaceEarnings": 36958,
+            "AffordabilityRatio": 11.46
+        },
+        "2021": {
+            "Sales": 2768,
+            "MedianHousePrice": 451500.0,
+            "MedianWorkplaceEarnings": 37940,
+            "AffordabilityRatio": 11.9
+        },
+        "2022": {
+            "Sales": 1826,
+            "MedianHousePrice": 465000.0,
+            "MedianWorkplaceEarnings": 38209,
+            "AffordabilityRatio": 12.17
+        }
+    },
+    "Islington": {
+        "1997": {
+            "Sales": 3115,
+            "MedianHousePrice": 115000.0,
+            "MedianWorkplaceEarnings": 22207,
+            "AffordabilityRatio": 5.18
+        },
+        "1998": {
+            "Sales": 3136,
+            "MedianHousePrice": 138000.0,
+            "MedianWorkplaceEarnings": 22525,
+            "AffordabilityRatio": 6.13
+        },
+        "1999": {
+            "Sales": 3684,
+            "MedianHousePrice": 160000.0,
+            "MedianWorkplaceEarnings": 25113,
+            "AffordabilityRatio": 6.37
+        },
+        "2000": {
+            "Sales": 3290,
+            "MedianHousePrice": 195000.0,
+            "MedianWorkplaceEarnings": 26598,
+            "AffordabilityRatio": 7.33
+        },
+        "2001": {
+            "Sales": 3186,
+            "MedianHousePrice": 215000.0,
+            "MedianWorkplaceEarnings": 28323,
+            "AffordabilityRatio": 7.59
+        },
+        "2002": {
+            "Sales": 3422,
+            "MedianHousePrice": 235000.0,
+            "MedianWorkplaceEarnings": 33497,
+            "AffordabilityRatio": 7.02
+        },
+        "2003": {
+            "Sales": 2859,
+            "MedianHousePrice": 248750.0,
+            "MedianWorkplaceEarnings": 29173,
+            "AffordabilityRatio": 8.53
+        },
+        "2004": {
+            "Sales": 3134,
+            "MedianHousePrice": 249999.0,
+            "MedianWorkplaceEarnings": 30410,
+            "AffordabilityRatio": 8.22
+        },
+        "2005": {
+            "Sales": 2749,
+            "MedianHousePrice": 268320.0,
+            "MedianWorkplaceEarnings": 30499,
+            "AffordabilityRatio": 8.8
+        },
+        "2006": {
+            "Sales": 3911,
+            "MedianHousePrice": 285000.0,
+            "MedianWorkplaceEarnings": 33995,
+            "AffordabilityRatio": 8.38
+        },
+        "2007": {
+            "Sales": 4012,
+            "MedianHousePrice": 335000.0,
+            "MedianWorkplaceEarnings": 34779,
+            "AffordabilityRatio": 9.63
+        },
+        "2008": {
+            "Sales": 2649,
+            "MedianHousePrice": 355000.0,
+            "MedianWorkplaceEarnings": 36357,
+            "AffordabilityRatio": 9.76
+        },
+        "2009": {
+            "Sales": 2059,
+            "MedianHousePrice": 340000.0,
+            "MedianWorkplaceEarnings": 36981,
+            "AffordabilityRatio": 9.19
+        },
+        "2010": {
+            "Sales": 2928,
+            "MedianHousePrice": 372000.0,
+            "MedianWorkplaceEarnings": 34551,
+            "AffordabilityRatio": 10.77
+        },
+        "2011": {
+            "Sales": 2664,
+            "MedianHousePrice": 405000.0,
+            "MedianWorkplaceEarnings": 36000,
+            "AffordabilityRatio": 11.25
+        },
+        "2012": {
+            "Sales": 2889,
+            "MedianHousePrice": 405000.0,
+            "MedianWorkplaceEarnings": 36653,
+            "AffordabilityRatio": 11.05
+        },
+        "2013": {
+            "Sales": 2787,
+            "MedianHousePrice": 445000.0,
+            "MedianWorkplaceEarnings": 37325,
+            "AffordabilityRatio": 11.92
+        },
+        "2014": {
+            "Sales": 3007,
+            "MedianHousePrice": 500000.0,
+            "MedianWorkplaceEarnings": 36751,
+            "AffordabilityRatio": 13.61
+        },
+        "2015": {
+            "Sales": 2450,
+            "MedianHousePrice": 576500.0,
+            "MedianWorkplaceEarnings": 36679,
+            "AffordabilityRatio": 15.72
+        },
+        "2016": {
+            "Sales": 2429,
+            "MedianHousePrice": 605000.0,
+            "MedianWorkplaceEarnings": 39894,
+            "AffordabilityRatio": 15.17
+        },
+        "2017": {
+            "Sales": 1759,
+            "MedianHousePrice": 616000.0,
+            "MedianWorkplaceEarnings": 39348,
+            "AffordabilityRatio": 15.66
+        },
+        "2018": {
+            "Sales": 1661,
+            "MedianHousePrice": 589000.0,
+            "MedianWorkplaceEarnings": 40000,
+            "AffordabilityRatio": 14.73
+        },
+        "2019": {
+            "Sales": 1882,
+            "MedianHousePrice": 600000.0,
+            "MedianWorkplaceEarnings": 41199,
+            "AffordabilityRatio": 14.56
+        },
+        "2020": {
+            "Sales": 1688,
+            "MedianHousePrice": 650000.0,
+            "MedianWorkplaceEarnings": 42105,
+            "AffordabilityRatio": 15.44
+        },
+        "2021": {
+            "Sales": 2709,
+            "MedianHousePrice": 640000.0,
+            "MedianWorkplaceEarnings": 41946,
+            "AffordabilityRatio": 15.26
+        },
+        "2022": {
+            "Sales": 1815,
+            "MedianHousePrice": 665000.0,
+            "MedianWorkplaceEarnings": 45290,
+            "AffordabilityRatio": 14.68
+        }
+    },
+    "Kensington and Chelsea": {
+        "1997": {
+            "Sales": 5101,
+            "MedianHousePrice": 218000.0,
+            "MedianWorkplaceEarnings": 18512,
+            "AffordabilityRatio": 11.78
+        },
+        "1998": {
+            "Sales": 4251,
+            "MedianHousePrice": 241000.0,
+            "MedianWorkplaceEarnings": 20203,
+            "AffordabilityRatio": 11.93
+        },
+        "1999": {
+            "Sales": 4983,
+            "MedianHousePrice": 270000.0,
+            "MedianWorkplaceEarnings": 20646,
+            "AffordabilityRatio": 13.08
+        },
+        "2000": {
+            "Sales": 4717,
+            "MedianHousePrice": 330000.0,
+            "MedianWorkplaceEarnings": 22952,
+            "AffordabilityRatio": 14.38
+        },
+        "2001": {
+            "Sales": 4242,
+            "MedianHousePrice": 364975.0,
+            "MedianWorkplaceEarnings": 24979,
+            "AffordabilityRatio": 14.61
+        },
+        "2002": {
+            "Sales": 4440,
+            "MedianHousePrice": 390000.0,
+            "MedianWorkplaceEarnings": 26649,
+            "AffordabilityRatio": 14.63
+        },
+        "2003": {
+            "Sales": 3328,
+            "MedianHousePrice": 395000.0,
+            "MedianWorkplaceEarnings": 25778,
+            "AffordabilityRatio": 15.32
+        },
+        "2004": {
+            "Sales": 4316,
+            "MedianHousePrice": 450000.0,
+            "MedianWorkplaceEarnings": 26846,
+            "AffordabilityRatio": 16.76
+        },
+        "2005": {
+            "Sales": 3401,
+            "MedianHousePrice": 460000.0,
+            "MedianWorkplaceEarnings": 26855,
+            "AffordabilityRatio": 17.13
+        },
+        "2006": {
+            "Sales": 4012,
+            "MedianHousePrice": 499950.0,
+            "MedianWorkplaceEarnings": 26619,
+            "AffordabilityRatio": 18.78
+        },
+        "2007": {
+            "Sales": 4179,
+            "MedianHousePrice": 635000.0,
+            "MedianWorkplaceEarnings": 28355,
+            "AffordabilityRatio": 22.39
+        },
+        "2008": {
+            "Sales": 2112,
+            "MedianHousePrice": 665000.0,
+            "MedianWorkplaceEarnings": 30217,
+            "AffordabilityRatio": 22.01
+        },
+        "2009": {
+            "Sales": 1739,
+            "MedianHousePrice": 675000.0,
+            "MedianWorkplaceEarnings": 29901,
+            "AffordabilityRatio": 22.57
+        },
+        "2010": {
+            "Sales": 2530,
+            "MedianHousePrice": 735000.0,
+            "MedianWorkplaceEarnings": 30196,
+            "AffordabilityRatio": 24.34
+        },
+        "2011": {
+            "Sales": 2523,
+            "MedianHousePrice": 782580.0,
+            "MedianWorkplaceEarnings": 31491,
+            "AffordabilityRatio": 24.85
+        },
+        "2012": {
+            "Sales": 2257,
+            "MedianHousePrice": 875000.0,
+            "MedianWorkplaceEarnings": 30726,
+            "AffordabilityRatio": 28.48
+        },
+        "2013": {
+            "Sales": 2502,
+            "MedianHousePrice": 950000.0,
+            "MedianWorkplaceEarnings": 31307,
+            "AffordabilityRatio": 30.34
+        },
+        "2014": {
+            "Sales": 2832,
+            "MedianHousePrice": 1150000.0,
+            "MedianWorkplaceEarnings": 30002,
+            "AffordabilityRatio": 38.33
+        },
+        "2015": {
+            "Sales": 2172,
+            "MedianHousePrice": 1195625.0,
+            "MedianWorkplaceEarnings": 31524,
+            "AffordabilityRatio": 37.93
+        },
+        "2016": {
+            "Sales": 1966,
+            "MedianHousePrice": 1165000.0,
+            "MedianWorkplaceEarnings": 30008,
+            "AffordabilityRatio": 38.82
+        },
+        "2017": {
+            "Sales": 1598,
+            "MedianHousePrice": 1300000.0,
+            "MedianWorkplaceEarnings": 31678,
+            "AffordabilityRatio": 41.04
+        },
+        "2018": {
+            "Sales": 1373,
+            "MedianHousePrice": 1450000.0,
+            "MedianWorkplaceEarnings": 32976,
+            "AffordabilityRatio": 43.97
+        },
+        "2019": {
+            "Sales": 1354,
+            "MedianHousePrice": 1300000.0,
+            "MedianWorkplaceEarnings": 33000,
+            "AffordabilityRatio": 39.39
+        },
+        "2020": {
+            "Sales": 1286,
+            "MedianHousePrice": 1254500.0,
+            "MedianWorkplaceEarnings": 35295,
+            "AffordabilityRatio": 35.54
+        },
+        "2021": {
+            "Sales": 2006,
+            "MedianHousePrice": 1250000.0,
+            "MedianWorkplaceEarnings": 33779,
+            "AffordabilityRatio": 37.01
+        },
+        "2022": {
+            "Sales": 1753,
+            "MedianHousePrice": 1452000.0,
+            "MedianWorkplaceEarnings": 36500,
+            "AffordabilityRatio": 39.78
+        }
+    },
+    "Kingston upon Thames": {
+        "1997": {
+            "Sales": 4058,
+            "MedianHousePrice": 90000.0,
+            "MedianWorkplaceEarnings": 18638,
+            "AffordabilityRatio": 4.83
+        },
+        "1998": {
+            "Sales": 3832,
+            "MedianHousePrice": 107950.0,
+            "MedianWorkplaceEarnings": 20015,
+            "AffordabilityRatio": 5.39
+        },
+        "1999": {
+            "Sales": 3845,
+            "MedianHousePrice": 121250.0,
+            "MedianWorkplaceEarnings": 19302,
+            "AffordabilityRatio": 6.28
+        },
+        "2000": {
+            "Sales": 3797,
+            "MedianHousePrice": 148000.0,
+            "MedianWorkplaceEarnings": 20983,
+            "AffordabilityRatio": 7.05
+        },
+        "2001": {
+            "Sales": 3796,
+            "MedianHousePrice": 165000.0,
+            "MedianWorkplaceEarnings": 21427,
+            "AffordabilityRatio": 7.7
+        },
+        "2002": {
+            "Sales": 4297,
+            "MedianHousePrice": 189950.0,
+            "MedianWorkplaceEarnings": 22575,
+            "AffordabilityRatio": 8.41
+        },
+        "2003": {
+            "Sales": 3516,
+            "MedianHousePrice": 215000.0,
+            "MedianWorkplaceEarnings": 23803,
+            "AffordabilityRatio": 9.03
+        },
+        "2004": {
+            "Sales": 4102,
+            "MedianHousePrice": 230000.0,
+            "MedianWorkplaceEarnings": 23708,
+            "AffordabilityRatio": 9.7
+        },
+        "2005": {
+            "Sales": 3148,
+            "MedianHousePrice": 240000.0,
+            "MedianWorkplaceEarnings": 24937,
+            "AffordabilityRatio": 9.62
+        },
+        "2006": {
+            "Sales": 4010,
+            "MedianHousePrice": 246500.0,
+            "MedianWorkplaceEarnings": 25640,
+            "AffordabilityRatio": 9.61
+        },
+        "2007": {
+            "Sales": 4197,
+            "MedianHousePrice": 280000.0,
+            "MedianWorkplaceEarnings": 27274,
+            "AffordabilityRatio": 10.27
+        },
+        "2008": {
+            "Sales": 2264,
+            "MedianHousePrice": 293000.0,
+            "MedianWorkplaceEarnings": 26583,
+            "AffordabilityRatio": 11.02
+        },
+        "2009": {
+            "Sales": 1544,
+            "MedianHousePrice": 265000.0,
+            "MedianWorkplaceEarnings": 27497,
+            "AffordabilityRatio": 9.64
+        },
+        "2010": {
+            "Sales": 2410,
+            "MedianHousePrice": 295000.0,
+            "MedianWorkplaceEarnings": 28240,
+            "AffordabilityRatio": 10.45
+        },
+        "2011": {
+            "Sales": 2201,
+            "MedianHousePrice": 300000.0,
+            "MedianWorkplaceEarnings": 28997,
+            "AffordabilityRatio": 10.35
+        },
+        "2012": {
+            "Sales": 2324,
+            "MedianHousePrice": 311000.0,
+            "MedianWorkplaceEarnings": 29067,
+            "AffordabilityRatio": 10.7
+        },
+        "2013": {
+            "Sales": 2601,
+            "MedianHousePrice": 330000.0,
+            "MedianWorkplaceEarnings": 29450,
+            "AffordabilityRatio": 11.21
+        },
+        "2014": {
+            "Sales": 3024,
+            "MedianHousePrice": 373750.0,
+            "MedianWorkplaceEarnings": 30768,
+            "AffordabilityRatio": 12.15
+        },
+        "2015": {
+            "Sales": 2629,
+            "MedianHousePrice": 400000.0,
+            "MedianWorkplaceEarnings": 28635,
+            "AffordabilityRatio": 13.97
+        },
+        "2016": {
+            "Sales": 2389,
+            "MedianHousePrice": 450000.0,
+            "MedianWorkplaceEarnings": 30729,
+            "AffordabilityRatio": 14.64
+        },
+        "2017": {
+            "Sales": 1941,
+            "MedianHousePrice": 485000.0,
+            "MedianWorkplaceEarnings": 31308,
+            "AffordabilityRatio": 15.49
+        },
+        "2018": {
+            "Sales": 1955,
+            "MedianHousePrice": 485000.0,
+            "MedianWorkplaceEarnings": 30711,
+            "AffordabilityRatio": 15.79
+        },
+        "2019": {
+            "Sales": 2151,
+            "MedianHousePrice": 490000.0,
+            "MedianWorkplaceEarnings": 32261,
+            "AffordabilityRatio": 15.19
+        },
+        "2020": {
+            "Sales": 1723,
+            "MedianHousePrice": 495000.0,
+            "MedianWorkplaceEarnings": 35268,
+            "AffordabilityRatio": 14.04
+        },
+        "2021": {
+            "Sales": 3022,
+            "MedianHousePrice": 525000.0,
+            "MedianWorkplaceEarnings": 35713,
+            "AffordabilityRatio": 14.7
+        },
+        "2022": {
+            "Sales": 1973,
+            "MedianHousePrice": 535000.0,
+            "MedianWorkplaceEarnings": 36203,
+            "AffordabilityRatio": 14.78
+        }
+    },
+    "Lambeth": {
+        "1997": {
+            "Sales": 5943,
+            "MedianHousePrice": 83000.0,
+            "MedianWorkplaceEarnings": 21158,
+            "AffordabilityRatio": 3.92
+        },
+        "1998": {
+            "Sales": 5929,
+            "MedianHousePrice": 96750.0,
+            "MedianWorkplaceEarnings": 22676,
+            "AffordabilityRatio": 4.27
+        },
+        "1999": {
+            "Sales": 5713,
+            "MedianHousePrice": 115000.0,
+            "MedianWorkplaceEarnings": 23151,
+            "AffordabilityRatio": 4.97
+        },
+        "2000": {
+            "Sales": 6384,
+            "MedianHousePrice": 148500.0,
+            "MedianWorkplaceEarnings": 24264,
+            "AffordabilityRatio": 6.12
+        },
+        "2001": {
+            "Sales": 5900,
+            "MedianHousePrice": 170000.0,
+            "MedianWorkplaceEarnings": 24019,
+            "AffordabilityRatio": 7.08
+        },
+        "2002": {
+            "Sales": 6179,
+            "MedianHousePrice": 188000.0,
+            "MedianWorkplaceEarnings": 24952,
+            "AffordabilityRatio": 7.53
+        },
+        "2003": {
+            "Sales": 5502,
+            "MedianHousePrice": 204550.0,
+            "MedianWorkplaceEarnings": 26287,
+            "AffordabilityRatio": 7.78
+        },
+        "2004": {
+            "Sales": 6151,
+            "MedianHousePrice": 217500.0,
+            "MedianWorkplaceEarnings": 27186,
+            "AffordabilityRatio": 8
+        },
+        "2005": {
+            "Sales": 4960,
+            "MedianHousePrice": 225000.0,
+            "MedianWorkplaceEarnings": 28337,
+            "AffordabilityRatio": 7.94
+        },
+        "2006": {
+            "Sales": 6391,
+            "MedianHousePrice": 242000.0,
+            "MedianWorkplaceEarnings": 29930,
+            "AffordabilityRatio": 8.09
+        },
+        "2007": {
+            "Sales": 6783,
+            "MedianHousePrice": 270000.0,
+            "MedianWorkplaceEarnings": 30633,
+            "AffordabilityRatio": 8.81
+        },
+        "2008": {
+            "Sales": 3931,
+            "MedianHousePrice": 280000.0,
+            "MedianWorkplaceEarnings": 30566,
+            "AffordabilityRatio": 9.16
+        },
+        "2009": {
+            "Sales": 1949,
+            "MedianHousePrice": 265000.0,
+            "MedianWorkplaceEarnings": 33415,
+            "AffordabilityRatio": 7.93
+        },
+        "2010": {
+            "Sales": 3526,
+            "MedianHousePrice": 302000.0,
+            "MedianWorkplaceEarnings": 33821,
+            "AffordabilityRatio": 8.93
+        },
+        "2011": {
+            "Sales": 3571,
+            "MedianHousePrice": 305000.0,
+            "MedianWorkplaceEarnings": 34836,
+            "AffordabilityRatio": 8.76
+        },
+        "2012": {
+            "Sales": 3885,
+            "MedianHousePrice": 320000.0,
+            "MedianWorkplaceEarnings": 35280,
+            "AffordabilityRatio": 9.07
+        },
+        "2013": {
+            "Sales": 4391,
+            "MedianHousePrice": 340000.0,
+            "MedianWorkplaceEarnings": 35397,
+            "AffordabilityRatio": 9.61
+        },
+        "2014": {
+            "Sales": 5223,
+            "MedianHousePrice": 407100.0,
+            "MedianWorkplaceEarnings": 34491,
+            "AffordabilityRatio": 11.8
+        },
+        "2015": {
+            "Sales": 4606,
+            "MedianHousePrice": 450000.0,
+            "MedianWorkplaceEarnings": 34852,
+            "AffordabilityRatio": 12.91
+        },
+        "2016": {
+            "Sales": 4210,
+            "MedianHousePrice": 499950.0,
+            "MedianWorkplaceEarnings": 34670,
+            "AffordabilityRatio": 14.42
+        },
+        "2017": {
+            "Sales": 3756,
+            "MedianHousePrice": 515000.0,
+            "MedianWorkplaceEarnings": 35036,
+            "AffordabilityRatio": 14.7
+        },
+        "2018": {
+            "Sales": 3364,
+            "MedianHousePrice": 525000.0,
+            "MedianWorkplaceEarnings": 36200,
+            "AffordabilityRatio": 14.5
+        },
+        "2019": {
+            "Sales": 3430,
+            "MedianHousePrice": 532593.5,
+            "MedianWorkplaceEarnings": 37226,
+            "AffordabilityRatio": 14.31
+        },
+        "2020": {
+            "Sales": 3089,
+            "MedianHousePrice": 580000.0,
+            "MedianWorkplaceEarnings": 38486,
+            "AffordabilityRatio": 15.07
+        },
+        "2021": {
+            "Sales": 5162,
+            "MedianHousePrice": 561500.0,
+            "MedianWorkplaceEarnings": 35700,
+            "AffordabilityRatio": 15.73
+        },
+        "2022": {
+            "Sales": 3376,
+            "MedianHousePrice": 550000.0,
+            "MedianWorkplaceEarnings": 38175,
+            "AffordabilityRatio": 14.41
+        }
+    },
+    "Lewisham": {
+        "1997": {
+            "Sales": 5055,
+            "MedianHousePrice": 62000.0,
+            "MedianWorkplaceEarnings": 18356,
+            "AffordabilityRatio": 3.38
+        },
+        "1998": {
+            "Sales": 5012,
+            "MedianHousePrice": 70000.0,
+            "MedianWorkplaceEarnings": 19916,
+            "AffordabilityRatio": 3.51
+        },
+        "1999": {
+            "Sales": 5410,
+            "MedianHousePrice": 78000.0,
+            "MedianWorkplaceEarnings": 20580,
+            "AffordabilityRatio": 3.79
+        },
+        "2000": {
+            "Sales": 5819,
+            "MedianHousePrice": 95000.0,
+            "MedianWorkplaceEarnings": 22357,
+            "AffordabilityRatio": 4.25
+        },
+        "2001": {
+            "Sales": 5515,
+            "MedianHousePrice": 118000.0,
+            "MedianWorkplaceEarnings": 21990,
+            "AffordabilityRatio": 5.37
+        },
+        "2002": {
+            "Sales": 6095,
+            "MedianHousePrice": 138000.0,
+            "MedianWorkplaceEarnings": 23254,
+            "AffordabilityRatio": 5.93
+        },
+        "2003": {
+            "Sales": 5473,
+            "MedianHousePrice": 160000.0,
+            "MedianWorkplaceEarnings": 22398,
+            "AffordabilityRatio": 7.14
+        },
+        "2004": {
+            "Sales": 6144,
+            "MedianHousePrice": 176000.0,
+            "MedianWorkplaceEarnings": 25238,
+            "AffordabilityRatio": 6.97
+        },
+        "2005": {
+            "Sales": 4665,
+            "MedianHousePrice": 185000.0,
+            "MedianWorkplaceEarnings": 28022,
+            "AffordabilityRatio": 6.6
+        },
+        "2006": {
+            "Sales": 5815,
+            "MedianHousePrice": 199950.0,
+            "MedianWorkplaceEarnings": 27021,
+            "AffordabilityRatio": 7.4
+        },
+        "2007": {
+            "Sales": 6318,
+            "MedianHousePrice": 217500.0,
+            "MedianWorkplaceEarnings": 27673,
+            "AffordabilityRatio": 7.86
+        },
+        "2008": {
+            "Sales": 3555,
+            "MedianHousePrice": 230000.0,
+            "MedianWorkplaceEarnings": 29403,
+            "AffordabilityRatio": 7.82
+        },
+        "2009": {
+            "Sales": 1813,
+            "MedianHousePrice": 215000.0,
+            "MedianWorkplaceEarnings": 30891,
+            "AffordabilityRatio": 6.96
+        },
+        "2010": {
+            "Sales": 2815,
+            "MedianHousePrice": 228000.0,
+            "MedianWorkplaceEarnings": 30806,
+            "AffordabilityRatio": 7.4
+        },
+        "2011": {
+            "Sales": 2851,
+            "MedianHousePrice": 237000.0,
+            "MedianWorkplaceEarnings": 29567,
+            "AffordabilityRatio": 8.02
+        },
+        "2012": {
+            "Sales": 3216,
+            "MedianHousePrice": 245000.0,
+            "MedianWorkplaceEarnings": 29995,
+            "AffordabilityRatio": 8.17
+        },
+        "2013": {
+            "Sales": 3725,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 30478,
+            "AffordabilityRatio": 8.2
+        },
+        "2014": {
+            "Sales": 4696,
+            "MedianHousePrice": 299725.0,
+            "MedianWorkplaceEarnings": 29983,
+            "AffordabilityRatio": 10
+        },
+        "2015": {
+            "Sales": 4310,
+            "MedianHousePrice": 348000.0,
+            "MedianWorkplaceEarnings": 30932,
+            "AffordabilityRatio": 11.25
+        },
+        "2016": {
+            "Sales": 4481,
+            "MedianHousePrice": 387150.0,
+            "MedianWorkplaceEarnings": 32217,
+            "AffordabilityRatio": 12.02
+        },
+        "2017": {
+            "Sales": 3510,
+            "MedianHousePrice": 420000.0,
+            "MedianWorkplaceEarnings": 33294,
+            "AffordabilityRatio": 12.61
+        },
+        "2018": {
+            "Sales": 3191,
+            "MedianHousePrice": 409250.0,
+            "MedianWorkplaceEarnings": 29966,
+            "AffordabilityRatio": 13.66
+        },
+        "2019": {
+            "Sales": 3212,
+            "MedianHousePrice": 430000.0,
+            "MedianWorkplaceEarnings": 32392,
+            "AffordabilityRatio": 13.27
+        },
+        "2020": {
+            "Sales": 2652,
+            "MedianHousePrice": 430000.0,
+            "MedianWorkplaceEarnings": 34403,
+            "AffordabilityRatio": 12.5
+        },
+        "2021": {
+            "Sales": 4305,
+            "MedianHousePrice": 465250.0,
+            "MedianWorkplaceEarnings": 33457,
+            "AffordabilityRatio": 13.91
+        },
+        "2022": {
+            "Sales": 2992,
+            "MedianHousePrice": 457000.0,
+            "MedianWorkplaceEarnings": 35980,
+            "AffordabilityRatio": 12.7
+        }
+    },
+    "Merton": {
+        "1997": {
+            "Sales": 4618,
+            "MedianHousePrice": 83500.0,
+            "MedianWorkplaceEarnings": 17396,
+            "AffordabilityRatio": 4.8
+        },
+        "1998": {
+            "Sales": 4362,
+            "MedianHousePrice": 94950.0,
+            "MedianWorkplaceEarnings": 18147,
+            "AffordabilityRatio": 5.23
+        },
+        "1999": {
+            "Sales": 4857,
+            "MedianHousePrice": 115000.0,
+            "MedianWorkplaceEarnings": 18962,
+            "AffordabilityRatio": 6.06
+        },
+        "2000": {
+            "Sales": 4559,
+            "MedianHousePrice": 135200.0,
+            "MedianWorkplaceEarnings": 18906,
+            "AffordabilityRatio": 7.15
+        },
+        "2001": {
+            "Sales": 4460,
+            "MedianHousePrice": 153250.0,
+            "MedianWorkplaceEarnings": 21014,
+            "AffordabilityRatio": 7.29
+        },
+        "2002": {
+            "Sales": 4925,
+            "MedianHousePrice": 179000.0,
+            "MedianWorkplaceEarnings": 22429,
+            "AffordabilityRatio": 7.98
+        },
+        "2003": {
+            "Sales": 4002,
+            "MedianHousePrice": 199950.0,
+            "MedianWorkplaceEarnings": 22948,
+            "AffordabilityRatio": 8.71
+        },
+        "2004": {
+            "Sales": 4741,
+            "MedianHousePrice": 220000.0,
+            "MedianWorkplaceEarnings": 23208,
+            "AffordabilityRatio": 9.48
+        },
+        "2005": {
+            "Sales": 3636,
+            "MedianHousePrice": 230000.0,
+            "MedianWorkplaceEarnings": 25991,
+            "AffordabilityRatio": 8.85
+        },
+        "2006": {
+            "Sales": 4614,
+            "MedianHousePrice": 240000.0,
+            "MedianWorkplaceEarnings": 24883,
+            "AffordabilityRatio": 9.65
+        },
+        "2007": {
+            "Sales": 4762,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 26346,
+            "AffordabilityRatio": 9.49
+        },
+        "2008": {
+            "Sales": 2851,
+            "MedianHousePrice": 269000.0,
+            "MedianWorkplaceEarnings": 28363,
+            "AffordabilityRatio": 9.48
+        },
+        "2009": {
+            "Sales": 1888,
+            "MedianHousePrice": 247000.0,
+            "MedianWorkplaceEarnings": 27662,
+            "AffordabilityRatio": 8.93
+        },
+        "2010": {
+            "Sales": 2683,
+            "MedianHousePrice": 282500.0,
+            "MedianWorkplaceEarnings": 27441,
+            "AffordabilityRatio": 10.29
+        },
+        "2011": {
+            "Sales": 2522,
+            "MedianHousePrice": 295000.0,
+            "MedianWorkplaceEarnings": 28066,
+            "AffordabilityRatio": 10.51
+        },
+        "2012": {
+            "Sales": 2768,
+            "MedianHousePrice": 289000.0,
+            "MedianWorkplaceEarnings": 28613,
+            "AffordabilityRatio": 10.1
+        },
+        "2013": {
+            "Sales": 3087,
+            "MedianHousePrice": 312500.0,
+            "MedianWorkplaceEarnings": 28610,
+            "AffordabilityRatio": 10.92
+        },
+        "2014": {
+            "Sales": 3292,
+            "MedianHousePrice": 375000.0,
+            "MedianWorkplaceEarnings": 27539,
+            "AffordabilityRatio": 13.62
+        },
+        "2015": {
+            "Sales": 2822,
+            "MedianHousePrice": 396500.0,
+            "MedianWorkplaceEarnings": 30040,
+            "AffordabilityRatio": 13.2
+        },
+        "2016": {
+            "Sales": 2762,
+            "MedianHousePrice": 457000.0,
+            "MedianWorkplaceEarnings": 28224,
+            "AffordabilityRatio": 16.19
+        },
+        "2017": {
+            "Sales": 2427,
+            "MedianHousePrice": 458000.0,
+            "MedianWorkplaceEarnings": 29627,
+            "AffordabilityRatio": 15.46
+        },
+        "2018": {
+            "Sales": 2270,
+            "MedianHousePrice": 479000.0,
+            "MedianWorkplaceEarnings": 31182,
+            "AffordabilityRatio": 15.36
+        },
+        "2019": {
+            "Sales": 2151,
+            "MedianHousePrice": 470000.0,
+            "MedianWorkplaceEarnings": 31741,
+            "AffordabilityRatio": 14.81
+        },
+        "2020": {
+            "Sales": 1862,
+            "MedianHousePrice": 484000.0,
+            "MedianWorkplaceEarnings": 33114,
+            "AffordabilityRatio": 14.62
+        },
+        "2021": {
+            "Sales": 3434,
+            "MedianHousePrice": 545000.0,
+            "MedianWorkplaceEarnings": 34210,
+            "AffordabilityRatio": 15.93
+        },
+        "2022": {
+            "Sales": 2317,
+            "MedianHousePrice": 550500.0,
+            "MedianWorkplaceEarnings": 33980,
+            "AffordabilityRatio": 16.2
+        }
+    },
+    "Newham": {
+        "1997": {
+            "Sales": 3800,
+            "MedianHousePrice": 54995.0,
+            "MedianWorkplaceEarnings": 19269,
+            "AffordabilityRatio": 2.85
+        },
+        "1998": {
+            "Sales": 3972,
+            "MedianHousePrice": 61000.0,
+            "MedianWorkplaceEarnings": 18747,
+            "AffordabilityRatio": 3.25
+        },
+        "1999": {
+            "Sales": 4197,
+            "MedianHousePrice": 68000.0,
+            "MedianWorkplaceEarnings": 18862,
+            "AffordabilityRatio": 3.61
+        },
+        "2000": {
+            "Sales": 4968,
+            "MedianHousePrice": 86500.0,
+            "MedianWorkplaceEarnings": 19437,
+            "AffordabilityRatio": 4.45
+        },
+        "2001": {
+            "Sales": 5220,
+            "MedianHousePrice": 105000.0,
+            "MedianWorkplaceEarnings": 21054,
+            "AffordabilityRatio": 4.99
+        },
+        "2002": {
+            "Sales": 5814,
+            "MedianHousePrice": 133000.0,
+            "MedianWorkplaceEarnings": 21420,
+            "AffordabilityRatio": 6.21
+        },
+        "2003": {
+            "Sales": 5139,
+            "MedianHousePrice": 166000.0,
+            "MedianWorkplaceEarnings": 22828,
+            "AffordabilityRatio": 7.27
+        },
+        "2004": {
+            "Sales": 4968,
+            "MedianHousePrice": 185000.0,
+            "MedianWorkplaceEarnings": 25896,
+            "AffordabilityRatio": 7.14
+        },
+        "2005": {
+            "Sales": 3765,
+            "MedianHousePrice": 195000.0,
+            "MedianWorkplaceEarnings": 26331,
+            "AffordabilityRatio": 7.41
+        },
+        "2006": {
+            "Sales": 4469,
+            "MedianHousePrice": 209000.0,
+            "MedianWorkplaceEarnings": 27162,
+            "AffordabilityRatio": 7.69
+        },
+        "2007": {
+            "Sales": 4523,
+            "MedianHousePrice": 225000.0,
+            "MedianWorkplaceEarnings": 27434,
+            "AffordabilityRatio": 8.2
+        },
+        "2008": {
+            "Sales": 3450,
+            "MedianHousePrice": 239995.0,
+            "MedianWorkplaceEarnings": 29467,
+            "AffordabilityRatio": 8.14
+        },
+        "2009": {
+            "Sales": 1241,
+            "MedianHousePrice": 202000.0,
+            "MedianWorkplaceEarnings": 31028,
+            "AffordabilityRatio": 6.51
+        },
+        "2010": {
+            "Sales": 1775,
+            "MedianHousePrice": 216000.0,
+            "MedianWorkplaceEarnings": 32578,
+            "AffordabilityRatio": 6.63
+        },
+        "2011": {
+            "Sales": 1543,
+            "MedianHousePrice": 215000.0,
+            "MedianWorkplaceEarnings": 29998,
+            "AffordabilityRatio": 7.17
+        },
+        "2012": {
+            "Sales": 1664,
+            "MedianHousePrice": 219000.0,
+            "MedianWorkplaceEarnings": 30540,
+            "AffordabilityRatio": 7.17
+        },
+        "2013": {
+            "Sales": 2140,
+            "MedianHousePrice": 226000.0,
+            "MedianWorkplaceEarnings": 29334,
+            "AffordabilityRatio": 7.7
+        },
+        "2014": {
+            "Sales": 2855,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 29061,
+            "AffordabilityRatio": 8.6
+        },
+        "2015": {
+            "Sales": 2724,
+            "MedianHousePrice": 292650.0,
+            "MedianWorkplaceEarnings": 28886,
+            "AffordabilityRatio": 10.13
+        },
+        "2016": {
+            "Sales": 2613,
+            "MedianHousePrice": 340000.0,
+            "MedianWorkplaceEarnings": 30743,
+            "AffordabilityRatio": 11.06
+        },
+        "2017": {
+            "Sales": 3738,
+            "MedianHousePrice": 390000.0,
+            "MedianWorkplaceEarnings": 30770,
+            "AffordabilityRatio": 12.67
+        },
+        "2018": {
+            "Sales": 2994,
+            "MedianHousePrice": 410000.0,
+            "MedianWorkplaceEarnings": 30392,
+            "AffordabilityRatio": 13.49
+        },
+        "2019": {
+            "Sales": 2291,
+            "MedianHousePrice": 413750.0,
+            "MedianWorkplaceEarnings": 33600,
+            "AffordabilityRatio": 12.31
+        },
+        "2020": {
+            "Sales": 1704,
+            "MedianHousePrice": 411000.0,
+            "MedianWorkplaceEarnings": 33886,
+            "AffordabilityRatio": 12.13
+        },
+        "2021": {
+            "Sales": 2663,
+            "MedianHousePrice": 436000.0,
+            "MedianWorkplaceEarnings": 36668,
+            "AffordabilityRatio": 11.89
+        },
+        "2022": {
+            "Sales": 1671,
+            "MedianHousePrice": 433747.5,
+            "MedianWorkplaceEarnings": 39781,
+            "AffordabilityRatio": 10.9
+        }
+    },
+    "Redbridge": {
+        "1997": {
+            "Sales": 5204,
+            "MedianHousePrice": 75000.0,
+            "MedianWorkplaceEarnings": 18413,
+            "AffordabilityRatio": 4.07
+        },
+        "1998": {
+            "Sales": 4826,
+            "MedianHousePrice": 84000.0,
+            "MedianWorkplaceEarnings": 18246,
+            "AffordabilityRatio": 4.6
+        },
+        "1999": {
+            "Sales": 5282,
+            "MedianHousePrice": 93000.0,
+            "MedianWorkplaceEarnings": 19580,
+            "AffordabilityRatio": 4.75
+        },
+        "2000": {
+            "Sales": 5303,
+            "MedianHousePrice": 114000.0,
+            "MedianWorkplaceEarnings": 20256,
+            "AffordabilityRatio": 5.63
+        },
+        "2001": {
+            "Sales": 5556,
+            "MedianHousePrice": 132000.0,
+            "MedianWorkplaceEarnings": 21106,
+            "AffordabilityRatio": 6.25
+        },
+        "2002": {
+            "Sales": 6037,
+            "MedianHousePrice": 159000.0,
+            "MedianWorkplaceEarnings": 22133,
+            "AffordabilityRatio": 7.18
+        },
+        "2003": {
+            "Sales": 5688,
+            "MedianHousePrice": 189250.0,
+            "MedianWorkplaceEarnings": 23259,
+            "AffordabilityRatio": 8.14
+        },
+        "2004": {
+            "Sales": 5886,
+            "MedianHousePrice": 215000.0,
+            "MedianWorkplaceEarnings": 22702,
+            "AffordabilityRatio": 9.47
+        },
+        "2005": {
+            "Sales": 4891,
+            "MedianHousePrice": 221000.0,
+            "MedianWorkplaceEarnings": 26462,
+            "AffordabilityRatio": 8.35
+        },
+        "2006": {
+            "Sales": 5605,
+            "MedianHousePrice": 233000.0,
+            "MedianWorkplaceEarnings": 27940,
+            "AffordabilityRatio": 8.34
+        },
+        "2007": {
+            "Sales": 5691,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 29429,
+            "AffordabilityRatio": 8.5
+        },
+        "2008": {
+            "Sales": 3865,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 29283,
+            "AffordabilityRatio": 8.54
+        },
+        "2009": {
+            "Sales": 2187,
+            "MedianHousePrice": 230000.0,
+            "MedianWorkplaceEarnings": 31235,
+            "AffordabilityRatio": 7.36
+        },
+        "2010": {
+            "Sales": 3232,
+            "MedianHousePrice": 243000.0,
+            "MedianWorkplaceEarnings": 30086,
+            "AffordabilityRatio": 8.08
+        },
+        "2011": {
+            "Sales": 2491,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 29829,
+            "AffordabilityRatio": 8.38
+        },
+        "2012": {
+            "Sales": 2466,
+            "MedianHousePrice": 262500.0,
+            "MedianWorkplaceEarnings": 28100,
+            "AffordabilityRatio": 9.34
+        },
+        "2013": {
+            "Sales": 2742,
+            "MedianHousePrice": 270500.0,
+            "MedianWorkplaceEarnings": 31215,
+            "AffordabilityRatio": 8.67
+        },
+        "2014": {
+            "Sales": 3584,
+            "MedianHousePrice": 290000.0,
+            "MedianWorkplaceEarnings": 31127,
+            "AffordabilityRatio": 9.32
+        },
+        "2015": {
+            "Sales": 3306,
+            "MedianHousePrice": 340000.0,
+            "MedianWorkplaceEarnings": 29098,
+            "AffordabilityRatio": 11.68
+        },
+        "2016": {
+            "Sales": 3155,
+            "MedianHousePrice": 380000.0,
+            "MedianWorkplaceEarnings": 28237,
+            "AffordabilityRatio": 13.46
+        },
+        "2017": {
+            "Sales": 2647,
+            "MedianHousePrice": 415000.0,
+            "MedianWorkplaceEarnings": 29189,
+            "AffordabilityRatio": 14.22
+        },
+        "2018": {
+            "Sales": 2497,
+            "MedianHousePrice": 430000.0,
+            "MedianWorkplaceEarnings": 27315,
+            "AffordabilityRatio": 15.74
+        },
+        "2019": {
+            "Sales": 2186,
+            "MedianHousePrice": 426000.0,
+            "MedianWorkplaceEarnings": 29967,
+            "AffordabilityRatio": 14.22
+        },
+        "2020": {
+            "Sales": 1865,
+            "MedianHousePrice": 430000.0,
+            "MedianWorkplaceEarnings": 32526,
+            "AffordabilityRatio": 13.22
+        },
+        "2021": {
+            "Sales": 3119,
+            "MedianHousePrice": 490000.0,
+            "MedianWorkplaceEarnings": 31034,
+            "AffordabilityRatio": 15.79
+        },
+        "2022": {
+            "Sales": 2156,
+            "MedianHousePrice": 490000.0,
+            "MedianWorkplaceEarnings": 34565,
+            "AffordabilityRatio": 14.18
+        }
+    },
+    "Richmond upon Thames": {
+        "1997": {
+            "Sales": 5623,
+            "MedianHousePrice": 129950.0,
+            "MedianWorkplaceEarnings": 18570,
+            "AffordabilityRatio": 7
+        },
+        "1998": {
+            "Sales": 4937,
+            "MedianHousePrice": 152500.0,
+            "MedianWorkplaceEarnings": 20229,
+            "AffordabilityRatio": 7.54
+        },
+        "1999": {
+            "Sales": 5708,
+            "MedianHousePrice": 175000.0,
+            "MedianWorkplaceEarnings": 22321,
+            "AffordabilityRatio": 7.84
+        },
+        "2000": {
+            "Sales": 4750,
+            "MedianHousePrice": 210000.0,
+            "MedianWorkplaceEarnings": 22574,
+            "AffordabilityRatio": 9.3
+        },
+        "2001": {
+            "Sales": 4504,
+            "MedianHousePrice": 225750.0,
+            "MedianWorkplaceEarnings": 23799,
+            "AffordabilityRatio": 9.49
+        },
+        "2002": {
+            "Sales": 5110,
+            "MedianHousePrice": 245000.0,
+            "MedianWorkplaceEarnings": 23311,
+            "AffordabilityRatio": 10.51
+        },
+        "2003": {
+            "Sales": 4432,
+            "MedianHousePrice": 265000.0,
+            "MedianWorkplaceEarnings": 25527,
+            "AffordabilityRatio": 10.38
+        },
+        "2004": {
+            "Sales": 5218,
+            "MedianHousePrice": 288000.0,
+            "MedianWorkplaceEarnings": 26770,
+            "AffordabilityRatio": 10.76
+        },
+        "2005": {
+            "Sales": 4114,
+            "MedianHousePrice": 295000.0,
+            "MedianWorkplaceEarnings": 26809,
+            "AffordabilityRatio": 11
+        },
+        "2006": {
+            "Sales": 5252,
+            "MedianHousePrice": 320000.0,
+            "MedianWorkplaceEarnings": 28610,
+            "AffordabilityRatio": 11.18
+        },
+        "2007": {
+            "Sales": 5126,
+            "MedianHousePrice": 370000.0,
+            "MedianWorkplaceEarnings": 30881,
+            "AffordabilityRatio": 11.98
+        },
+        "2008": {
+            "Sales": 2940,
+            "MedianHousePrice": 390000.0,
+            "MedianWorkplaceEarnings": 32437,
+            "AffordabilityRatio": 12.02
+        },
+        "2009": {
+            "Sales": 2129,
+            "MedianHousePrice": 350000.0,
+            "MedianWorkplaceEarnings": 31733,
+            "AffordabilityRatio": 11.03
+        },
+        "2010": {
+            "Sales": 3311,
+            "MedianHousePrice": 405000.0,
+            "MedianWorkplaceEarnings": 32249,
+            "AffordabilityRatio": 12.56
+        },
+        "2011": {
+            "Sales": 3115,
+            "MedianHousePrice": 420000.0,
+            "MedianWorkplaceEarnings": 32197,
+            "AffordabilityRatio": 13.04
+        },
+        "2012": {
+            "Sales": 3261,
+            "MedianHousePrice": 425000.0,
+            "MedianWorkplaceEarnings": 31505,
+            "AffordabilityRatio": 13.49
+        },
+        "2013": {
+            "Sales": 3406,
+            "MedianHousePrice": 460000.0,
+            "MedianWorkplaceEarnings": 31997,
+            "AffordabilityRatio": 14.38
+        },
+        "2014": {
+            "Sales": 3664,
+            "MedianHousePrice": 510000.0,
+            "MedianWorkplaceEarnings": 31533,
+            "AffordabilityRatio": 16.17
+        },
+        "2015": {
+            "Sales": 3162,
+            "MedianHousePrice": 564000.0,
+            "MedianWorkplaceEarnings": 32660,
+            "AffordabilityRatio": 17.27
+        },
+        "2016": {
+            "Sales": 3138,
+            "MedianHousePrice": 605000.0,
+            "MedianWorkplaceEarnings": 33329,
+            "AffordabilityRatio": 18.15
+        },
+        "2017": {
+            "Sales": 2675,
+            "MedianHousePrice": 640000.0,
+            "MedianWorkplaceEarnings": 32141,
+            "AffordabilityRatio": 19.91
+        },
+        "2018": {
+            "Sales": 2630,
+            "MedianHousePrice": 627000.0,
+            "MedianWorkplaceEarnings": 34027,
+            "AffordabilityRatio": 18.43
+        },
+        "2019": {
+            "Sales": 2452,
+            "MedianHousePrice": 635000.0,
+            "MedianWorkplaceEarnings": 35390,
+            "AffordabilityRatio": 17.94
+        },
+        "2020": {
+            "Sales": 2261,
+            "MedianHousePrice": 660000.0,
+            "MedianWorkplaceEarnings": 35575,
+            "AffordabilityRatio": 18.55
+        },
+        "2021": {
+            "Sales": 3905,
+            "MedianHousePrice": 694500.0,
+            "MedianWorkplaceEarnings": 35651,
+            "AffordabilityRatio": 19.48
+        },
+        "2022": {
+            "Sales": 2667,
+            "MedianHousePrice": 760000.0,
+            "MedianWorkplaceEarnings": 36888,
+            "AffordabilityRatio": 20.6
+        }
+    },
+    "Southwark": {
+        "1997": {
+            "Sales": 4024,
+            "MedianHousePrice": 80575.0,
+            "MedianWorkplaceEarnings": 21069,
+            "AffordabilityRatio": 3.82
+        },
+        "1998": {
+            "Sales": 4595,
+            "MedianHousePrice": 95000.0,
+            "MedianWorkplaceEarnings": 21586,
+            "AffordabilityRatio": 4.4
+        },
+        "1999": {
+            "Sales": 4890,
+            "MedianHousePrice": 115000.0,
+            "MedianWorkplaceEarnings": 22784,
+            "AffordabilityRatio": 5.05
+        },
+        "2000": {
+            "Sales": 5338,
+            "MedianHousePrice": 145000.0,
+            "MedianWorkplaceEarnings": 24857,
+            "AffordabilityRatio": 5.83
+        },
+        "2001": {
+            "Sales": 5169,
+            "MedianHousePrice": 176000.0,
+            "MedianWorkplaceEarnings": 27114,
+            "AffordabilityRatio": 6.49
+        },
+        "2002": {
+            "Sales": 5281,
+            "MedianHousePrice": 187950.0,
+            "MedianWorkplaceEarnings": 28062,
+            "AffordabilityRatio": 6.7
+        },
+        "2003": {
+            "Sales": 4500,
+            "MedianHousePrice": 200000.0,
+            "MedianWorkplaceEarnings": 29307,
+            "AffordabilityRatio": 6.82
+        },
+        "2004": {
+            "Sales": 5316,
+            "MedianHousePrice": 220000.0,
+            "MedianWorkplaceEarnings": 29609,
+            "AffordabilityRatio": 7.43
+        },
+        "2005": {
+            "Sales": 4319,
+            "MedianHousePrice": 237000.0,
+            "MedianWorkplaceEarnings": 29534,
+            "AffordabilityRatio": 8.02
+        },
+        "2006": {
+            "Sales": 5406,
+            "MedianHousePrice": 242500.0,
+            "MedianWorkplaceEarnings": 31575,
+            "AffordabilityRatio": 7.68
+        },
+        "2007": {
+            "Sales": 5519,
+            "MedianHousePrice": 268000.0,
+            "MedianWorkplaceEarnings": 32000,
+            "AffordabilityRatio": 8.38
+        },
+        "2008": {
+            "Sales": 3334,
+            "MedianHousePrice": 285000.0,
+            "MedianWorkplaceEarnings": 31227,
+            "AffordabilityRatio": 9.13
+        },
+        "2009": {
+            "Sales": 1899,
+            "MedianHousePrice": 283000.0,
+            "MedianWorkplaceEarnings": 34265,
+            "AffordabilityRatio": 8.26
+        },
+        "2010": {
+            "Sales": 3357,
+            "MedianHousePrice": 305000.0,
+            "MedianWorkplaceEarnings": 35050,
+            "AffordabilityRatio": 8.7
+        },
+        "2011": {
+            "Sales": 3258,
+            "MedianHousePrice": 323000.0,
+            "MedianWorkplaceEarnings": 36124,
+            "AffordabilityRatio": 8.94
+        },
+        "2012": {
+            "Sales": 3316,
+            "MedianHousePrice": 325000.0,
+            "MedianWorkplaceEarnings": 36056,
+            "AffordabilityRatio": 9.01
+        },
+        "2013": {
+            "Sales": 3905,
+            "MedianHousePrice": 345000.0,
+            "MedianWorkplaceEarnings": 36198,
+            "AffordabilityRatio": 9.53
+        },
+        "2014": {
+            "Sales": 4187,
+            "MedianHousePrice": 399950.0,
+            "MedianWorkplaceEarnings": 34612,
+            "AffordabilityRatio": 11.56
+        },
+        "2015": {
+            "Sales": 3723,
+            "MedianHousePrice": 460000.0,
+            "MedianWorkplaceEarnings": 36238,
+            "AffordabilityRatio": 12.69
+        },
+        "2016": {
+            "Sales": 4017,
+            "MedianHousePrice": 500000.0,
+            "MedianWorkplaceEarnings": 37159,
+            "AffordabilityRatio": 13.46
+        },
+        "2017": {
+            "Sales": 3491,
+            "MedianHousePrice": 532050.5,
+            "MedianWorkplaceEarnings": 37601,
+            "AffordabilityRatio": 14.15
+        },
+        "2018": {
+            "Sales": 3453,
+            "MedianHousePrice": 555000.0,
+            "MedianWorkplaceEarnings": 39998,
+            "AffordabilityRatio": 13.88
+        },
+        "2019": {
+            "Sales": 3170,
+            "MedianHousePrice": 560000.0,
+            "MedianWorkplaceEarnings": 40367,
+            "AffordabilityRatio": 13.87
+        },
+        "2020": {
+            "Sales": 2412,
+            "MedianHousePrice": 525000.0,
+            "MedianWorkplaceEarnings": 42925,
+            "AffordabilityRatio": 12.23
+        },
+        "2021": {
+            "Sales": 3692,
+            "MedianHousePrice": 550000.0,
+            "MedianWorkplaceEarnings": 41234,
+            "AffordabilityRatio": 13.34
+        },
+        "2022": {
+            "Sales": 2801,
+            "MedianHousePrice": 560000.0,
+            "MedianWorkplaceEarnings": 43951,
+            "AffordabilityRatio": 12.74
+        }
+    },
+    "Sutton": {
+        "1997": {
+            "Sales": 4616,
+            "MedianHousePrice": 73000.0,
+            "MedianWorkplaceEarnings": 20469,
+            "AffordabilityRatio": 3.57
+        },
+        "1998": {
+            "Sales": 4480,
+            "MedianHousePrice": 83500.0,
+            "MedianWorkplaceEarnings": 19013,
+            "AffordabilityRatio": 4.39
+        },
+        "1999": {
+            "Sales": 4763,
+            "MedianHousePrice": 94000.0,
+            "MedianWorkplaceEarnings": 19582,
+            "AffordabilityRatio": 4.8
+        },
+        "2000": {
+            "Sales": 4774,
+            "MedianHousePrice": 114950.0,
+            "MedianWorkplaceEarnings": 22019,
+            "AffordabilityRatio": 5.22
+        },
+        "2001": {
+            "Sales": 4661,
+            "MedianHousePrice": 128950.0,
+            "MedianWorkplaceEarnings": 22972,
+            "AffordabilityRatio": 5.61
+        },
+        "2002": {
+            "Sales": 5036,
+            "MedianHousePrice": 150000.0,
+            "MedianWorkplaceEarnings": 23311,
+            "AffordabilityRatio": 6.43
+        },
+        "2003": {
+            "Sales": 4351,
+            "MedianHousePrice": 172725.0,
+            "MedianWorkplaceEarnings": 24434,
+            "AffordabilityRatio": 7.07
+        },
+        "2004": {
+            "Sales": 4968,
+            "MedianHousePrice": 185000.0,
+            "MedianWorkplaceEarnings": 24514,
+            "AffordabilityRatio": 7.55
+        },
+        "2005": {
+            "Sales": 3696,
+            "MedianHousePrice": 199950.0,
+            "MedianWorkplaceEarnings": 25714,
+            "AffordabilityRatio": 7.78
+        },
+        "2006": {
+            "Sales": 4567,
+            "MedianHousePrice": 206000.0,
+            "MedianWorkplaceEarnings": 25102,
+            "AffordabilityRatio": 8.21
+        },
+        "2007": {
+            "Sales": 4977,
+            "MedianHousePrice": 227000.0,
+            "MedianWorkplaceEarnings": 25182,
+            "AffordabilityRatio": 9.01
+        },
+        "2008": {
+            "Sales": 3028,
+            "MedianHousePrice": 240000.0,
+            "MedianWorkplaceEarnings": 26082,
+            "AffordabilityRatio": 9.2
+        },
+        "2009": {
+            "Sales": 2034,
+            "MedianHousePrice": 213000.0,
+            "MedianWorkplaceEarnings": 26111,
+            "AffordabilityRatio": 8.16
+        },
+        "2010": {
+            "Sales": 2571,
+            "MedianHousePrice": 225000.0,
+            "MedianWorkplaceEarnings": 26288,
+            "AffordabilityRatio": 8.56
+        },
+        "2011": {
+            "Sales": 2393,
+            "MedianHousePrice": 235000.0,
+            "MedianWorkplaceEarnings": 26743,
+            "AffordabilityRatio": 8.79
+        },
+        "2012": {
+            "Sales": 2537,
+            "MedianHousePrice": 240000.0,
+            "MedianWorkplaceEarnings": 25247,
+            "AffordabilityRatio": 9.51
+        },
+        "2013": {
+            "Sales": 2807,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 30061,
+            "AffordabilityRatio": 8.32
+        },
+        "2014": {
+            "Sales": 3376,
+            "MedianHousePrice": 272000.0,
+            "MedianWorkplaceEarnings": 25797,
+            "AffordabilityRatio": 10.54
+        },
+        "2015": {
+            "Sales": 3276,
+            "MedianHousePrice": 314250.0,
+            "MedianWorkplaceEarnings": 27355,
+            "AffordabilityRatio": 11.49
+        },
+        "2016": {
+            "Sales": 3246,
+            "MedianHousePrice": 345000.0,
+            "MedianWorkplaceEarnings": 28318,
+            "AffordabilityRatio": 12.18
+        },
+        "2017": {
+            "Sales": 3162,
+            "MedianHousePrice": 359975.0,
+            "MedianWorkplaceEarnings": 27945,
+            "AffordabilityRatio": 12.88
+        },
+        "2018": {
+            "Sales": 2652,
+            "MedianHousePrice": 385000.0,
+            "MedianWorkplaceEarnings": 28853,
+            "AffordabilityRatio": 13.34
+        },
+        "2019": {
+            "Sales": 2558,
+            "MedianHousePrice": 380000.0,
+            "MedianWorkplaceEarnings": 32999,
+            "AffordabilityRatio": 11.52
+        },
+        "2020": {
+            "Sales": 2197,
+            "MedianHousePrice": 387500.0,
+            "MedianWorkplaceEarnings": 35097,
+            "AffordabilityRatio": 11.04
+        },
+        "2021": {
+            "Sales": 3634,
+            "MedianHousePrice": 425000.0,
+            "MedianWorkplaceEarnings": 30763,
+            "AffordabilityRatio": 13.82
+        },
+        "2022": {
+            "Sales": 2407,
+            "MedianHousePrice": 435000.0,
+            "MedianWorkplaceEarnings": 35728,
+            "AffordabilityRatio": 12.18
+        }
+    },
+    "Tower Hamlets": {
+        "1997": {
+            "Sales": 3477,
+            "MedianHousePrice": 89995.0,
+            "MedianWorkplaceEarnings": 23704,
+            "AffordabilityRatio": 3.8
+        },
+        "1998": {
+            "Sales": 4475,
+            "MedianHousePrice": 108900.0,
+            "MedianWorkplaceEarnings": 25640,
+            "AffordabilityRatio": 4.25
+        },
+        "1999": {
+            "Sales": 5344,
+            "MedianHousePrice": 133000.0,
+            "MedianWorkplaceEarnings": 26376,
+            "AffordabilityRatio": 5.04
+        },
+        "2000": {
+            "Sales": 5401,
+            "MedianHousePrice": 157000.0,
+            "MedianWorkplaceEarnings": 28445,
+            "AffordabilityRatio": 5.52
+        },
+        "2001": {
+            "Sales": 5098,
+            "MedianHousePrice": 180000.0,
+            "MedianWorkplaceEarnings": 31232,
+            "AffordabilityRatio": 5.76
+        },
+        "2002": {
+            "Sales": 4793,
+            "MedianHousePrice": 197500.0,
+            "MedianWorkplaceEarnings": 31168,
+            "AffordabilityRatio": 6.34
+        },
+        "2003": {
+            "Sales": 3723,
+            "MedianHousePrice": 208250.0,
+            "MedianWorkplaceEarnings": 34237,
+            "AffordabilityRatio": 6.08
+        },
+        "2004": {
+            "Sales": 5650,
+            "MedianHousePrice": 227850.0,
+            "MedianWorkplaceEarnings": 39128,
+            "AffordabilityRatio": 5.82
+        },
+        "2005": {
+            "Sales": 4788,
+            "MedianHousePrice": 240000.0,
+            "MedianWorkplaceEarnings": 39493,
+            "AffordabilityRatio": 6.08
+        },
+        "2006": {
+            "Sales": 5274,
+            "MedianHousePrice": 245000.0,
+            "MedianWorkplaceEarnings": 38975,
+            "AffordabilityRatio": 6.29
+        },
+        "2007": {
+            "Sales": 5530,
+            "MedianHousePrice": 275000.0,
+            "MedianWorkplaceEarnings": 41117,
+            "AffordabilityRatio": 6.69
+        },
+        "2008": {
+            "Sales": 3485,
+            "MedianHousePrice": 299950.0,
+            "MedianWorkplaceEarnings": 41880,
+            "AffordabilityRatio": 7.16
+        },
+        "2009": {
+            "Sales": 2319,
+            "MedianHousePrice": 280000.0,
+            "MedianWorkplaceEarnings": 43987,
+            "AffordabilityRatio": 6.37
+        },
+        "2010": {
+            "Sales": 3893,
+            "MedianHousePrice": 305000.0,
+            "MedianWorkplaceEarnings": 44443,
+            "AffordabilityRatio": 6.86
+        },
+        "2011": {
+            "Sales": 3497,
+            "MedianHousePrice": 300000.0,
+            "MedianWorkplaceEarnings": 45970,
+            "AffordabilityRatio": 6.53
+        },
+        "2012": {
+            "Sales": 3608,
+            "MedianHousePrice": 302100.5,
+            "MedianWorkplaceEarnings": 44880,
+            "AffordabilityRatio": 6.73
+        },
+        "2013": {
+            "Sales": 3961,
+            "MedianHousePrice": 315500.0,
+            "MedianWorkplaceEarnings": 46441,
+            "AffordabilityRatio": 6.79
+        },
+        "2014": {
+            "Sales": 5091,
+            "MedianHousePrice": 375000.0,
+            "MedianWorkplaceEarnings": 48309,
+            "AffordabilityRatio": 7.76
+        },
+        "2015": {
+            "Sales": 4193,
+            "MedianHousePrice": 409640.0,
+            "MedianWorkplaceEarnings": 46681,
+            "AffordabilityRatio": 8.78
+        },
+        "2016": {
+            "Sales": 4528,
+            "MedianHousePrice": 462675.0,
+            "MedianWorkplaceEarnings": 45975,
+            "AffordabilityRatio": 10.06
+        },
+        "2017": {
+            "Sales": 3810,
+            "MedianHousePrice": 485000.0,
+            "MedianWorkplaceEarnings": 49369,
+            "AffordabilityRatio": 9.82
+        },
+        "2018": {
+            "Sales": 3030,
+            "MedianHousePrice": 485000.0,
+            "MedianWorkplaceEarnings": 49237,
+            "AffordabilityRatio": 9.85
+        },
+        "2019": {
+            "Sales": 3379,
+            "MedianHousePrice": 490995.0,
+            "MedianWorkplaceEarnings": 45914,
+            "AffordabilityRatio": 10.69
+        },
+        "2020": {
+            "Sales": 2858,
+            "MedianHousePrice": 515000.0,
+            "MedianWorkplaceEarnings": 50465,
+            "AffordabilityRatio": 10.21
+        },
+        "2021": {
+            "Sales": 4912,
+            "MedianHousePrice": 571814.5,
+            "MedianWorkplaceEarnings": 47945,
+            "AffordabilityRatio": 11.93
+        },
+        "2022": {
+            "Sales": 3091,
+            "MedianHousePrice": 529000.0,
+            "MedianWorkplaceEarnings": 52498,
+            "AffordabilityRatio": 10.08
+        }
+    },
+    "Waltham Forest": {
+        "1997": {
+            "Sales": 4701,
+            "MedianHousePrice": 60000.0,
+            "MedianWorkplaceEarnings": 17265,
+            "AffordabilityRatio": 3.48
+        },
+        "1998": {
+            "Sales": 4567,
+            "MedianHousePrice": 69000.0,
+            "MedianWorkplaceEarnings": 18732,
+            "AffordabilityRatio": 3.68
+        },
+        "1999": {
+            "Sales": 5017,
+            "MedianHousePrice": 77000.0,
+            "MedianWorkplaceEarnings": 18547,
+            "AffordabilityRatio": 4.15
+        },
+        "2000": {
+            "Sales": 5346,
+            "MedianHousePrice": 91500.0,
+            "MedianWorkplaceEarnings": 19776,
+            "AffordabilityRatio": 4.63
+        },
+        "2001": {
+            "Sales": 5188,
+            "MedianHousePrice": 112500.0,
+            "MedianWorkplaceEarnings": 21245,
+            "AffordabilityRatio": 5.3
+        },
+        "2002": {
+            "Sales": 5419,
+            "MedianHousePrice": 140000.0,
+            "MedianWorkplaceEarnings": 21799,
+            "AffordabilityRatio": 6.42
+        },
+        "2003": {
+            "Sales": 4806,
+            "MedianHousePrice": 167250.0,
+            "MedianWorkplaceEarnings": 22918,
+            "AffordabilityRatio": 7.3
+        },
+        "2004": {
+            "Sales": 5016,
+            "MedianHousePrice": 185000.0,
+            "MedianWorkplaceEarnings": 23857,
+            "AffordabilityRatio": 7.75
+        },
+        "2005": {
+            "Sales": 3947,
+            "MedianHousePrice": 197500.0,
+            "MedianWorkplaceEarnings": 21931,
+            "AffordabilityRatio": 9.01
+        },
+        "2006": {
+            "Sales": 4962,
+            "MedianHousePrice": 207068.5,
+            "MedianWorkplaceEarnings": 23074,
+            "AffordabilityRatio": 8.97
+        },
+        "2007": {
+            "Sales": 5256,
+            "MedianHousePrice": 231500.0,
+            "MedianWorkplaceEarnings": 25034,
+            "AffordabilityRatio": 9.25
+        },
+        "2008": {
+            "Sales": 3113,
+            "MedianHousePrice": 240000.0,
+            "MedianWorkplaceEarnings": 26609,
+            "AffordabilityRatio": 9.02
+        },
+        "2009": {
+            "Sales": 1740,
+            "MedianHousePrice": 210000.0,
+            "MedianWorkplaceEarnings": 27651,
+            "AffordabilityRatio": 7.59
+        },
+        "2010": {
+            "Sales": 2340,
+            "MedianHousePrice": 225000.0,
+            "MedianWorkplaceEarnings": 27755,
+            "AffordabilityRatio": 8.11
+        },
+        "2011": {
+            "Sales": 2278,
+            "MedianHousePrice": 230000.0,
+            "MedianWorkplaceEarnings": 28005,
+            "AffordabilityRatio": 8.21
+        },
+        "2012": {
+            "Sales": 2329,
+            "MedianHousePrice": 240000.0,
+            "MedianWorkplaceEarnings": 27235,
+            "AffordabilityRatio": 8.81
+        },
+        "2013": {
+            "Sales": 2646,
+            "MedianHousePrice": 250000.0,
+            "MedianWorkplaceEarnings": 28447,
+            "AffordabilityRatio": 8.79
+        },
+        "2014": {
+            "Sales": 3481,
+            "MedianHousePrice": 300000.0,
+            "MedianWorkplaceEarnings": 26484,
+            "AffordabilityRatio": 11.33
+        },
+        "2015": {
+            "Sales": 3396,
+            "MedianHousePrice": 360000.0,
+            "MedianWorkplaceEarnings": 29352,
+            "AffordabilityRatio": 12.26
+        },
+        "2016": {
+            "Sales": 3149,
+            "MedianHousePrice": 406000.0,
+            "MedianWorkplaceEarnings": 27455,
+            "AffordabilityRatio": 14.79
+        },
+        "2017": {
+            "Sales": 2771,
+            "MedianHousePrice": 442267.0,
+            "MedianWorkplaceEarnings": 28284,
+            "AffordabilityRatio": 15.64
+        },
+        "2018": {
+            "Sales": 2725,
+            "MedianHousePrice": 450000.0,
+            "MedianWorkplaceEarnings": 30298,
+            "AffordabilityRatio": 14.85
+        },
+        "2019": {
+            "Sales": 2755,
+            "MedianHousePrice": 442000.0,
+            "MedianWorkplaceEarnings": 30664,
+            "AffordabilityRatio": 14.41
+        },
+        "2020": {
+            "Sales": 2273,
+            "MedianHousePrice": 460000.0,
+            "MedianWorkplaceEarnings": 34680,
+            "AffordabilityRatio": 13.26
+        },
+        "2021": {
+            "Sales": 3982,
+            "MedianHousePrice": 494995.0,
+            "MedianWorkplaceEarnings": 31997,
+            "AffordabilityRatio": 15.47
+        },
+        "2022": {
+            "Sales": 2473,
+            "MedianHousePrice": 500000.0,
+            "MedianWorkplaceEarnings": 30914,
+            "AffordabilityRatio": 16.17
+        }
+    },
+    "Wandsworth": {
+        "1997": {
+            "Sales": 8547,
+            "MedianHousePrice": 104500.0,
+            "MedianWorkplaceEarnings": 18841,
+            "AffordabilityRatio": 5.55
+        },
+        "1998": {
+            "Sales": 7852,
+            "MedianHousePrice": 120169.0,
+            "MedianWorkplaceEarnings": 19692,
+            "AffordabilityRatio": 6.1
+        },
+        "1999": {
+            "Sales": 8930,
+            "MedianHousePrice": 145000.0,
+            "MedianWorkplaceEarnings": 21321,
+            "AffordabilityRatio": 6.8
+        },
+        "2000": {
+            "Sales": 8405,
+            "MedianHousePrice": 176000.0,
+            "MedianWorkplaceEarnings": 22840,
+            "AffordabilityRatio": 7.71
+        },
+        "2001": {
+            "Sales": 7973,
+            "MedianHousePrice": 200000.0,
+            "MedianWorkplaceEarnings": 22054,
+            "AffordabilityRatio": 9.07
+        },
+        "2002": {
+            "Sales": 8716,
+            "MedianHousePrice": 227000.0,
+            "MedianWorkplaceEarnings": 23720,
+            "AffordabilityRatio": 9.57
+        },
+        "2003": {
+            "Sales": 6872,
+            "MedianHousePrice": 240000.0,
+            "MedianWorkplaceEarnings": 24288,
+            "AffordabilityRatio": 9.88
+        },
+        "2004": {
+            "Sales": 8643,
+            "MedianHousePrice": 259950.0,
+            "MedianWorkplaceEarnings": 26137,
+            "AffordabilityRatio": 9.95
+        },
+        "2005": {
+            "Sales": 7065,
+            "MedianHousePrice": 272000.0,
+            "MedianWorkplaceEarnings": 26549,
+            "AffordabilityRatio": 10.25
+        },
+        "2006": {
+            "Sales": 8952,
+            "MedianHousePrice": 298888.0,
+            "MedianWorkplaceEarnings": 27405,
+            "AffordabilityRatio": 10.91
+        },
+        "2007": {
+            "Sales": 9357,
+            "MedianHousePrice": 350000.0,
+            "MedianWorkplaceEarnings": 30513,
+            "AffordabilityRatio": 11.47
+        },
+        "2008": {
+            "Sales": 4916,
+            "MedianHousePrice": 358000.0,
+            "MedianWorkplaceEarnings": 30808,
+            "AffordabilityRatio": 11.62
+        },
+        "2009": {
+            "Sales": 3672,
+            "MedianHousePrice": 340000.0,
+            "MedianWorkplaceEarnings": 32373,
+            "AffordabilityRatio": 10.5
+        },
+        "2010": {
+            "Sales": 5517,
+            "MedianHousePrice": 375000.0,
+            "MedianWorkplaceEarnings": 31818,
+            "AffordabilityRatio": 11.79
+        },
+        "2011": {
+            "Sales": 5164,
+            "MedianHousePrice": 389500.0,
+            "MedianWorkplaceEarnings": 32033,
+            "AffordabilityRatio": 12.16
+        },
+        "2012": {
+            "Sales": 5348,
+            "MedianHousePrice": 404995.0,
+            "MedianWorkplaceEarnings": 31262,
+            "AffordabilityRatio": 12.95
+        },
+        "2013": {
+            "Sales": 5795,
+            "MedianHousePrice": 450000.0,
+            "MedianWorkplaceEarnings": 31491,
+            "AffordabilityRatio": 14.29
+        },
+        "2014": {
+            "Sales": 6391,
+            "MedianHousePrice": 515000.0,
+            "MedianWorkplaceEarnings": 31085,
+            "AffordabilityRatio": 16.57
+        },
+        "2015": {
+            "Sales": 5683,
+            "MedianHousePrice": 545000.0,
+            "MedianWorkplaceEarnings": 31968,
+            "AffordabilityRatio": 17.05
+        },
+        "2016": {
+            "Sales": 5898,
+            "MedianHousePrice": 625000.0,
+            "MedianWorkplaceEarnings": 33405,
+            "AffordabilityRatio": 18.71
+        },
+        "2017": {
+            "Sales": 5205,
+            "MedianHousePrice": 650000.0,
+            "MedianWorkplaceEarnings": 33137,
+            "AffordabilityRatio": 19.62
+        },
+        "2018": {
+            "Sales": 4656,
+            "MedianHousePrice": 617500.0,
+            "MedianWorkplaceEarnings": 34501,
+            "AffordabilityRatio": 17.9
+        },
+        "2019": {
+            "Sales": 4476,
+            "MedianHousePrice": 625000.0,
+            "MedianWorkplaceEarnings": 34814,
+            "AffordabilityRatio": 17.95
+        },
+        "2020": {
+            "Sales": 3846,
+            "MedianHousePrice": 670000.0,
+            "MedianWorkplaceEarnings": 34791,
+            "AffordabilityRatio": 19.26
+        },
+        "2021": {
+            "Sales": 6772,
+            "MedianHousePrice": 640000.0,
+            "MedianWorkplaceEarnings": 33499,
+            "AffordabilityRatio": 19.11
+        },
+        "2022": {
+            "Sales": 4558,
+            "MedianHousePrice": 694000.0,
+            "MedianWorkplaceEarnings": 36434,
+            "AffordabilityRatio": 19.05
+        }
+    },
+    "Westminster": {
+        "1997": {
+            "Sales": 6481,
+            "MedianHousePrice": 157000.0,
+            "MedianWorkplaceEarnings": 22483,
+            "AffordabilityRatio": 6.98
+        },
+        "1998": {
+            "Sales": 5797,
+            "MedianHousePrice": 174000.0,
+            "MedianWorkplaceEarnings": 23015,
+            "AffordabilityRatio": 7.56
+        },
+        "1999": {
+            "Sales": 6244,
+            "MedianHousePrice": 205000.0,
+            "MedianWorkplaceEarnings": 24447,
+            "AffordabilityRatio": 8.39
+        },
+        "2000": {
+            "Sales": 6679,
+            "MedianHousePrice": 248500.0,
+            "MedianWorkplaceEarnings": 25951,
+            "AffordabilityRatio": 9.58
+        },
+        "2001": {
+            "Sales": 6085,
+            "MedianHousePrice": 275550.0,
+            "MedianWorkplaceEarnings": 26829,
+            "AffordabilityRatio": 10.27
+        },
+        "2002": {
+            "Sales": 6260,
+            "MedianHousePrice": 310000.0,
+            "MedianWorkplaceEarnings": 28879,
+            "AffordabilityRatio": 10.73
+        },
+        "2003": {
+            "Sales": 5155,
+            "MedianHousePrice": 325000.0,
+            "MedianWorkplaceEarnings": 29318,
+            "AffordabilityRatio": 11.09
+        },
+        "2004": {
+            "Sales": 5563,
+            "MedianHousePrice": 342000.0,
+            "MedianWorkplaceEarnings": 31482,
+            "AffordabilityRatio": 10.86
+        },
+        "2005": {
+            "Sales": 4725,
+            "MedianHousePrice": 370000.0,
+            "MedianWorkplaceEarnings": 32519,
+            "AffordabilityRatio": 11.38
+        },
+        "2006": {
+            "Sales": 6095,
+            "MedianHousePrice": 410000.0,
+            "MedianWorkplaceEarnings": 33474,
+            "AffordabilityRatio": 12.25
+        },
+        "2007": {
+            "Sales": 5829,
+            "MedianHousePrice": 448251.0,
+            "MedianWorkplaceEarnings": 35315,
+            "AffordabilityRatio": 12.69
+        },
+        "2008": {
+            "Sales": 3455,
+            "MedianHousePrice": 499950.0,
+            "MedianWorkplaceEarnings": 36048,
+            "AffordabilityRatio": 13.87
+        },
+        "2009": {
+            "Sales": 2444,
+            "MedianHousePrice": 494971.0,
+            "MedianWorkplaceEarnings": 36765,
+            "AffordabilityRatio": 13.46
+        },
+        "2010": {
+            "Sales": 3681,
+            "MedianHousePrice": 557500.0,
+            "MedianWorkplaceEarnings": 37836,
+            "AffordabilityRatio": 14.73
+        },
+        "2011": {
+            "Sales": 3384,
+            "MedianHousePrice": 610000.0,
+            "MedianWorkplaceEarnings": 37406,
+            "AffordabilityRatio": 16.31
+        },
+        "2012": {
+            "Sales": 3207,
+            "MedianHousePrice": 605000.0,
+            "MedianWorkplaceEarnings": 37649,
+            "AffordabilityRatio": 16.07
+        },
+        "2013": {
+            "Sales": 3513,
+            "MedianHousePrice": 730000.0,
+            "MedianWorkplaceEarnings": 36946,
+            "AffordabilityRatio": 19.76
+        },
+        "2014": {
+            "Sales": 3733,
+            "MedianHousePrice": 830000.0,
+            "MedianWorkplaceEarnings": 37260,
+            "AffordabilityRatio": 22.28
+        },
+        "2015": {
+            "Sales": 2898,
+            "MedianHousePrice": 879375.0,
+            "MedianWorkplaceEarnings": 39392,
+            "AffordabilityRatio": 22.32
+        },
+        "2016": {
+            "Sales": 2815,
+            "MedianHousePrice": 980000.0,
+            "MedianWorkplaceEarnings": 40000,
+            "AffordabilityRatio": 24.5
+        },
+        "2017": {
+            "Sales": 2648,
+            "MedianHousePrice": 1067212.5,
+            "MedianWorkplaceEarnings": 42152,
+            "AffordabilityRatio": 25.32
+        },
+        "2018": {
+            "Sales": 2188,
+            "MedianHousePrice": 1060000.0,
+            "MedianWorkplaceEarnings": 43015,
+            "AffordabilityRatio": 24.64
+        },
+        "2019": {
+            "Sales": 1939,
+            "MedianHousePrice": 938000.0,
+            "MedianWorkplaceEarnings": 43753,
+            "AffordabilityRatio": 21.44
+        },
+        "2020": {
+            "Sales": 1976,
+            "MedianHousePrice": 1000000.0,
+            "MedianWorkplaceEarnings": 46251,
+            "AffordabilityRatio": 21.62
+        },
+        "2021": {
+            "Sales": 2747,
+            "MedianHousePrice": 905000.0,
+            "MedianWorkplaceEarnings": 45000,
+            "AffordabilityRatio": 20.11
+        },
+        "2022": {
+            "Sales": 2225,
+            "MedianHousePrice": 1086385.5,
+            "MedianWorkplaceEarnings": 45253,
+            "AffordabilityRatio": 24.01
+        }
+    }
+}
