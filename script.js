@@ -1,53 +1,43 @@
 document.addEventListener("DOMContentLoaded", function () {
     const mapWidth = 900, mapHeight = 600;
-    let currentYear = "1997"; // Default year to start with
-    let currentMetric = 'AffordabilityRatio'; // Default metric
+    let currentYear = "1997";  // Default year to start with
+    let currentMetric = 'AffordabilityRatio';  // Default metric
 
-    const colorScale = d3.scaleQuantize()
-        .domain([0, 10]) // Adjust based on actual data range
-        .range(["#EAEDB3", "#A9D992", "#00A7BB", "#004DA7", "#000452"]);
+    const colorScales = {
+        'AffordabilityRatio': d3.scaleQuantize().domain([0, 15]).range(["#FFF3E3", "#FEDBC7", "#F7A482","#D85F4C", "#B31629"]),
+        'MedianWorkplaceEarnings': d3.scaleQuantize().domain([20000, 100000]).range(["#FFF3E3", "#FEDBC7", "#F7A482","#D85F4C", "#B31629"]),
+        'MedianHousePrice': d3.scaleQuantize().domain([100000, 1000000]).range(["#FFF3E3", "#FEDBC7", "#F7A482","#D85F4C", "#B31629"])
+    };
 
     const svg = d3.select("#map-container").append("svg")
         .attr("width", mapWidth)
         .attr("height", mapHeight);
 
-    const tooltip = d3.select("#tooltip");
+    const tooltip = d3.select("#map-container").append("div")
+        .attr("class", "tooltip")
+        .style("position", "absolute")
+        .style("visibility", "hidden")
+        .style("background", "#fff")
+        .style("border", "1px solid #333")
+        .style("padding", "5px")
+        .style("pointer-events", "none");
 
-    // Create the map title within the SVG
+    const colorScaleGroup = svg.append("g")
+        .attr("transform", "translate(30, 50)");
+
     const mapTitle = svg.append("text")
-        .attr("id", "map-title")
         .attr("x", mapWidth / 2)
-        .attr("y", 30) // Position at the top of the SVG
+        .attr("y", 30)
         .attr("text-anchor", "middle")
         .attr("style", "font-size: 18px; font-weight: bold;")
-        .text("Graph showing Housing Affordability Ratio in London"); // Default title
+        .text(`Graph showing ${currentMetric.replace(/([A-Z])/g, ' $1')} in London, ${currentYear}`);
 
     const boroughNameDisplay = svg.append("text")
-        .attr("id", "chosen-borough")
         .attr("x", mapWidth - 10)
         .attr("y", mapHeight - 10)
         .attr("text-anchor", "end")
         .attr("style", "font-size: 14px;")
-        .text("Borough chosen: None");
-
-    const tooltipGroup = svg.append("g")
-        .attr("id", "tooltip-group")
-        .style("visibility", "hidden");
-
-    // Add a rectangle background for the tooltip
-    tooltipGroup.append("rect")
-        .attr("id", "tooltip-bg")
-        .attr("width", 200)
-        .attr("height", 60)
-        .attr("fill", "white")
-        .attr("stroke", "#333");
-
-    // Add text for the tooltip
-    const tooltipText = tooltipGroup.append("text")
-        .attr("id", "tooltip-text")
-        .attr("x", 10)
-        .attr("y", 20)
-        .attr("style", "font-size: 12px;");
+        .text("Click map to choose borough");
 
     const projection = d3.geoMercator().center([-0.09, 51.50]).scale(35000)
         .translate([mapWidth / 2, mapHeight / 2]);
@@ -65,77 +55,139 @@ document.addEventListener("DOMContentLoaded", function () {
                 .attr("d", path)
                 .style("fill", d => {
                     const boroughData = data[d.id] ? data[d.id][currentYear] : null;
-                    return boroughData ? colorScale(boroughData[currentMetric]) : "#ccc";
+                    return boroughData ? colorScales[currentMetric](boroughData[currentMetric]) : "#ccc";
                 })
                 .style("stroke", "#333")
+                .style("stroke-width", 1)
                 .on("click", function (event, d) {
-                    // Update the line graphs for the selected borough
                     updateLineGraphs(d.id, data[d.id]);
-                    // Update the borough name display
                     boroughNameDisplay.text(`Borough chosen: ${d.id}`);
                 })
                 .on("mouseover", function (event, d) {
-                    // Get the data for the hovered borough
-                    const boroughData = data[d.id] ? data[d.id][currentYear] : null;
-                    // Position the tooltip
-                    const [x, y] = d3.pointer(event);
-                    tooltipGroup.attr("transform", `translate(${x}, ${y - 60})`);
-                    // Set the tooltip text
-                    tooltipText.html(`Borough: ${d.id}<br>${currentMetric}: ${boroughData ? boroughData[currentMetric] : 'N/A'}`);
-                    tooltipGroup.style("visibility", "visible");
+                d3.select(this).style("stroke-width", 3); // Highlight the border
+                const boroughData = data[d.id] ? data[d.id][currentYear] : null;
+                const tooltipData = `Borough: ${d.id}<br>${currentMetric.replace(/([A-Z])/g, ' $1')}: ${boroughData ? boroughData[currentMetric] : 'N/A'}`;
+                tooltip.style("visibility", "visible")
+                    .html(tooltipData)
+                    // Place the tooltip right next to the cursor
+                    .style("top", (event.pageY - 10) + "px")  // Slight vertical offset
+                    .style("middle", (event.pageX) + "px");  // Slight horizontal offset
                 })
                 .on("mouseout", function () {
-                    tooltipGroup.style("visibility", "hidden");
+                    d3.select(this).style("stroke-width", 1); // Reset the border
+                    tooltip.style("visibility", "hidden");
                 });
 
-            setupButtons(boroughs, data); // Setup buttons and interactions
+            const slider = document.getElementById("year-slider");
+            const playButton = document.getElementById("play-button");
+            const yearDisplay = document.getElementById("year-display");
+            yearDisplay.textContent = currentYear;
+
+            setupButtons(boroughs, data);
+            updateColorScale(currentMetric);
+
+            slider.oninput = function() {
+                currentYear = this.value;
+                yearDisplay.textContent = currentYear;
+                updateVisualization(boroughs, data, currentYear);
+            };
+
+            let playing = false;
+            let interval;
+            playButton.onclick = function() {
+                if (!playing) {
+                    playing = true;
+                    playButton.textContent = "Pause";
+                    interval = setInterval(function() {
+                        let year = parseInt(slider.value, 10) + 1;  // Increment the year
+                        if (year > parseInt(slider.max, 10)) {
+                            year = parseInt(slider.max, 10);  // Set year to max to prevent overflow
+                            slider.value = year;
+                            clearInterval(interval);  // Stop the interval when max year is reached
+                            playButton.textContent = "Play";
+                            playing = false;
+                        } else {
+                            slider.value = year;
+                        }
+                        currentYear = year.toString();
+                        yearDisplay.textContent = currentYear;
+                        updateVisualization(boroughs, data, currentYear);
+                    }, 1000); // Update every second
+                } else {
+                    clearInterval(interval);
+                    playButton.textContent = "Play";
+                    playing = false;
+                }
+            };
         });
     });
 
     function setupButtons(boroughs, data) {
         document.querySelectorAll('.button').forEach(button => {
             button.addEventListener('click', function () {
-                // Map the button ID to the data key
                 const metricMapping = {
                     'affordability': 'AffordabilityRatio',
                     'earnings': 'MedianWorkplaceEarnings',
                     'house-prices': 'MedianHousePrice'
                 };
-
                 currentMetric = metricMapping[this.id];
                 updateMap(boroughs, data, currentMetric);
                 updateActiveButton(this);
-
-                // Update the SVG title based on the current metric
-                const metricText = {
-                    'AffordabilityRatio': 'Housing Affordability Ratio',
-                    'MedianWorkplaceEarnings': 'Workplace Earnings',
-                    'MedianHousePrice': 'House Price'
-                };
-                mapTitle.text(`Graph showing ${metricText[currentMetric]} in London`);
+                updateColorScale(currentMetric);
+                mapTitle.text(`Graph showing ${currentMetric.replace(/([A-Z])/g, ' $1')} in London`);
             });
         });
 
-        updateActiveButton(document.querySelector('.button')); // Set initial active button
+        updateActiveButton(document.querySelector('.button'));
+    }
+
+    function updateColorScale(metric) {
+        const colorScale = colorScales[metric];
+        const colors = colorScale.range();
+        const domain = colorScale.domain();
+        const step = (domain[1] - domain[0]) / colors.length;
+
+        colorScaleGroup.selectAll("*").remove();
+
+        colorScaleGroup.selectAll("rect")
+            .data(colors)
+            .enter().append("rect")
+            .attr("x", 0)
+            .attr("y", (d, i) => i * 20)
+            .attr("width", 10)
+            .attr("height", 20)
+            .attr("fill", d => d);
+
+        colorScaleGroup.selectAll("text")
+            .data(colors)
+            .enter().append("text")
+            .attr("x", 15)
+            .attr("y", (d, i) => i * 20 + 10)
+            .text((d, i) => Math.round(domain[0] + step * i).toLocaleString())
+            .attr("alignment-baseline", "middle");
     }
 
     function updateMap(boroughs, data, metric) {
         boroughs.style("fill", d => {
             const boroughData = data[d.id] ? data[d.id][currentYear] : null;
-            return boroughData ? colorScale(boroughData[metric]) : "#ccc"; // Use '#ccc' as fallback color
+            return boroughData ? colorScales[metric](boroughData[metric]) : "#ccc";
         });
     }
 
     function updateActiveButton(activeButton) {
-        document.querySelectorAll('.button').forEach(button => {
-            button.classList.remove('active');
-        });
+        document.querySelectorAll('.button').forEach(button => button.classList.remove('active'));
         activeButton.classList.add('active');
     }
 
     function updateLineGraphs(boroughName, boroughData) {
         console.log("Update line graphs for:", boroughName, boroughData);
-        // This function would handle updating or creating line graphs based on the selected borough and its data.
-        // Populate the data into line charts here.
+    }
+
+    function updateVisualization(boroughs, data, year) {
+        boroughs.style("fill", d => {
+            const boroughData = data[d.id] ? data[d.id][year] : null;
+            return boroughData ? colorScales[currentMetric](boroughData[currentMetric]) : "#ccc";
+        });
+        mapTitle.text(`Graph showing ${currentMetric.replace(/([A-Z])/g, ' $1')} in London, ${year}`);
     }
 });
