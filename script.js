@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const mapWidth = 900, mapHeight = 600;
+    const mapWidth = 800, mapHeight = 600;
     let currentYear = "1997";  // Default year to start with
     let currentMetric = 'AffordabilityRatio';  // Default metric
     let londonOverallData = null;
@@ -65,14 +65,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     boroughNameDisplay.text(`Borough chosen: ${d.id}`);
                 })
                 .on("mouseover", function (event, d) {
-                d3.select(this).style("stroke-width", 3); // Highlight the border
-                const boroughData = data[d.id] ? data[d.id][currentYear] : null;
-                const tooltipData = `Borough: ${d.id}<br>${currentMetric.replace(/([A-Z])/g, ' $1')}: ${boroughData ? boroughData[currentMetric] : 'N/A'}`;
-                tooltip.style("visibility", "visible")
-                    .html(tooltipData)
-                    // Place the tooltip right next to the cursor
-                    .style("top", (event.pageY - 10) + "px")  // Slight vertical offset
-                    .style("middle", (event.pageX) + "px");  // Slight horizontal offset
+                    d3.select(this).style("stroke-width", 3); // Highlight the border
+                    const boroughData = data[d.id] ? data[d.id][currentYear] : null;
+                    const tooltipData = `Borough: ${d.id}<br>${currentMetric.replace(/([A-Z])/g, ' $1')}: ${boroughData ? boroughData[currentMetric] : 'N/A'}`;
+                    tooltip.style("visibility", "visible")
+                        .html(tooltipData)
+                        // Place the tooltip right next to the cursor
+                        .style("top", (event.pageY - 10) + "px")  // Slight vertical offset
+                        .style("middle", (event.pageX) + "px");  // Slight horizontal offset
                 })
                 .on("mouseout", function () {
                     d3.select(this).style("stroke-width", 1); // Reset the border
@@ -124,51 +124,49 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     d3.json('london_data.json').then(function(rawData) {
         londonOverallData = reformatData(rawData);
-        initializeLineGraph();  // Call to initialize the graph with formatted data
+        initializeGraphs();  // Call to initialize the graph with formatted data
+
     });
-    function initializeLineGraph() {
-        const svgWidth = 400, svgHeight = 300;
-        const margin = { top: 20, right: 20, bottom: 30, left: 50 };
+    function initializeGraphs() {
+        const svgWidth = 800, svgHeight = 400;
+        const margin = {top: 20, right: 50, bottom: 30, left: 50};
         const width = svgWidth - margin.left - margin.right;
         const height = svgHeight - margin.top - margin.bottom;
 
-        // Set up the scales
-        const xScale = d3.scaleLinear()
-            .domain(d3.extent(londonOverallData, d => d.year))  // Use the reformatted data
-            .range([0, width]);
-
-        const yScale = d3.scaleLinear()
-            .domain([0, d3.max(londonOverallData, d => d.AffordabilityRatio)])  // Use the reformatted data
-            .range([height, 0]);
-
-        // Append the SVG object to the appropriate div
+        // Initialize SVG for Affordability Ratio Graph
         const svg = d3.select("#affordability-ratio-graph").append("svg")
             .attr("width", svgWidth)
             .attr("height", svgHeight)
             .append("g")
             .attr("transform", `translate(${margin.left},${margin.top})`);
 
-        // Add the X Axis
+        // Define scales based on the London overall data
+        const xScale = d3.scaleLinear()
+            .domain(d3.extent(londonOverallData, d => d.year))
+            .range([0, width]);
+
+        const yScaleLeft = d3.scaleLinear()
+            .domain([0, Math.max(d3.max(londonOverallData, d => d.AffordabilityRatio))])
+            .range([height, 0]);
+
+        const yScaleRight = d3.scaleLinear()
+            .domain([0, Math.max(d3.max(londonOverallData, d => d.AffordabilityRatio))])
+            .range([height, 0]);
+
+        // Add x-axis
         svg.append("g")
             .attr("transform", `translate(0,${height})`)
             .call(d3.axisBottom(xScale).tickFormat(d3.format("d")));
 
-        // Add the Y Axis
+        // Add y-axis with a class for easy selection and updates
         svg.append("g")
-            .call(d3.axisLeft(yScale));
+            .attr("class", "y-axis-left")
+            .call(d3.axisLeft(yScaleLeft));
 
-        // Define the line
-        const line = d3.line()
-            .x(d => xScale(d.year))
-            .y(d => yScale(d.AffordabilityRatio));
-
-        // Add the path using London's overall data
-        svg.append("path")
-            .datum(londonOverallData)
-            .attr("fill", "none")
-            .attr("stroke", "steelblue")
-            .attr("stroke-width", 2)
-            .attr("d", line);
+        svg.append("g")
+            .attr("class", "y-axis-right")
+            .attr("transform", `translate(${width},0)`)  // Position this axis on the right
+            .call(d3.axisRight(yScaleRight));
     }
 
     function setupButtons(boroughs, data) {
@@ -230,39 +228,59 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function updateLineGraphs(boroughName, boroughData) {
         const svg = d3.select("#affordability-ratio-graph svg g");
-        const width = svg.node().getBBox().width;
-        const height = svg.node().getBBox().height;
+        const svgWidth = 800, svgHeight = 400;
+        const margin = {top: 20, right: 50, bottom: 30, left: 50};
+        const width = svgWidth - margin.left - margin.right;
+        const height = svgHeight - margin.top - margin.bottom;
 
-        // Assuming boroughData is structured with properties as years and values as objects
+        // Reformat borough data
         const reformattedBoroughData = Object.keys(boroughData)
-            .filter(key => !isNaN(+key)) // Ensure the key is a year
+            .filter(key => !isNaN(+key))
             .map(year => ({
-                year: +year, // Convert key to number
-                AffordabilityRatio: +boroughData[year].AffordabilityRatio // Make sure to parse the AffordabilityRatio to a number
+                year: +year,
+                AffordabilityRatio: +boroughData[year].AffordabilityRatio,
+                Sales: +boroughData[year].Sales  // Ensure sales data is included
             }));
 
-        // Debug to check what reformattedBoroughData looks like
-        console.log(reformattedBoroughData);
+        const yScaleRight = d3.scaleLinear()
+            .domain([0, d3.max(reformattedBoroughData, d => d.Sales)])  // Update for sales
+            .range([height, 0])
 
-        // Create scales
+        svg.select(".y-axis-right").transition().duration(1000).call(d3.axisRight(yScaleRight));
+
+        // Ensure both datasets are considered for scaling
+        const combinedData = reformattedBoroughData.concat(londonOverallData);
+
+        // Update scales to consider both datasets
         const xScale = d3.scaleLinear()
-            .domain(d3.extent([...londonOverallData, ...reformattedBoroughData], d => d.year))
+            .domain(d3.extent(londonOverallData, d => d.year))
             .range([0, width]);
 
         const yScale = d3.scaleLinear()
-            .domain([0, d3.max([...londonOverallData, ...reformattedBoroughData], d => d.AffordabilityRatio)])
+            .domain([0, Math.max(d3.max(combinedData, d => d.AffordabilityRatio))])
             .range([height, 0]);
 
+        // Update y-axis
+        svg.select(".y-axis").transition().duration(1000).call(d3.axisLeft(yScale));
+
+        // Define the line generator for both datasets
         const line = d3.line()
             .x(d => xScale(d.year))
             .y(d => yScale(d.AffordabilityRatio));
 
-        // Update or append new path for the borough
-        const boroughLine = svg.selectAll(".borough-line")
-            .data([reformattedBoroughData]);
+        // Update the London overall line
+        let londonLine = svg.selectAll(".london-overall-line").data([londonOverallData]);
+        londonLine.enter().append("path")
+            .attr("class", "london-overall-line")
+            .merge(londonLine)
+            .attr("d", line)
+            .attr("fill", "none")
+            .attr("stroke", "steelblue")
+            .attr("stroke-width", 2);
 
-        boroughLine.enter()
-            .append("path")
+        // Update or append new path for the borough
+        let boroughLine = svg.selectAll(".borough-line").data([reformattedBoroughData]);
+        boroughLine.enter().append("path")
             .attr("class", "borough-line")
             .merge(boroughLine)
             .attr("d", line)
@@ -270,7 +288,22 @@ document.addEventListener("DOMContentLoaded", function () {
             .attr("stroke", "red")
             .attr("stroke-width", 2);
 
+        const salesLine = d3.line()
+            .x(d => xScale(d.year))
+            .y(d => yScaleRight(d.Sales));
+
+        let salesPath = svg.selectAll(".sales-line").data([reformattedBoroughData]);
+        salesPath.enter().append("path")
+            .attr("class", "sales-line")
+            .merge(salesPath)
+            .attr("d", salesLine)
+            .attr("fill", "none")
+            .attr("stroke", "purple")  // Different color for sales
+            .attr("stroke-width", 2);
+
+        salesPath.exit().remove();
         boroughLine.exit().remove();
+        londonLine.exit().remove();
     }
 
     function updateVisualization(boroughs, data, year) {
@@ -280,62 +313,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
         mapTitle.text(`Graph showing ${currentMetric.replace(/([A-Z])/g, ' $1')} in London, ${year}`);
     }
-
-    function updatePriceEarningsSalesGraph(boroughName, boroughData) {
-        const svg = d3.select("#price-earnings-sales-graph svg g");
-        const width = svg.node().getBBox().width;
-        const height = svg.node().getBBox().height;
-
-        // Parse and prepare data
-        const data = Object.keys(boroughData)
-            .filter(year => !isNaN(+year)) // Ensure year is numeric
-            .map(year => ({
-                year: +year,
-                MedianHousePrice: +boroughData[year].MedianHousePrice,
-                MedianWorkplaceEarnings: +boroughData[year].MedianWorkplaceEarnings,
-                Sales: +boroughData[year].Sales
-            }));
-
-        // Set up scales
-        const xScale = d3.scaleLinear()
-            .domain(d3.extent(data, d => d.year))
-            .range([0, width]);
-
-        const yScale = d3.scaleLinear()
-            .domain([0, d3.max(data, d => Math.max(d.MedianHousePrice, d.MedianWorkplaceEarnings, d.Sales))])
-            .range([height, 0]);
-
-        // Update axes
-        svg.select(".x-axis").call(d3.axisBottom(xScale).tickFormat(d3.format("d")));
-        svg.select(".y-axis").call(d3.axisLeft(yScale));
-
-        // Define line generators
-        const linePrice = d3.line().x(d => xScale(d.year)).y(d => yScale(d.MedianHousePrice));
-        const lineEarnings = d3.line().x(d => xScale(d.year)).y(d => yScale(d.MedianWorkplaceEarnings));
-        const lineSales = d3.line().x(d => xScale(d.year)).y(d => yScale(d.Sales));
-
-        // Add or update paths
-        updateOrCreatePath(svg, data, linePrice, "line-price", "steelblue");
-        updateOrCreatePath(svg, data, lineEarnings, "line-earnings", "green");
-        updateOrCreatePath(svg, data, lineSales, "line-sales", "red");
-    }
-
-    function updateOrCreatePath(svg, data, lineGenerator, className, strokeColor) {
-        let path = svg.selectAll(`.${className}`)
-            .data([data]);
-
-        path.enter()
-            .append("path")
-            .attr("class", className)
-            .merge(path)
-            .attr("d", lineGenerator)
-            .attr("fill", "none")
-            .attr("stroke", strokeColor)
-            .attr("stroke-width", 2);
-
-        path.exit().remove();
-    }
-
 
     function reformatData(rawData) {
         const data = [];
