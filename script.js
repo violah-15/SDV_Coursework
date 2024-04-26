@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const mapWidth = 900, mapHeight = 600;
     let currentYear = "1997";  // Default year to start with
     let currentMetric = 'AffordabilityRatio';  // Default metric
+    let londonOverallData = null;
 
     const colorScales = {
         'AffordabilityRatio': d3.scaleQuantize().domain([0, 15]).range(["#FFF3E3", "#FEDBC7", "#F7A482","#D85F4C", "#B31629"]),
@@ -121,6 +122,54 @@ document.addEventListener("DOMContentLoaded", function () {
             };
         });
     });
+    d3.json('london_data.json').then(function(rawData) {
+        londonOverallData = reformatData(rawData);
+        initializeLineGraph();  // Call to initialize the graph with formatted data
+    });
+    function initializeLineGraph() {
+        const svgWidth = 400, svgHeight = 300;
+        const margin = { top: 20, right: 20, bottom: 30, left: 50 };
+        const width = svgWidth - margin.left - margin.right;
+        const height = svgHeight - margin.top - margin.bottom;
+
+        // Set up the scales
+        const xScale = d3.scaleLinear()
+            .domain(d3.extent(londonOverallData, d => d.year))  // Use the reformatted data
+            .range([0, width]);
+
+        const yScale = d3.scaleLinear()
+            .domain([0, d3.max(londonOverallData, d => d.AffordabilityRatio)])  // Use the reformatted data
+            .range([height, 0]);
+
+        // Append the SVG object to the appropriate div
+        const svg = d3.select("#affordability-ratio-graph").append("svg")
+            .attr("width", svgWidth)
+            .attr("height", svgHeight)
+            .append("g")
+            .attr("transform", `translate(${margin.left},${margin.top})`);
+
+        // Add the X Axis
+        svg.append("g")
+            .attr("transform", `translate(0,${height})`)
+            .call(d3.axisBottom(xScale).tickFormat(d3.format("d")));
+
+        // Add the Y Axis
+        svg.append("g")
+            .call(d3.axisLeft(yScale));
+
+        // Define the line
+        const line = d3.line()
+            .x(d => xScale(d.year))
+            .y(d => yScale(d.AffordabilityRatio));
+
+        // Add the path using London's overall data
+        svg.append("path")
+            .datum(londonOverallData)
+            .attr("fill", "none")
+            .attr("stroke", "steelblue")
+            .attr("stroke-width", 2)
+            .attr("d", line);
+    }
 
     function setupButtons(boroughs, data) {
         document.querySelectorAll('.button').forEach(button => {
@@ -180,7 +229,48 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function updateLineGraphs(boroughName, boroughData) {
-        console.log("Update line graphs for:", boroughName, boroughData);
+        const svg = d3.select("#affordability-ratio-graph svg g");
+        const width = svg.node().getBBox().width;
+        const height = svg.node().getBBox().height;
+
+        // Assuming boroughData is structured with properties as years and values as objects
+        const reformattedBoroughData = Object.keys(boroughData)
+            .filter(key => !isNaN(+key)) // Ensure the key is a year
+            .map(year => ({
+                year: +year, // Convert key to number
+                AffordabilityRatio: +boroughData[year].AffordabilityRatio // Make sure to parse the AffordabilityRatio to a number
+            }));
+
+        // Debug to check what reformattedBoroughData looks like
+        console.log(reformattedBoroughData);
+
+        // Create scales
+        const xScale = d3.scaleLinear()
+            .domain(d3.extent([...londonOverallData, ...reformattedBoroughData], d => d.year))
+            .range([0, width]);
+
+        const yScale = d3.scaleLinear()
+            .domain([0, d3.max([...londonOverallData, ...reformattedBoroughData], d => d.AffordabilityRatio)])
+            .range([height, 0]);
+
+        const line = d3.line()
+            .x(d => xScale(d.year))
+            .y(d => yScale(d.AffordabilityRatio));
+
+        // Update or append new path for the borough
+        const boroughLine = svg.selectAll(".borough-line")
+            .data([reformattedBoroughData]);
+
+        boroughLine.enter()
+            .append("path")
+            .attr("class", "borough-line")
+            .merge(boroughLine)
+            .attr("d", line)
+            .attr("fill", "none")
+            .attr("stroke", "red")
+            .attr("stroke-width", 2);
+
+        boroughLine.exit().remove();
     }
 
     function updateVisualization(boroughs, data, year) {
@@ -189,5 +279,77 @@ document.addEventListener("DOMContentLoaded", function () {
             return boroughData ? colorScales[currentMetric](boroughData[currentMetric]) : "#ccc";
         });
         mapTitle.text(`Graph showing ${currentMetric.replace(/([A-Z])/g, ' $1')} in London, ${year}`);
+    }
+
+    function updatePriceEarningsSalesGraph(boroughName, boroughData) {
+        const svg = d3.select("#price-earnings-sales-graph svg g");
+        const width = svg.node().getBBox().width;
+        const height = svg.node().getBBox().height;
+
+        // Parse and prepare data
+        const data = Object.keys(boroughData)
+            .filter(year => !isNaN(+year)) // Ensure year is numeric
+            .map(year => ({
+                year: +year,
+                MedianHousePrice: +boroughData[year].MedianHousePrice,
+                MedianWorkplaceEarnings: +boroughData[year].MedianWorkplaceEarnings,
+                Sales: +boroughData[year].Sales
+            }));
+
+        // Set up scales
+        const xScale = d3.scaleLinear()
+            .domain(d3.extent(data, d => d.year))
+            .range([0, width]);
+
+        const yScale = d3.scaleLinear()
+            .domain([0, d3.max(data, d => Math.max(d.MedianHousePrice, d.MedianWorkplaceEarnings, d.Sales))])
+            .range([height, 0]);
+
+        // Update axes
+        svg.select(".x-axis").call(d3.axisBottom(xScale).tickFormat(d3.format("d")));
+        svg.select(".y-axis").call(d3.axisLeft(yScale));
+
+        // Define line generators
+        const linePrice = d3.line().x(d => xScale(d.year)).y(d => yScale(d.MedianHousePrice));
+        const lineEarnings = d3.line().x(d => xScale(d.year)).y(d => yScale(d.MedianWorkplaceEarnings));
+        const lineSales = d3.line().x(d => xScale(d.year)).y(d => yScale(d.Sales));
+
+        // Add or update paths
+        updateOrCreatePath(svg, data, linePrice, "line-price", "steelblue");
+        updateOrCreatePath(svg, data, lineEarnings, "line-earnings", "green");
+        updateOrCreatePath(svg, data, lineSales, "line-sales", "red");
+    }
+
+    function updateOrCreatePath(svg, data, lineGenerator, className, strokeColor) {
+        let path = svg.selectAll(`.${className}`)
+            .data([data]);
+
+        path.enter()
+            .append("path")
+            .attr("class", className)
+            .merge(path)
+            .attr("d", lineGenerator)
+            .attr("fill", "none")
+            .attr("stroke", strokeColor)
+            .attr("stroke-width", 2);
+
+        path.exit().remove();
+    }
+
+
+    function reformatData(rawData) {
+        const data = [];
+        const entry = rawData[0];  // Assuming there's only one object for London
+
+        Object.keys(entry).forEach(key => {
+            if (!isNaN(+key)) {  // Check if the key is a year (numeric)
+                data.push({
+                    year: +key,  // Convert the key to a number
+                    AffordabilityRatio: entry[key]
+                });
+            }
+        });
+
+        return data;
     }
 });
