@@ -5,9 +5,15 @@ document.addEventListener("DOMContentLoaded", function () {
     let londonOverallData = null;
 
     const colorScales = {
-        'AffordabilityRatio': d3.scaleQuantize().domain([0, 15]).range(["#FFF3E3", "#FEDBC7", "#F7A482","#D85F4C", "#B31629"]),
-        'MedianWorkplaceEarnings': d3.scaleQuantize().domain([20000, 100000]).range(["#FFF3E3", "#FEDBC7", "#F7A482","#D85F4C", "#B31629"]),
-        'MedianHousePrice': d3.scaleQuantize().domain([100000, 1000000]).range(["#FFF3E3", "#FEDBC7", "#F7A482","#D85F4C", "#B31629"])
+        'AffordabilityRatio': d3.scaleThreshold()
+            .domain([5, 8, 12, 24, 44])
+            .range(["#FFF3E3", "#FEDBC7", "#F7A482", "#D85F4C", "#B31629"]),
+        'MedianWorkplaceEarnings': d3.scaleThreshold()
+            .domain([20000, 25000, 30000, 38000, 63000])
+            .range(["#FFF3E3", "#FEDBC7", "#F7A482", "#D85F4C", "#B31629"]),
+        'MedianHousePrice': d3.scaleThreshold()
+            .domain([125000, 220000, 360000, 680000, 1452000])
+            .range(["#FFF3E3", "#FEDBC7", "#F7A482", "#D85F4C", "#B31629"])
     };
 
     const svg = d3.select("#map-container").append("svg")
@@ -234,10 +240,9 @@ document.addEventListener("DOMContentLoaded", function () {
     function updateColorScale(metric) {
         const colorScale = colorScales[metric];
         const colors = colorScale.range();
-        const domain = colorScale.domain();
-        const step = (domain[1] - domain[0]) / colors.length;
+        const thresholds = colorScale.domain();
 
-        colorScaleGroup.selectAll("*").remove();
+        colorScaleGroup.selectAll("*").remove(); // Clear previous elements
 
         colorScaleGroup.selectAll("rect")
             .data(colors)
@@ -248,14 +253,21 @@ document.addEventListener("DOMContentLoaded", function () {
             .attr("height", 20)
             .attr("fill", d => d);
 
+        // Create labels for each color, adjusting for thresholds
         colorScaleGroup.selectAll("text")
             .data(colors)
             .enter().append("text")
             .attr("x", 15)
             .attr("y", (d, i) => i * 20 + 10)
-            .text((d, i) => Math.round(domain[0] + step * i).toLocaleString())
+            .text((d, i) => {
+                // Display the range of values for each color
+                const lower = i === 0 ? 0 : thresholds[i - 1];
+                const upper = i === colors.length - 1 ? "+" : thresholds[i];
+                return `${lower} - ${upper}`;
+            })
             .attr("alignment-baseline", "middle");
     }
+
 
     function updateMap(boroughs, data, metric) {
         boroughs.style("fill", d => {
