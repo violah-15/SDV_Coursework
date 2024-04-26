@@ -33,13 +33,6 @@ document.addEventListener("DOMContentLoaded", function () {
         .attr("style", "font-size: 18px; font-weight: bold;")
         .text(`Graph showing ${currentMetric.replace(/([A-Z])/g, ' $1')} in London, ${currentYear}`);
 
-    const boroughNameDisplay = svg.append("text")
-        .attr("x", mapWidth - 10)
-        .attr("y", mapHeight - 10)
-        .attr("text-anchor", "end")
-        .attr("style", "font-size: 14px;")
-        .text("Click map to choose borough");
-
     const projection = d3.geoMercator().center([-0.09, 51.50]).scale(35000)
         .translate([mapWidth / 2, mapHeight / 2]);
 
@@ -62,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 .style("stroke-width", 1)
                 .on("click", function (event, d) {
                     updateLineGraphs(d.id, data[d.id]);
-                    boroughNameDisplay.text(`Borough chosen: ${d.id}`);
+                    document.getElementById('borough-message').textContent = `Borough chosen: ${d.id}`;
                 })
                 .on("mouseover", function (event, d) {
                     d3.select(this).style("stroke-width", 3); // Highlight the border
@@ -167,6 +160,56 @@ document.addEventListener("DOMContentLoaded", function () {
             .attr("class", "y-axis-right")
             .attr("transform", `translate(${width},0)`)  // Position this axis on the right
             .call(d3.axisRight(yScaleRight));
+
+        svg.append("text")
+            .attr("text-anchor", "end")  // Centers the text
+            .attr("x", margin.left + width / 2)  // Centers the label across the width of the graph
+            .attr("y", height + margin.top + 10)  // Position below the x-axis
+            .text("Year")
+            .style("font-size", "16px");
+
+        // Add Y-Axis label for Affordability Ratio
+        svg.append("text")
+            .attr("text-anchor", "end")
+            .attr("transform", "rotate(-90)")
+            .attr("y", -margin.left + 20)
+            .attr("x", -margin.top - height/2 + 20)
+            .text("Affordability Ratio")
+            .style("font-size", "16px");
+
+        // Add Y-Axis label for Sales
+        svg.append("text")
+            .attr("text-anchor", "end")
+            .attr("transform", "rotate(-90)")
+            .attr("transform", `translate(${width + margin.left - 13}, ${margin.top + height / 2}) rotate(90)`) // Adjust this translation and rotation
+            .text("Sales")
+            .style("font-size", "16px");
+
+        const legend = svg.append("g")
+            .attr("font-family", "Arial")
+            .attr("font-size", 12)
+            .attr("text-anchor", "start")
+            .attr("transform", "translate(0,-25)") // Shifts the entire legend up by 10 pixels
+            .selectAll("g")
+            .data([
+                {name: "London Affordability Ratio", color: "#BBBBBB"},
+                {name: "Borough Affordability Ratio", color: "#228733"},
+                {name: "Borough Sales", color: "#4576AA"}
+            ])
+            .enter().append("g")
+            .attr("transform", (d, i) => `translate(0,${i * 20})`);
+
+        legend.append("rect")
+            .attr("x", 0)
+            .attr("width", 19)
+            .attr("height", 19)
+            .attr("fill", d => d.color);
+
+        legend.append("text")
+            .attr("x", 24)
+            .attr("y", 9.5)
+            .attr("dy", "0.32em")
+            .text(d => d.name);
     }
 
     function setupButtons(boroughs, data) {
@@ -181,7 +224,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 updateMap(boroughs, data, currentMetric);
                 updateActiveButton(this);
                 updateColorScale(currentMetric);
-                mapTitle.text(`Graph showing ${currentMetric.replace(/([A-Z])/g, ' $1')} in London`);
+                mapTitle.text(`Graph showing ${currentMetric.replace(/([A-Z])/g, ' $1')} in London, ${currentYear}`);
             });
         });
 
@@ -261,7 +304,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .range([height, 0]);
 
         // Update y-axis
-        svg.select(".y-axis").transition().duration(1000).call(d3.axisLeft(yScale));
+        svg.select(".y-axis-left").transition().duration(1000).call(d3.axisLeft(yScale));
 
         // Define the line generator for both datasets
         const line = d3.line()
@@ -275,7 +318,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .merge(londonLine)
             .attr("d", line)
             .attr("fill", "none")
-            .attr("stroke", "steelblue")
+            .attr("stroke", "#BBBBBB")
             .attr("stroke-width", 2);
 
         // Update or append new path for the borough
@@ -285,7 +328,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .merge(boroughLine)
             .attr("d", line)
             .attr("fill", "none")
-            .attr("stroke", "red")
+            .attr("stroke", "#228733")
             .attr("stroke-width", 2);
 
         const salesLine = d3.line()
@@ -298,7 +341,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .merge(salesPath)
             .attr("d", salesLine)
             .attr("fill", "none")
-            .attr("stroke", "purple")  // Different color for sales
+            .attr("stroke", "#4576AA")  // Different color for sales
             .attr("stroke-width", 2);
 
         salesPath.exit().remove();

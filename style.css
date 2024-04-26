@@ -1,22 +1,21 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+html, body {
+    margin: 0; /* Remove margin to prevent any default browser-specific spacing */
+    padding: 0; /* Remove padding for the same reason */
+    height: 100%; /* Ensure the body takes full height of the viewport, if needed */
 }
 
 #visualization-container {
+    margin: 20px; /* Removes any margin that might center the container */
+    padding: 0; /* Ensure no padding is affecting the alignment */
     display: grid;
     grid-template-areas:
-        "map map color-scale"
-        "controls controls controls"
-        "graph graph graph";
-    gap: 10px;
+        "controls borough-message"
+        "map graph"
+        "slider .";
+    grid-template-columns: 3fr 1fr;  /* Allocates more space to the map than the graph */
+    grid-template-rows: auto 1fr auto;  /* 'auto' for controls and slider heights, '1fr' for the map/graph */
+    gap: 20px;
     max-width: 1200px;
-    margin: auto;
 }
 
 #map-container {
@@ -30,50 +29,55 @@ body {
 #controls {
     grid-area: controls;
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
+    justify-content: center;  /* Center the buttons within the controls area */
+    padding: 10px;  /* Add padding for visual spacing */
 }
 
 .button {
-    padding: 6px 12px;
-    margin-right: 5px;
+    padding: 10px 20px;  /* Increase padding to make buttons larger */
+    font-size: 16px;  /* Increase font size for better visibility */
     cursor: pointer;
     background-color: #f0f0f0;
     border: 1px solid #ddd;
     border-radius: 3px;
+    transition: background-color 0.3s ease;  /* Smooth transition for background color change */
 }
 
-/* Add :hover state for better interactivity */
 .button:hover {
-    background-color: #e9e9e9;
+    background-color: #e9e9e9;  /* Slightly darker on hover for better interaction feedback */
 }
 
-/* Style for the active button */
 .button.active {
-    background-color: #d0d0d0;
-}
-
-
-#color-scale {
-    grid-area: color-scale;
-    width: 40px;
-    height: 300px;
-    background: linear-gradient(to top, #000452, #004DA7, #00A7BB, #A9D992, #EAEDB3);
-    position: relative;
+    background-color: #FFF3E3;  /* Distinctive background color for the active button */
+    color: #333;  /* Optional: change text color to increase contrast if needed */
 }
 
 #slider-container {
-    margin: 20px;
+    grid-area: slider;
     display: flex;
     align-items: center;
+    width: 100%; /* Ensure the container takes the full width */
+    padding: 10px 0; /* Add padding for visual spacing */
 }
+
 #play-button {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    background: #f0f0f0;
-    border: none;
-    font-size: 16px;
+    padding: 10px 20px; /* Increase padding to make the button larger */
+    margin-right: 10px; /* Space between the button and the slider */
+    flex: none; /* Ensure button does not expand with the container */
+    font-size: 16px; /* Increase font size for readability */
+    background: #FFF3E3;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#year-slider {
+    flex-grow: 1; /* Allow the slider to expand and fill the container */
+    height: 25px; /* Increase the slider's height for better interaction */
+}
+
+#play-button, #year-slider {
+    background-color: #FFF3E3; /* Uniform background color if desired */
 }
 
 #line-graphs {
@@ -83,9 +87,8 @@ body {
     gap: 10px;
 }
 
-#affordability-ratio-graph,
-#price-earnings-graph {
-    border: 1px solid #ccc;
+#affordability-ratio-graph{
+    border: 1px solid #333;
     padding: 10px;
 }
 
@@ -98,4 +101,15 @@ body {
     border: 1px solid #000;
     pointer-events: none;
     z-index: 10;
+}
+
+#borough-message {
+    grid-area: borough-message;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px; /* Increase the font size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent; /* Removes any background color */
 }
