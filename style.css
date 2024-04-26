@@ -63,8 +63,17 @@ body {
 }
 
 #slider-container {
-    grid-area: slider;
-    padding: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+#play-button {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background: #f0f0f0;
+    border: none;
+    font-size: 16px;
 }
 
 #line-graphs {
