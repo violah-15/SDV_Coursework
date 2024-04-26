@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>London Housing Analysis</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="https://unpkg.com/topojson-client@3"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -30,6 +30,22 @@
             <h3>Affordability Ratio</h3>
             <!-- Affordability ratio line graph will be appended here by D3 -->
         </div>
+    </div>
+    <div id="Process">
+        <h3>Datasets used for this visualization include:</h3>
+        <ul>
+            <li>Data sourced from the Office for National Statistics (ONS) for housing and earnings ratios available at <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/housing/datasets/ratioofhousepricetoworkplacebasedearningslowerquartileandmedian">ONS Housing and Earnings Ratios</a>.</li>
+            <li>Data on residential property sales for administrative geographies from ONS available at <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/housing/datasets/residentialpropertysalesforadministrativegeographies">ONS Residential Sales</a>.</li>
+            <li>TopoJson data for London Boroughs from <a href="https://vega.github.io/vega-datasets/data/londonBoroughs.json">Vega Datasets</a>.</li>
+        </ul>
+        <h3>The data was processed using Python (process.py) as follows:</h3>
+        <ol>
+            <li>Extracts data specifically for the London region by filtering rows based on region codes (e.g., E12000007). This involves reading specific sheets designated for the data types of interest (e.g., median house prices, earnings).</li>
+            <li>Columns related to specific years or terms (e.g., columns containing the term "Sep" or specific years) are selectively dropped or reformatted.</li>
+            <li>Combines data from multiple sources into a unified structure. For example, sales data and ratio data are merged based on common keys such as 'Local authority code' and 'Local authority name'. This results in a comprehensive dataset that aligns both types of data per local authority.</li>
+            <li>The script organizes the merged data into a nested dictionary, where each key (borough) has a nested structure containing yearly data on sales, house prices, earnings, and affordability ratios. This transformation is designed to facilitate easier access to data by year and borough, making it suitable for detailed analyses or visualization purposes.</li>
+            <li>The final structured data is saved in JSON format, making it easy to use in web applications, data services, or further analytical processes.</li>
+        </ol>
     </div>
 </div>
 <script src="script.js"></script>
